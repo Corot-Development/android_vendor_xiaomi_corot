@@ -1161,6 +1161,7 @@ PRODUCT_PACKAGES += \
     libmfllcore \
     libmgr3a.adapt \
     libmmagent \
+    libmnl_mtk \
     libmtkcam.featurepipe.capture \
     libmtkcam.featurepipe.depthmap \
     libmtkcam.featurepipe.p2g \
@@ -1771,6 +1772,7 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libmgr3a_adapt_so \
     vendor_lib64_libmmagent_so \
     vendor_lib64_libmmlpqImpl_so \
+    vendor_lib64_libmnl_mtk_so \
     vendor_lib64_libmtk_drvb_so \
     vendor_lib64_libmtkcam_atmseventmgr_so \
     vendor_lib64_libmtkcam_debugwrapper_so \
