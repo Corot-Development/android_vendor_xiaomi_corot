@@ -1510,12 +1510,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/vendor/mitee/ta/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta
 
 PRODUCT_PACKAGES += \
+    audioclient-types-aidl-cpp \
     libGLES_meow \
     libMEOW_data \
     libMEOW_gift \
     libMEOW_qt \
     libMEOW_trace \
     libGLES_mali \
+    framework-permission-aidl-cpp \
     android.hardware.bluetooth@1.1-impl-mediatek \
     audio.primary.mediatek \
     audio.r_submix.mediatek \
@@ -1544,6 +1546,7 @@ PRODUCT_PACKAGES += \
     libSQLiteModule_VER_ALL \
     libTEECommon \
     lib_iir \
+    lib_power_applist \
     libaaa_afassist_V2 \
     libaal_cust \
     libaal_key \
@@ -1563,9 +1566,14 @@ PRODUCT_PACKAGES += \
     libapu_mdw \
     libapu_mdw_batch \
     libapusys \
+    libapusys_edma \
     libarmnn \
     libarmnn_ndk.mtk.vndk \
+    libasn1c_core \
+    libasn1c_mapi \
+    libasn1c_mdmi \
     libaudio_param_parser-vnd \
+    libaudioclient_aidl_conversion \
     libaudiocloudctrl \
     libaudiocompensationfilter_vendor \
     libaudiocompensationfilterc \
@@ -1575,15 +1583,22 @@ PRODUCT_PACKAGES += \
     libaudiodatabase \
     libaudiodcrflt_vendor \
     libaudiofmtconv \
+    libaudiofoundation \
     libaudioloudc \
     libaudioprimarydevicehalifclient \
+    libaudiosmartpamtk \
     libaudiotoolkit_vendor \
     libaurisysdemo \
     libawinicsmartpaparse \
     libbessound_hd_mtk_vendor \
     libblisrc32_vendor \
+    libbluetooth_audio_session_aidl_mediatek \
+    libbluetooth_audio_session_mediatek \
+    libbluetooth_hw_test \
     libbluetooth_mtk \
     libbluetooth_mtk_pure \
+    libbluetooth_relayer \
+    libbluetoothem_mtk \
     libbt-vendor \
     libbwc \
     libcamalgo.utility \
@@ -1592,6 +1607,7 @@ PRODUCT_PACKAGES += \
     libcares_naptr \
     libcarrierconfig \
     libccci_util \
+    libcheckpid \
     libclient2slpi.notifier \
     libcmdl \
     libcmdl_ndk.mtk.vndk \
@@ -1617,10 +1633,19 @@ PRODUCT_PACKAGES += \
     libconnfem \
     libcustom_nvram \
     libcvsd_mtk \
+    libdapparamstorage \
+    libdecrypt \
+    libdisplayfeature \
+    libdisplayfeatureservice \
+    libdlbpreg \
     libdolbyeglplugin \
     libdolbyottcameracontrol \
     libdolbyplugin \
     libdre \
+    libdynamiclog \
+    libext2_uuid \
+    libeyecare \
+    libfgauge_gm30 \
     libfile_op \
     libformatter_mtk \
     libfvaudio \
@@ -1633,21 +1658,36 @@ PRODUCT_PACKAGES += \
     libgz_gp_client \
     libgz_uree \
     libhdrvideo \
+    libhevce_sb.ca7.android \
     libhfmanager \
+    libhfmanagerwrapper \
+    libicd_decoder \
+    libimgsensorca \
     libion_ulit \
+    libipsec_ims_shr \
+    libispcameraca \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
+    libkeystore-wifi-hidl \
+    liblogwrap_vendor \
+    libmiaudio \
     libmibokeh_mt6873 \
     libmigpese@1.0 \
+    libminiui \
+    libmisight \
     libmisound \
     libmisoundcrossfade \
     libmisoundfpsop \
+    libmisoundkaraoke \
+    libmisoundsa \
     libmispowerop \
     libmivimemutils \
     libmml \
+    libmmprofile \
     libmnetlink_v104 \
     libmp3dec_mtk \
     libmsbc_mtk \
+    libmtk_bsg \
     libmtkares \
     libmtkcam_fdsan \
     libmtkcam_perfctrl_wrapper \
@@ -1677,32 +1717,65 @@ PRODUCT_PACKAGES += \
     libmvpu_runtime_pub \
     libmvpuop_mtk_cv \
     libmvpuop_mtk_nn \
+    libneuroeara \
+    libneuron_graph_delegate.mtk \
+    libneuropilot_hal_utils \
+    libnir_neon_driver_ndk.mtk.vndk \
+    libnlcparser \
     libnotifyaudiohal \
     libnpagent \
     libnvram \
     libnvram_sec \
+    libnwk_opt_halwrap_vendor \
     libnxp_extamp_intf \
     liboemcrypto \
+    libpcap \
     libperfctl_vendor \
+    libpixelflinger \
+    libpkm \
+    libpower_timer \
+    libpowerhal \
+    libpowerhalwrap_vendor \
     libpqframework \
     libpqhdrmetaparser \
     libpqsharememory \
     libpqtuning \
     libpqxmlparser \
+    libprotobuf-cpp-full-3.9.1 \
     libpwirisPCSce \
+    librcs_interface \
+    librcs_volte_core \
     librgbwlightsensor \
     librpc \
     librt_extamp_intf \
+    libruy \
     libscltm \
     libsfplugin_ccodec_utils-v31 \
+    libshmemcompat \
+    libshmemutil \
+    libsimlock \
+    libsimmelock \
     libsn100u_fw \
+    libsparse \
+    libspatializerparamstorage \
     libspeech_enh_lib \
     libspeechparser_vendor \
     libstagefright_bufferqueue_helper-v35 \
     libstorage_otp \
+    libswspatializer_ext \
     libsysenv \
     libteecli \
+    libtextclassifier_hash \
+    libtflite_mtk \
+    libthha \
+    libtranslator_mapi_v3.0 \
+    libtranslator_mdmi_v2.8.2 \
+    libtranslator_utils \
+    libudf \
+    libvcodec_oal \
+    libvcodecdrv_header_stub \
     libviagpsrpc \
+    libvibrator \
     libvow_ap_test_aa \
     libvow_ap_test_dd \
     libvow_ap_test_ha \
@@ -1713,6 +1786,10 @@ PRODUCT_PACKAGES += \
     libvow_ap_test_trip_ha \
     libvow_ap_test_trip_hh \
     libvow_comp_test \
+    libvpu5 \
+    libwapi \
+    libwifinvramdata \
+    libwpa_client \
     libwvaidl \
     libxlog \
     arm.graphics-V2-ndk \
@@ -1750,6 +1827,8 @@ PRODUCT_PACKAGES += \
     libaiawb_fs_model \
     libaiawb_sun_model \
     libaiselector \
+    libarm_egl_properties_sysprop \
+    libarm_gralloc_properties_sysprop \
     libcam.hal3a.log \
     libcam.halisp.utils \
     libcam.halsensor.hwintegration \
@@ -1767,6 +1846,7 @@ PRODUCT_PACKAGES += \
     libccd \
     libdpframework \
     libgamehdr \
+    libgpudataproducer \
     libimgsys_adl \
     libimgsys_custom \
     libimgsys_daemon \
@@ -1782,6 +1862,7 @@ PRODUCT_PACKAGES += \
     libimgsys_traw \
     libimgsys_utils \
     libimgsys_wpe \
+    liblibarm_mali_config_sysprops \
     libmmlpqImpl \
     libmtk_drvb \
     libmtkcam.atmseventmgr \
@@ -1805,13 +1886,19 @@ PRODUCT_PACKAGES += \
     libpqparamparser \
     mtk000_mipi_raw_IdxMgr \
     mtk000_mipi_raw_tuning \
+    sensors.touch.detect \
+    shared-file-region-aidl-cpp \
+    vendor.dolby.hardware.dms@2.0 \
     vendor.mediatek.hardware.apmonitor@2.0 \
     vendor.mediatek.hardware.apuware.utils@2.0 \
+    vendor.mediatek.hardware.audio@6.1 \
+    vendor.mediatek.hardware.audio@7.1 \
     vendor.mediatek.hardware.audio@8.1 \
     vendor.mediatek.hardware.camera.atms@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.1 \
     vendor.mediatek.hardware.composer_ext@1.0 \
+    vendor.mediatek.hardware.mdmonitor@1.0 \
     vendor.mediatek.hardware.mmagent@1.0 \
     vendor.mediatek.hardware.mmagent@1.1 \
     vendor.mediatek.hardware.mmlpq-V2-ndk \
@@ -1823,12 +1910,14 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mms@1.5 \
     vendor.mediatek.hardware.mms@1.6 \
     vendor.mediatek.hardware.mms@1.7 \
+    vendor.mediatek.hardware.mtkpower_applist-V1-ndk \
     vendor.mediatek.hardware.netdagent@1.0 \
     vendor.mediatek.hardware.neuropilot.agent@1.0 \
     vendor.mediatek.hardware.neuropilot.agent@1.1 \
     vendor.mediatek.hardware.neuropilot.agent@1.2 \
     vendor.mediatek.hardware.nvram@1.0 \
     vendor.mediatek.hardware.nvram@1.1 \
+    vendor.mediatek.hardware.nwk_opt@1.0 \
     vendor.mediatek.hardware.pq@2.0 \
     vendor.mediatek.hardware.pq@2.1 \
     vendor.mediatek.hardware.pq@2.10 \
@@ -1848,8 +1937,76 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq_aidl-V1-ndk \
     vendor.mediatek.hardware.pq_aidl-V2-ndk \
     vendor.mediatek.hardware.pq_aidl-V3-ndk \
+    vendor.mediatek.hardware.rcs@2.0 \
+    vendor.mediatek.hardware.videotelephony@1.0 \
+    vendor.nxp.hardware.nfc@2.0 \
+    vendor.qti.sla.service@1.0-impl \
+    vendor.qti.sla.service@1.0 \
+    vendor.xiaomi.hardware.cld@1.0 \
+    vendor.xiaomi.hardware.displayfeature@1.0 \
+    vendor.xiaomi.hardware.fbo@1.0 \
+    vendor.xiaomi.hardware.micharge@1.0 \
+    vendor.xiaomi.hardware.mikeybag-V1-ndk \
+    vendor.xiaomi.hardware.miperf@1.0 \
+    vendor.xiaomi.hardware.misys@1.0 \
+    vendor.xiaomi.hardware.misys@2.0 \
+    vendor.xiaomi.hardware.misys@3.0 \
+    vendor.xiaomi.hardware.misys@4.0 \
+    vendor.xiaomi.hidl.minet@1.0-impl \
+    vendor.xiaomi.hidl.minet@1.0 \
+    vendor.xiaomi.hidl.miwill@1.0-impl \
+    vendor.xiaomi.hidl.miwill@1.0 \
+    vendor.xiaomi.hw.touchfeature@1.0 \
     vendor.xiaomi.sensor.citsensorservice@1.1 \
     vendor.xiaomi.sensor.citsensorservice@2.0 \
+    libHEVCdec_sa.ca7.android \
+    libcodec2_hidl@1.2 \
+    libh264dec_customize \
+    libh264dec_sa.ca7 \
+    libh264dec_sd.ca7 \
+    libh264dec_se.ca7 \
+    libh264enc_sa.ca7 \
+    libmp4enc_sa.ca7 \
+    libmp4enc_xa.ca7 \
+    libopus \
+    libstagefright_amrnb_common \
+    libstagefright_enc_common \
+    libstagefright_flacdec \
+    libstagefright_soft_aacdec \
+    libstagefright_soft_aacenc \
+    libstagefright_soft_amrdec \
+    libstagefright_soft_amrnbenc \
+    libstagefright_soft_amrwbenc \
+    libstagefright_soft_avcdec \
+    libstagefright_soft_avcenc \
+    libstagefright_soft_flacdec \
+    libstagefright_soft_flacenc \
+    libstagefright_soft_g711dec \
+    libstagefright_soft_gsmdec \
+    libstagefright_soft_hevcdec \
+    libstagefright_soft_mp3dec \
+    libstagefright_soft_mpeg2dec \
+    libstagefright_soft_mpeg4dec \
+    libstagefright_soft_mpeg4enc \
+    libstagefright_soft_opusdec \
+    libstagefright_soft_rawdec \
+    libstagefright_soft_vorbisdec \
+    libstagefright_soft_vpxdec \
+    libstagefright_soft_vpxenc \
+    libstagefright_softomx \
+    libstagefright_softomx_plugin \
+    libvcodec_utility_plat.mt6886 \
+    libvcodec_utility_plat.mt6985 \
+    libvorbisidec \
+    libvp8dec_sa.ca7 \
+    libvp8enc_sa.ca7 \
+    libvp9dec_sa.ca7 \
+    libvpud_vcodec \
+    libvpx \
+    libvcodec_utility \
+    libvcodecdrv \
+    vendor.mediatek.hardware.mtkpower@1.1 \
+    vendor.mediatek.hardware.mtkpower@1.2 \
     APUWareApusysAidlServer \
     APUWareHmpServer \
     APUWareUtilsServer \
@@ -1873,20 +2030,46 @@ PRODUCT_PACKAGES += \
     com.xiaomi.plugin.skinbeautifier \
     com.xiaomi.plugin.supernight \
     com.xiaomi.plugin.swflip \
+    com.fingerprints.extension@3.0 \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
+    audio.r_submix.default \
+    audio_policy.stub \
     hwcomposer.mtk_common \
+    libSoftGatekeeper \
     android.hardware.camera.provider@2.6-impl-mediatek \
     vendor.mediatek.hardware.camera.isphal@1.1-impl \
+    mtkflp.default \
     sensors.mediatek.V2.0 \
+    thermal_hal \
+    vendor.mediatek.hardware.bluetooth.audio@2.1-impl \
+    vendor.mediatek.hardware.bluetooth.audio@2.2-impl \
+    vendor.mediatek.hardware.mtkpower@1.2-impl \
+    vendor.mediatek.hardware.videotelephony@1.0-impl \
     vendor.xiaomi.hardware.bgservice@1.0-impl \
+    vendor.xiaomi.hardware.cld@1.0-impl \
+    vendor.xiaomi.hardware.displayfeature@1.0-impl \
+    vendor.xiaomi.hardware.fbo@1.0-impl \
+    vendor.xiaomi.hardware.micharge@1.0-impl \
+    vendor.xiaomi.hardware.miperf@1.0-impl \
+    vendor.xiaomi.hardware.misys@1.0-impl \
+    vendor.xiaomi.hardware.misys@2.0-impl \
+    vendor.xiaomi.hardware.misys@3.0-impl \
+    vendor.xiaomi.hardware.misys@4.0-impl \
     jcos_nq_client \
+    lbs_hidl_service-impl \
     lib3a.ae.pipe \
     libAF \
     libBasicModule \
     libHISCppAlgos \
     libMiPhotoFilter \
+    libVkLayer_mtk_rt_sdk \
     libXMFaceFocus \
+    lib_eara_io_scndet \
+    lib_eara_io_service \
+    lib_eara_io_systracer \
+    lib_eara_io_timer \
+    lib_eara_io_util \
     lib_misound_asc \
     libaaa_aaautil \
     libaaa_gma \
@@ -1897,6 +2080,7 @@ PRODUCT_PACKAGES += \
     libalNN \
     libalgobaseutils \
     libalhLDC \
+    libarcsoft_beautyshot \
     libarcsoft_bokeh_high_dynamic_range \
     libarcsoft_dualcam_refocus_video \
     libarcsoft_hdr_detection \
@@ -1919,6 +2103,9 @@ PRODUCT_PACKAGES += \
     libcameraloadcalibrationfiles \
     libcameraplatforminfoxiaomi \
     libcdsprpc \
+    libcodec2_soft_ac4dec \
+    libcodec2_soft_ddpdec \
+    libcodec2_store_dolby \
     libcodec2_vpp_AIMEMC_plugin \
     libcodec2_vpp_AISR_plugin \
     libcom.xiaomi.debug \
@@ -1930,19 +2117,25 @@ PRODUCT_PACKAGES += \
     libcom.xiaomi.mizone.postprocinterface \
     libcom.xiaomi.mizone \
     libcom.xiaomi.pluginutils \
+    libdeccfg \
     libdeflicker \
+    libdlbdsservice \
     libdlrmsc \
     libellv \
     libfeaturepolicy \
+    libfft_vendor \
     libforkexecwrap \
     libgwsdv2-ril \
     libgwsdv3-ril \
     libheichal \
     libhis_face_tracking \
     libhis_motion_tracker \
+    libhwc2on1adapter \
+    libhwc2onfbadapter \
     libhwm \
     libifcutils_mtk \
     libimagebuffer_wrapper \
+    libkeymint_support \
     libksensor \
     libmialgo_ai_vision \
     libmialgo_aio_seg \
@@ -1963,6 +2156,7 @@ PRODUCT_PACKAGES += \
     libmiphone_preview_depth \
     libmiphone_preview_mdbokeh \
     libmorpho_video_stabilizer \
+    libmpbase \
     libmtk-fusion-ril-prop-vsim \
     libmtk-ril \
     libmtkcam_fdWarpConvert \
@@ -1975,8 +2169,11 @@ PRODUCT_PACKAGES += \
     libmtkrilutils \
     libmtktinyxml \
     libmtkutils \
+    libneuron_platform \
     libneuron_runtime_vpp.6.0.3 \
+    libneuron_runtime_vpp.6 \
     libnpagent_server \
+    liboem_specific \
     libomp \
     libratconfig \
     librelight_only \
@@ -1984,6 +2181,7 @@ PRODUCT_PACKAGES += \
     libremosaiclib \
     librfs_warp \
     librilfusion \
+    libsensorndkbridge \
     libtrm \
     libvia-ril \
     libviamipc-ril \
@@ -1992,6 +2190,9 @@ PRODUCT_PACKAGES += \
     libwa_opticalzoomfactor \
     libwa_sat \
     libwifi-hal-mtk \
+    libwifical \
+    libwifinvram \
+    libwifitest \
     libwpfa \
     ls_nq_client \
     lib3a.af \
@@ -2018,6 +2219,7 @@ PRODUCT_PACKAGES += \
     libaaa_ltmx \
     libaaa_tnc \
     libaaa_toneutil \
+    libacdk \
     libaiawb_fs \
     libaiawb_moon \
     libaiawb_moon_model \
@@ -2145,6 +2347,7 @@ PRODUCT_PACKAGES += \
     libimgsys_v4l2 \
     libispfeature_mtkcam.v4l2 \
     liblpnr \
+    libmdla_ut \
     libmfllcore \
     libmgr3a.adapt \
     libmmagent \
@@ -2253,11 +2456,20 @@ PRODUCT_PACKAGES += \
     libmtkcam_zsl_sampleselector \
     libmtkcm_ipc_dummy \
     libneuron_runtime.6 \
+    libqos_extension \
     libstereoinfoaccessor_vsdof \
     libvainr_model \
+    nwk_opt_imp \
+    pangu_decouple_phony \
     se_nq_extn_client \
+    vendor.dolby.hardware.dms@2.0-impl \
+    vendor.hardware.vibratorfeature.IVibratorExt-V1-ndk \
+    vendor.mediatek.hardware.aee@1.0 \
+    vendor.mediatek.hardware.aee@1.1 \
     vendor.mediatek.hardware.apuware.apusys-V1-ndk \
     vendor.mediatek.hardware.apuware.hmp@1.0 \
+    vendor.mediatek.hardware.atci@1.0 \
+    vendor.mediatek.hardware.bluetooth.audio-impl \
     vendor.mediatek.hardware.camera.aovservice-V1-ndk \
     vendor.mediatek.hardware.camera.ccap@1.0 \
     vendor.mediatek.hardware.camera.device@3.6 \
@@ -2266,6 +2478,14 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.isphal@1.1 \
     vendor.mediatek.hardware.camera.postproc@1.0 \
     vendor.mediatek.hardware.camera.security@1.0 \
+    vendor.mediatek.hardware.clientapi@1.0 \
+    vendor.mediatek.hardware.dmc@1.0 \
+    vendor.mediatek.hardware.dmc@1.1 \
+    vendor.mediatek.hardware.dmc@1.2 \
+    vendor.mediatek.hardware.engineermode-V1-ndk \
+    vendor.mediatek.hardware.gnss.batching-V1-ndk \
+    vendor.mediatek.hardware.lbs@1.0 \
+    vendor.mediatek.hardware.log@1.0 \
     vendor.mediatek.hardware.mtkradioex.assist-V1-ndk \
     vendor.mediatek.hardware.mtkradioex.atci-V1-ndk \
     vendor.mediatek.hardware.mtkradioex.cap-V1-ndk \
@@ -2284,7 +2504,17 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkradioex.voice-V1-ndk \
     vendor.mediatek.hardware.power@1.1 \
     vendor.mediatek.hardware.power@2.0 \
+    vendor.xiaomi.cit.wifi@1.0 \
     vendor.xiaomi.hardware.bgservice@1.0 \
+    vendor.xiaomi.hardware.blackbox-V1-ndk \
+    vendor.xiaomi.hardware.dtool@1.0 \
+    vendor.xiaomi.hardware.fingerprintextension@1.0 \
+    vendor.xiaomi.hardware.mimd@1.0 \
+    vendor.xiaomi.hardware.otrpagent@2.0-impl \
+    vendor.xiaomi.hardware.otrpagent@2.0 \
+    vendor.xiaomi.hardware.wifi.hostapd-V1-ndk \
+    vendor.xiaomi.hardware.wifi.supplicant-V1-ndk \
+    vendor.xiaomi.sensor.communicate@1.0 \
     displayfeature.default \
     fingerprint.goodix_fod.default \
     fingerprint.goodix_fod \
@@ -2824,6 +3054,8 @@ PRODUCT_PACKAGES += \
     vendor_lib_libaiawb_fs_model_so \
     vendor_lib_libaiawb_sun_model_so \
     vendor_lib_libaiselector_so \
+    vendor_lib_libarm_egl_properties_sysprop_so \
+    vendor_lib_libarm_gralloc_properties_sysprop_so \
     vendor_lib_libcam_hal3a_log_so \
     vendor_lib_libcam_halisp_utils_so \
     vendor_lib_libcam_halsensor_hwintegration_so \
@@ -2841,6 +3073,7 @@ PRODUCT_PACKAGES += \
     vendor_lib_libccd_so \
     vendor_lib_libdpframework_so \
     vendor_lib_libgamehdr_so \
+    vendor_lib_libgpudataproducer_so \
     vendor_lib_libimgsys_adl_so \
     vendor_lib_libimgsys_custom_so \
     vendor_lib_libimgsys_daemon_so \
@@ -2856,6 +3089,7 @@ PRODUCT_PACKAGES += \
     vendor_lib_libimgsys_traw_so \
     vendor_lib_libimgsys_utils_so \
     vendor_lib_libimgsys_wpe_so \
+    vendor_lib_liblibarm_mali_config_sysprops_so \
     vendor_lib_libmmlpqImpl_so \
     vendor_lib_libmtk_drvb_so \
     vendor_lib_libmtkcam_atmseventmgr_so \
@@ -2877,11 +3111,14 @@ PRODUCT_PACKAGES += \
     vendor_lib_libpq_prot_so \
     vendor_lib_libpqconfig_so \
     vendor_lib_libpqparamparser_so \
+    vendor_lib_libvcodec_utility_so \
+    vendor_lib_libvcodecdrv_so \
     vendor_lib_mtk000_mipi_raw_IdxMgr_so \
     vendor_lib_mtk000_mipi_raw_tuning_so \
     vendor_lib64_egl_libGLES_mali_so \
     vendor_lib64_hw_audio_primary_mt6985_so \
     vendor_lib64_hw_audio_r_submix_mt6985_so \
+    vendor_lib64_hw_gatekeeper_default_so \
     vendor_lib64_hw_android_hardware_camera_provider@2_6-impl-mediatek_so \
     vendor_lib64_hw_android_hardware_graphics_allocator@4_0-impl-mediatek_so \
     vendor_lib64_hw_android_hardware_graphics_mapper@4_0-impl-mediatek_so \
@@ -2948,6 +3185,7 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libaaa_toneutil_so \
     vendor_lib64_libaal_cust_func_so \
     vendor_lib64_libaalservice_so \
+    vendor_lib64_libacdk_so \
     vendor_lib64_libaiawb_fs_so \
     vendor_lib64_libaiawb_fs_model_so \
     vendor_lib64_libaiawb_moon_so \
@@ -2967,6 +3205,8 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libaiselector_so \
     vendor_lib64_libalgo_aosp_log_so \
     vendor_lib64_libapudcutils_so \
+    vendor_lib64_libarm_egl_properties_sysprop_so \
+    vendor_lib64_libarm_gralloc_properties_sysprop_so \
     vendor_lib64_libcam_3a_isp_utils_so \
     vendor_lib64_libcam_afmgr_so \
     vendor_lib64_libcam_chdr_so \
@@ -3087,6 +3327,7 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libfeatureiodrv_mem_so \
     vendor_lib64_libfeaturepolicy_dbhandler_so \
     vendor_lib64_libgamehdr_so \
+    vendor_lib64_libgpudataproducer_so \
     vendor_lib64_libimgstream-custom_so \
     vendor_lib64_libimgstream-drv_so \
     vendor_lib64_libimgsys_adl_so \
@@ -3109,7 +3350,9 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libimgsys_v4l2_so \
     vendor_lib64_libimgsys_wpe_so \
     vendor_lib64_libispfeature_mtkcam_v4l2_so \
+    vendor_lib64_liblibarm_mali_config_sysprops_so \
     vendor_lib64_liblpnr_so \
+    vendor_lib64_libmdla_ut_so \
     vendor_lib64_libmfllcore_so \
     vendor_lib64_libmgr3a_adapt_so \
     vendor_lib64_libmmagent_so \
@@ -3239,6 +3482,7 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libpq_prot_so \
     vendor_lib64_libpqconfig_so \
     vendor_lib64_libpqparamparser_so \
+    vendor_lib64_libqos_extension_so \
     vendor_lib64_libstereoinfoaccessor_vsdof_so \
     vendor_lib64_libvainr_model_so \
     vendor_lib64_mtk000_mipi_raw_IdxMgr_so \
