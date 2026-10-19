@@ -1889,6 +1889,7 @@ PRODUCT_PACKAGES += \
     sensors.touch.detect \
     shared-file-region-aidl-cpp \
     vendor.dolby.hardware.dms@2.0 \
+    vendor.mediatek.hardware.aee-V1-ndk \
     vendor.mediatek.hardware.apmonitor@2.0 \
     vendor.mediatek.hardware.apuware.utils@2.0 \
     vendor.mediatek.hardware.audio@6.1 \
@@ -2485,6 +2486,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.engineermode-V1-ndk \
     vendor.mediatek.hardware.gnss.batching-V1-ndk \
     vendor.mediatek.hardware.lbs@1.0 \
+    vendor.mediatek.hardware.log-V1-ndk \
     vendor.mediatek.hardware.log@1.0 \
     vendor.mediatek.hardware.mtkradioex.assist-V1-ndk \
     vendor.mediatek.hardware.mtkradioex.atci-V1-ndk \
@@ -2510,6 +2512,8 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.dtool@1.0 \
     vendor.xiaomi.hardware.fingerprintextension@1.0 \
     vendor.xiaomi.hardware.mimd@1.0 \
+    vendor.xiaomi.hardware.misys.common-V3-ndk \
+    vendor.xiaomi.hardware.misys.core-V1-ndk \
     vendor.xiaomi.hardware.otrpagent@2.0-impl \
     vendor.xiaomi.hardware.otrpagent@2.0 \
     vendor.xiaomi.hardware.wifi.hostapd-V1-ndk \
