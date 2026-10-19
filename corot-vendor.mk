@@ -569,12 +569,16 @@ PRODUCT_PACKAGES += \
     libaal_key \
     libaal_mtk \
     libadpcmdec_mtk \
+    libai_pq \
+    libai_sdr2hdr \
+    libai_sdr2hdr_auth \
     libaispq \
     libalNN_engine \
     libalNN_gpu \
     libalacdec_mtk \
     libalsautils-v33 \
     libapiwrapper \
+    libapmonitor_vendor \
     libappgamepq \
     libapu_mdw \
     libapu_mdw_batch \
@@ -699,6 +703,7 @@ PRODUCT_PACKAGES += \
     libnvram_sec \
     libnxp_extamp_intf \
     liboemcrypto \
+    libperfctl_vendor \
     libpqframework \
     libpqhdrmetaparser \
     libpqsharememory \
