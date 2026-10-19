@@ -825,6 +825,7 @@ PRODUCT_PACKAGES += \
     libpqparamparser \
     mtk000_mipi_raw_IdxMgr \
     mtk000_mipi_raw_tuning \
+    vendor.mediatek.hardware.apmonitor@2.0 \
     vendor.mediatek.hardware.apuware.utils@2.0 \
     vendor.mediatek.hardware.audio@8.1 \
     vendor.mediatek.hardware.camera.atms@1.0 \
