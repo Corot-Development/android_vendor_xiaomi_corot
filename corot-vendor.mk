@@ -529,29 +529,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/vendor/mitee/ta/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta
 
 PRODUCT_PACKAGES += \
-    APUWareApusysAidlServer \
-    APUWareHmpServer \
-    APUWareUtilsServer \
-    android.hardware.security.keymint-V4-ndk-v34 \
-    com.xiaomi.plugin.arcsoftsr \
-    com.xiaomi.plugin.capbokeh \
-    com.xiaomi.plugin.capdepth \
-    com.xiaomi.plugin.caphdr \
-    com.xiaomi.plugin.depurple \
-    com.xiaomi.plugin.hdr \
-    com.xiaomi.plugin.hwjpeg \
-    com.xiaomi.plugin.hwproc \
-    com.xiaomi.plugin.ldc \
-    com.xiaomi.plugin.memcpy \
-    com.xiaomi.plugin.miaideblur \
-    com.xiaomi.plugin.miaiie \
-    com.xiaomi.plugin.mibokeh \
-    com.xiaomi.plugin.miellc \
-    com.xiaomi.plugin.portraitrepair \
-    com.xiaomi.plugin.rawsuperlight \
-    com.xiaomi.plugin.skinbeautifier \
-    com.xiaomi.plugin.supernight \
-    com.xiaomi.plugin.swflip \
     libGLES_meow \
     libMEOW_data \
     libMEOW_gift \
@@ -559,77 +536,48 @@ PRODUCT_PACKAGES += \
     libMEOW_trace \
     libGLES_mali \
     android.hardware.bluetooth@1.1-impl-mediatek \
-    android.hardware.gnss-impl-mediatek \
-    android.hardware.gnss@2.1-impl-mediatek \
     audio.primary.mediatek \
     audio.r_submix.mediatek \
     consumerir.common \
     gatekeeper.mitee \
     gps.default \
-    hwcomposer.mtk_common \
-    android.hardware.camera.provider@2.6-impl-mediatek \
     android.hardware.graphics.allocator@4.0-impl-mediatek \
     android.hardware.graphics.mapper@4.0-impl-mediatek \
     gralloc.common \
     vendor.mediatek.hardware.camera.atms@1.0-impl \
     vendor.mediatek.hardware.camera.bgservice@1.1-impl \
-    vendor.mediatek.hardware.camera.isphal@1.1-impl \
     vendor.mediatek.hardware.pq_aidl-impl \
     vulkan.mali \
     mtkgeofence.default \
     sensors.elliptic@2.0 \
-    sensors.mediatek.V2.0 \
     sound_trigger.primary.default \
     vendor.mediatek.hardware.mms@1.7-impl \
     vendor.mediatek.hardware.nvram@1.1-impl \
-    vendor.xiaomi.hardware.bgservice@1.0-impl \
-    jcos_nq_client \
-    lib3a.ae.pipe \
     libADCSwitch \
-    libAF \
-    libBasicModule \
     libDefaultFpsActor \
     libFrameRecord \
-    libHISCppAlgos \
     libJpgEncPipe \
-    libMiPhotoFilter \
     libMtkSpeechEnh \
     libNoFpsActor \
     libOpenCL \
     libSQLiteModule_VER_ALL \
     libTEECommon \
-    libXMFaceFocus \
     lib_iir \
-    lib_misound_asc \
-    libaaa_aaautil \
     libaaa_afassist_V2 \
-    libaaa_gma \
     libaal_cust \
     libaal_key \
     libaal_mtk \
     libadpcmdec_mtk \
-    libaibld.nn6 \
     libaispq \
-    libalAILDC \
-    libalAI_Seg \
-    libalLDC \
-    libalNN \
     libalNN_engine \
     libalNN_gpu \
     libalacdec_mtk \
-    libalgobaseutils \
-    libalhLDC \
     libalsautils-v33 \
     libapiwrapper \
     libappgamepq \
     libapu_mdw \
     libapu_mdw_batch \
     libapusys \
-    libarcsoft_bokeh_high_dynamic_range \
-    libarcsoft_dualcam_refocus_video \
-    libarcsoft_hdr_detection \
-    libarcsoft_super_night_detection \
-    libarcsoft_super_night_raw \
     libarmnn \
     libarmnn_ndk.mtk.vndk \
     libaudio_param_parser-vnd \
@@ -653,29 +601,12 @@ PRODUCT_PACKAGES += \
     libbluetooth_mtk_pure \
     libbt-vendor \
     libbwc \
-    libc++_shared \
-    libcamalgo.InlineCompGyro \
-    libcamalgo.WarpMapResizer \
-    libcamalgo.dngop \
-    libcamalgo.eis \
-    libcamalgo.fdft \
-    libcamalgo.fsc \
-    libcamalgo.gyro \
-    libcamalgo.hdr10p \
-    libcamalgo.lmv \
-    libcamalgo.platform \
     libcamalgo.utility \
-    libcamalgo.vsdofUtil \
-    libcamalgo.warp \
-    libcamera_scene \
-    libcameraloadcalibrationfiles \
-    libcameraplatforminfoxiaomi \
     libcamlog \
     libcapctrl \
     libcares_naptr \
     libcarrierconfig \
     libccci_util \
-    libcdsprpc \
     libclient2slpi.notifier \
     libcmdl \
     libcmdl_ndk.mtk.vndk \
@@ -692,36 +623,20 @@ PRODUCT_PACKAGES += \
     libcodec2_soft_mtk_mp3dec \
     libcodec2_soft_mtk_msadpcmdec \
     libcodec2_vndk-v31 \
-    libcodec2_vpp_AIMEMC_plugin \
-    libcodec2_vpp_AISR_plugin \
     libcodec2_vpp_dolby_plugin \
     libcodec2_vpp_gc_plugin \
     libcodec2_vpp_mi_plugin \
     libcodec2_vpp_qt_plugin \
     libcodec2_vpp_rs_plugin \
-    libcom.xiaomi.debug \
-    libcom.xiaomi.eventcallback \
-    libcom.xiaomi.grallocutils \
-    libcom.xiaomi.metadatautils \
-    libcom.xiaomi.mizone.cpupolicy \
-    libcom.xiaomi.mizone.decoupleutil \
-    libcom.xiaomi.mizone.postprocinterface \
-    libcom.xiaomi.mizone \
-    libcom.xiaomi.pluginutils \
     libcomposer_ext \
     libconnfem \
     libcustom_nvram \
     libcvsd_mtk \
-    libdeflicker \
-    libdlrmsc \
     libdolbyeglplugin \
     libdolbyottcameracontrol \
     libdolbyplugin \
     libdre \
-    libellv \
-    libfeaturepolicy \
     libfile_op \
-    libforkexecwrap \
     libformatter_mtk \
     libfvaudio \
     libged \
@@ -730,41 +645,15 @@ PRODUCT_PACKAGES += \
     libgralloc_extra \
     libgralloc_metadata \
     libgralloctypes_mtk \
-    libgwsdv2-ril \
-    libgwsdv3-ril \
+    libgz_gp_client \
     libgz_uree \
     libhdrvideo \
-    libheichal \
     libhfmanager \
-    libhis_face_tracking \
-    libhis_motion_tracker \
-    libhwm \
-    libifcutils_mtk \
-    libimagebuffer_wrapper \
     libion_ulit \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
-    libksensor \
-    libmialgo_ai_vision \
-    libmialgo_aio_seg \
-    libmialgo_depth \
-    libmialgo_ellc \
-    libmialgo_sd \
-    libmialgo_utils \
-    libmialgo_video_seg_depth \
-    libmialgoengine \
     libmibokeh_mt6873 \
-    libmicamjson \
     libmigpese@1.0 \
-    libmipc \
-    libmiphone_capture_bokeh \
-    libmiphone_capture_bokeh_mono \
-    libmiphone_capture_depth \
-    libmiphone_capture_mdbokeh \
-    libmiphone_preview_bokeh \
-    libmiphone_preview_bokeh_mono \
-    libmiphone_preview_depth \
-    libmiphone_preview_mdbokeh \
     libmisound \
     libmisoundcrossfade \
     libmisoundfpsop \
@@ -772,33 +661,20 @@ PRODUCT_PACKAGES += \
     libmivimemutils \
     libmml \
     libmnetlink_v104 \
-    libmorpho_video_stabilizer \
     libmp3dec_mtk \
     libmsbc_mtk \
-    libmtk-fusion-ril-prop-vsim \
-    libmtk-ril \
     libmtkares \
-    libmtkcam_fdWarpConvert \
     libmtkcam_fdsan \
-    libmtkcam_fdsan_wrapper \
     libmtkcam_perfctrl_wrapper \
-    libmtkconfig \
-    libmtkconfigutils \
     libmtkcutils \
     libmtkhardware_legacy \
-    libmtkisp_metadata_v2 \
     libmtklimiter_vendor \
-    libmtkmipc-ril \
-    libmtknetcap \
     libmtknetutils \
     libmtkproperty \
     libmtkrillog \
-    libmtkrilutils \
     libmtkshifter_vendor \
     libmtkspparser \
     libmtksysutils \
-    libmtktinyxml \
-    libmtkutils \
     libmvpu_cic_ci_compiler \
     libmvpu_clc_cl_compiler \
     libmvpu_clc_mvpu_debuginfo \
@@ -816,28 +692,19 @@ PRODUCT_PACKAGES += \
     libmvpu_runtime_pub \
     libmvpuop_mtk_cv \
     libmvpuop_mtk_nn \
-    libneuron_runtime_vpp.6.0.3 \
     libnotifyaudiohal \
     libnpagent \
-    libnpagent_server \
     libnvram \
     libnvram_sec \
     libnxp_extamp_intf \
     liboemcrypto \
-    libomp \
     libpqframework \
     libpqhdrmetaparser \
     libpqsharememory \
     libpqtuning \
     libpqxmlparser \
     libpwirisPCSce \
-    libratconfig \
-    librelight_only \
-    libremosaic_wrapper \
-    libremosaiclib \
-    librfs_warp \
     librgbwlightsensor \
-    librilfusion \
     librpc \
     librt_extamp_intf \
     libscltm \
@@ -849,11 +716,7 @@ PRODUCT_PACKAGES += \
     libstorage_otp \
     libsysenv \
     libteecli \
-    libtrm \
-    libvia-ril \
     libviagpsrpc \
-    libviamipc-ril \
-    libvideoBokeh \
     libvow_ap_test_aa \
     libvow_ap_test_dd \
     libvow_ap_test_ha \
@@ -864,14 +727,8 @@ PRODUCT_PACKAGES += \
     libvow_ap_test_trip_ha \
     libvow_ap_test_trip_hh \
     libvow_comp_test \
-    libvpu \
-    libwa_opticalzoomfactor \
-    libwa_sat \
-    libwifi-hal-mtk \
-    libwpfa \
     libwvaidl \
     libxlog \
-    ls_nq_client \
     arm.graphics-V2-ndk \
     arm.graphics-V3-ndk \
     arm.mali.platform-V1-ndk \
@@ -896,29 +753,277 @@ PRODUCT_PACKAGES += \
     lib3a.af.assist \
     lib3a.af.assist.utils \
     lib3a.af.core \
+    lib3a.awb.core \
+    lib3a.flash \
+    lib3a.log \
+    lib3a.stat \
+    libDR \
+    libMtkMediaController_SAL \
+    libaal_cust_func \
+    libaalservice \
+    libaiawb_fs_model \
+    libaiawb_sun_model \
+    libaiselector \
+    libcam.hal3a.log \
+    libcam.halisp.utils \
+    libcam.halsensor.hwintegration \
+    libcam.halsensor \
+    libcamalgo.platform2 \
+    libcamalgo.util1 \
+    libcamalgo.util2 \
+    libcameracustom.camera.3a \
+    libcameracustom.camera.isp \
+    libcameracustom.camera_calibration.core \
+    libcameracustom.cfg_setting.core \
+    libcameracustom.imgsensor.core \
+    libcameracustom.lens \
+    libcameracustom \
+    libccd \
+    libdpframework \
+    libgamehdr \
+    libimgsys_adl \
+    libimgsys_custom \
+    libimgsys_daemon \
+    libimgsys_dip \
+    libimgsys_drvcommon \
+    libimgsys_gce \
+    libimgsys_me \
+    libimgsys_pqdip \
+    libimgsys_system \
+    libimgsys_taskhandler \
+    libimgsys_tdrhal \
+    libimgsys_tile \
+    libimgsys_traw \
+    libimgsys_utils \
+    libimgsys_wpe \
+    libmmlpqImpl \
+    libmtk_drvb \
+    libmtkcam.atmseventmgr \
+    libmtkcam.debugwrapper \
+    libmtkcam.eventcallback \
+    libmtkcam.ndd.limit \
+    libmtkcam_metadata \
+    libmtkcam_modulehelper \
+    libmtkcam_stdutils \
+    libmtkcam_sysutils \
+    libmtkcam_tuning_utils \
+    libmtkcam_ulog \
+    libneuralnetworks_sl_driver_mtk_prebuilt \
+    libneuron_adapter_mgvi \
+    libneuron_wrapper \
+    libnir_neon_driver \
+    libpda_usdriver \
+    libpq_cust_base \
+    libpq_prot \
+    libpqconfig \
+    libpqparamparser \
+    mtk000_mipi_raw_IdxMgr \
+    mtk000_mipi_raw_tuning \
+    vendor.mediatek.hardware.apuware.utils@2.0 \
+    vendor.mediatek.hardware.audio@8.1 \
+    vendor.mediatek.hardware.camera.atms@1.0 \
+    vendor.mediatek.hardware.camera.bgservice@1.0 \
+    vendor.mediatek.hardware.camera.bgservice@1.1 \
+    vendor.mediatek.hardware.composer_ext@1.0 \
+    vendor.mediatek.hardware.mmagent@1.0 \
+    vendor.mediatek.hardware.mmagent@1.1 \
+    vendor.mediatek.hardware.mmlpq-V2-ndk \
+    vendor.mediatek.hardware.mms@1.0 \
+    vendor.mediatek.hardware.mms@1.1 \
+    vendor.mediatek.hardware.mms@1.2 \
+    vendor.mediatek.hardware.mms@1.3 \
+    vendor.mediatek.hardware.mms@1.4 \
+    vendor.mediatek.hardware.mms@1.5 \
+    vendor.mediatek.hardware.mms@1.6 \
+    vendor.mediatek.hardware.mms@1.7 \
+    vendor.mediatek.hardware.netdagent@1.0 \
+    vendor.mediatek.hardware.neuropilot.agent@1.0 \
+    vendor.mediatek.hardware.neuropilot.agent@1.1 \
+    vendor.mediatek.hardware.neuropilot.agent@1.2 \
+    vendor.mediatek.hardware.nvram@1.0 \
+    vendor.mediatek.hardware.nvram@1.1 \
+    vendor.mediatek.hardware.pq@2.0 \
+    vendor.mediatek.hardware.pq@2.1 \
+    vendor.mediatek.hardware.pq@2.10 \
+    vendor.mediatek.hardware.pq@2.11 \
+    vendor.mediatek.hardware.pq@2.12 \
+    vendor.mediatek.hardware.pq@2.13 \
+    vendor.mediatek.hardware.pq@2.14 \
+    vendor.mediatek.hardware.pq@2.15 \
+    vendor.mediatek.hardware.pq@2.2 \
+    vendor.mediatek.hardware.pq@2.3 \
+    vendor.mediatek.hardware.pq@2.4 \
+    vendor.mediatek.hardware.pq@2.5 \
+    vendor.mediatek.hardware.pq@2.6 \
+    vendor.mediatek.hardware.pq@2.7 \
+    vendor.mediatek.hardware.pq@2.8 \
+    vendor.mediatek.hardware.pq@2.9 \
+    vendor.mediatek.hardware.pq_aidl-V1-ndk \
+    vendor.mediatek.hardware.pq_aidl-V2-ndk \
+    vendor.mediatek.hardware.pq_aidl-V3-ndk \
+    vendor.xiaomi.sensor.citsensorservice@1.1 \
+    vendor.xiaomi.sensor.citsensorservice@2.0 \
+    APUWareApusysAidlServer \
+    APUWareHmpServer \
+    APUWareUtilsServer \
+    android.hardware.security.keymint-V4-ndk-v34 \
+    com.xiaomi.plugin.arcsoftsr \
+    com.xiaomi.plugin.capbokeh \
+    com.xiaomi.plugin.capdepth \
+    com.xiaomi.plugin.caphdr \
+    com.xiaomi.plugin.depurple \
+    com.xiaomi.plugin.hdr \
+    com.xiaomi.plugin.hwjpeg \
+    com.xiaomi.plugin.hwproc \
+    com.xiaomi.plugin.ldc \
+    com.xiaomi.plugin.memcpy \
+    com.xiaomi.plugin.miaideblur \
+    com.xiaomi.plugin.miaiie \
+    com.xiaomi.plugin.mibokeh \
+    com.xiaomi.plugin.miellc \
+    com.xiaomi.plugin.portraitrepair \
+    com.xiaomi.plugin.rawsuperlight \
+    com.xiaomi.plugin.skinbeautifier \
+    com.xiaomi.plugin.supernight \
+    com.xiaomi.plugin.swflip \
+    android.hardware.gnss-impl-mediatek \
+    android.hardware.gnss@2.1-impl-mediatek \
+    hwcomposer.mtk_common \
+    android.hardware.camera.provider@2.6-impl-mediatek \
+    vendor.mediatek.hardware.camera.isphal@1.1-impl \
+    sensors.mediatek.V2.0 \
+    vendor.xiaomi.hardware.bgservice@1.0-impl \
+    jcos_nq_client \
+    lib3a.ae.pipe \
+    libAF \
+    libBasicModule \
+    libHISCppAlgos \
+    libMiPhotoFilter \
+    libXMFaceFocus \
+    lib_misound_asc \
+    libaaa_aaautil \
+    libaaa_gma \
+    libaibld.nn6 \
+    libalAILDC \
+    libalAI_Seg \
+    libalLDC \
+    libalNN \
+    libalgobaseutils \
+    libalhLDC \
+    libarcsoft_bokeh_high_dynamic_range \
+    libarcsoft_dualcam_refocus_video \
+    libarcsoft_hdr_detection \
+    libarcsoft_super_night_detection \
+    libarcsoft_super_night_raw \
+    libc++_shared \
+    libcamalgo.InlineCompGyro \
+    libcamalgo.WarpMapResizer \
+    libcamalgo.dngop \
+    libcamalgo.eis \
+    libcamalgo.fdft \
+    libcamalgo.fsc \
+    libcamalgo.gyro \
+    libcamalgo.hdr10p \
+    libcamalgo.lmv \
+    libcamalgo.platform \
+    libcamalgo.vsdofUtil \
+    libcamalgo.warp \
+    libcamera_scene \
+    libcameraloadcalibrationfiles \
+    libcameraplatforminfoxiaomi \
+    libcdsprpc \
+    libcodec2_vpp_AIMEMC_plugin \
+    libcodec2_vpp_AISR_plugin \
+    libcom.xiaomi.debug \
+    libcom.xiaomi.eventcallback \
+    libcom.xiaomi.grallocutils \
+    libcom.xiaomi.metadatautils \
+    libcom.xiaomi.mizone.cpupolicy \
+    libcom.xiaomi.mizone.decoupleutil \
+    libcom.xiaomi.mizone.postprocinterface \
+    libcom.xiaomi.mizone \
+    libcom.xiaomi.pluginutils \
+    libdeflicker \
+    libdlrmsc \
+    libellv \
+    libfeaturepolicy \
+    libforkexecwrap \
+    libgwsdv2-ril \
+    libgwsdv3-ril \
+    libheichal \
+    libhis_face_tracking \
+    libhis_motion_tracker \
+    libhwm \
+    libifcutils_mtk \
+    libimagebuffer_wrapper \
+    libksensor \
+    libmialgo_ai_vision \
+    libmialgo_aio_seg \
+    libmialgo_depth \
+    libmialgo_ellc \
+    libmialgo_sd \
+    libmialgo_utils \
+    libmialgo_video_seg_depth \
+    libmialgoengine \
+    libmicamjson \
+    libmipc \
+    libmiphone_capture_bokeh \
+    libmiphone_capture_bokeh_mono \
+    libmiphone_capture_depth \
+    libmiphone_capture_mdbokeh \
+    libmiphone_preview_bokeh \
+    libmiphone_preview_bokeh_mono \
+    libmiphone_preview_depth \
+    libmiphone_preview_mdbokeh \
+    libmorpho_video_stabilizer \
+    libmtk-fusion-ril-prop-vsim \
+    libmtk-ril \
+    libmtkcam_fdWarpConvert \
+    libmtkcam_fdsan_wrapper \
+    libmtkconfig \
+    libmtkconfigutils \
+    libmtkisp_metadata_v2 \
+    libmtkmipc-ril \
+    libmtknetcap \
+    libmtkrilutils \
+    libmtktinyxml \
+    libmtkutils \
+    libneuron_runtime_vpp.6.0.3 \
+    libnpagent_server \
+    libomp \
+    libratconfig \
+    librelight_only \
+    libremosaic_wrapper \
+    libremosaiclib \
+    librfs_warp \
+    librilfusion \
+    libtrm \
+    libvia-ril \
+    libviamipc-ril \
+    libvideoBokeh \
+    libvpu \
+    libwa_opticalzoomfactor \
+    libwa_sat \
+    libwifi-hal-mtk \
+    libwpfa \
+    ls_nq_client \
     lib3a.af \
     lib3a.aishutter \
     lib3a.alsflicker \
-    lib3a.awb.core \
     lib3a.awbsync \
     lib3a.cculog \
     lib3a.custom.ae.flow \
     lib3a.custom.ae \
     lib3a.custom.af.flow \
     lib3a.custom.awb.flow \
-    lib3a.flash \
     lib3a.flicker \
-    lib3a.log \
     lib3a.sensors.color \
     lib3a.sensors.flicker \
-    lib3a.stat \
     libAIODcore \
     libAIOTcore \
     libAITrackingAFMgr \
     libDBAccessor_ISP \
-    libDR \
     libMtkMediaController \
-    libMtkMediaController_SAL \
     libSonyIMX519PdafWrapper \
     lib_bsscore \
     libaaa_feature \
@@ -926,16 +1031,11 @@ PRODUCT_PACKAGES += \
     libaaa_ltmx \
     libaaa_tnc \
     libaaa_toneutil \
-    libaal_cust_func \
-    libaalservice \
     libaiawb_fs \
-    libaiawb_fs_model \
     libaiawb_moon \
     libaiawb_moon_model \
     libaiawb_p1ggm \
     libaiawb_sun \
-    libaiawb_sun_model \
-    libaibc_tuning \
     libaibc_tuning_p2 \
     libaibc_tuning_p3 \
     libaibc_tuning_p4 \
@@ -945,7 +1045,6 @@ PRODUCT_PACKAGES += \
     libaiseg_model \
     libaiseg_p1ggm \
     libaiseg_sun \
-    libaiselector \
     libalgo.aosp.log \
     libapudcutils \
     libcam.3a_isp.utils \
@@ -959,7 +1058,6 @@ PRODUCT_PACKAGES += \
     libcam.hal3a.guard \
     libcam.hal3a.ircutdrv \
     libcam.hal3a.lensdrv \
-    libcam.hal3a.log \
     libcam.hal3a.lscMgrApi \
     libcam.hal3a.oisdrv \
     libcam.hal3a.ozoomdrv \
@@ -988,10 +1086,7 @@ PRODUCT_PACKAGES += \
     libcam.halisp.TuningDataProviderFactory \
     libcam.halisp.imp.v4l2 \
     libcam.halisp.plugin \
-    libcam.halisp.utils \
     libcam.halisp.v4l2 \
-    libcam.halsensor.hwintegration \
-    libcam.halsensor \
     libcam.isptuning.v4l2 \
     libcam.peripheralcontroller \
     libcam.tuningcachemgr \
@@ -1020,11 +1115,8 @@ PRODUCT_PACKAGES += \
     libcamalgo.mcnr \
     libcamalgo.mfnr \
     libcamalgo.n3d \
-    libcamalgo.platform2 \
     libcamalgo.rotate \
     libcamalgo.tsfs \
-    libcamalgo.util1 \
-    libcamalgo.util2 \
     libcamalgo.vaidepth \
     libcamalgo.vainr \
     libcamalgo.vsf \
@@ -1034,21 +1126,12 @@ PRODUCT_PACKAGES += \
     libcamera.custom.af_assist_pdp \
     libcamera.customae \
     libcamera.customflk \
-    libcameracustom.camera.3a \
-    libcameracustom.camera.isp \
     libcameracustom.camera.sensors \
-    libcameracustom.camera_calibration.core \
     libcameracustom.camera_exif \
-    libcameracustom.cfg_setting.core \
     libcameracustom.eis \
     libcameracustom.flashlight \
-    libcameracustom.imgsensor.core \
-    libcameracustom.lens \
     libcameracustom.plugin \
-    libcameracustom \
     libcameracustom_camera_db_ext \
-    libccd \
-    libdpframework \
     libeffecthal.base \
     libfacerelight \
     libfeature.aiseg \
@@ -1067,38 +1150,17 @@ PRODUCT_PACKAGES += \
     libfeature_vrp \
     libfeatureiodrv_mem \
     libfeaturepolicy_dbhandler \
-    libgamehdr \
     libimgstream-custom \
     libimgstream-drv \
-    libimgsys_adl \
     libimgsys_cmt \
-    libimgsys_custom \
-    libimgsys_daemon \
-    libimgsys_dip \
-    libimgsys_drvcommon \
-    libimgsys_gce \
     libimgsys_main \
-    libimgsys_me \
-    libimgsys_pqdip \
     libimgsys_sensor \
-    libimgsys_system \
-    libimgsys_taskhandler \
-    libimgsys_tdrhal \
-    libimgsys_tile \
-    libimgsys_traw \
-    libimgsys_utils \
     libimgsys_v4l2 \
-    libimgsys_wpe \
     libispfeature_mtkcam.v4l2 \
     liblpnr \
     libmfllcore \
     libmgr3a.adapt \
     libmmagent \
-    libmmlpqImpl \
-    libmtk_drvb \
-    libmtkcam.atmseventmgr \
-    libmtkcam.debugwrapper \
-    libmtkcam.eventcallback \
     libmtkcam.featurepipe.capture \
     libmtkcam.featurepipe.depthmap \
     libmtkcam.featurepipe.p2g \
@@ -1106,7 +1168,6 @@ PRODUCT_PACKAGES += \
     libmtkcam.featurepipe.vsdof.wrapper \
     libmtkcam.logicalcaminfoprovider \
     libmtkcam.logicalmodule \
-    libmtkcam.ndd.limit \
     libmtkcam_aicolor \
     libmtkcam_aie \
     libmtkcam_android_zslprocessor \
@@ -1171,11 +1232,9 @@ PRODUCT_PACKAGES += \
     libmtkcam_jsondata \
     libmtkcam_mapping_mgr \
     libmtkcam_metaconv \
-    libmtkcam_metadata \
     libmtkcam_metastore \
     libmtkcam_modulefactory_custom \
     libmtkcam_modulefactory_utils \
-    libmtkcam_modulehelper \
     libmtkcam_packutils \
     libmtkcam_perfctrl \
     libmtkcam_pip \
@@ -1196,42 +1255,22 @@ PRODUCT_PACKAGES += \
     libmtkcam_salmgr \
     libmtkcam_sensorcontrol \
     libmtkcam_simager \
-    libmtkcam_stdutils \
     libmtkcam_streamutils \
     libmtkcam_synchelper \
-    libmtkcam_sysutils \
     libmtkcam_thirdparty.core \
     libmtkcam_thirdparty.customer \
     libmtkcam_thirdparty.customzone \
     libmtkcam_thirdparty.mtk \
     libmtkcam_thirdparty \
-    libmtkcam_tuning_utils \
-    libmtkcam_ulog \
     libmtkcam_zsl_sampleselector \
     libmtkcm_ipc_dummy \
-    libneuralnetworks_sl_driver_mtk_prebuilt \
-    libneuron_adapter_mgvi \
     libneuron_runtime.6 \
-    libneuron_wrapper \
-    libnir_neon_driver \
-    libpda_usdriver \
-    libpq_cust_base \
-    libpq_prot \
-    libpqconfig \
-    libpqparamparser \
     libstereoinfoaccessor_vsdof \
     libvainr_model \
-    mtk000_mipi_raw_IdxMgr \
-    mtk000_mipi_raw_tuning \
     se_nq_extn_client \
     vendor.mediatek.hardware.apuware.apusys-V1-ndk \
     vendor.mediatek.hardware.apuware.hmp@1.0 \
-    vendor.mediatek.hardware.apuware.utils@2.0 \
-    vendor.mediatek.hardware.audio@8.1 \
     vendor.mediatek.hardware.camera.aovservice-V1-ndk \
-    vendor.mediatek.hardware.camera.atms@1.0 \
-    vendor.mediatek.hardware.camera.bgservice@1.0 \
-    vendor.mediatek.hardware.camera.bgservice@1.1 \
     vendor.mediatek.hardware.camera.ccap@1.0 \
     vendor.mediatek.hardware.camera.device@3.6 \
     vendor.mediatek.hardware.camera.frhandler@1.0 \
@@ -1239,18 +1278,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.isphal@1.1 \
     vendor.mediatek.hardware.camera.postproc@1.0 \
     vendor.mediatek.hardware.camera.security@1.0 \
-    vendor.mediatek.hardware.composer_ext@1.0 \
-    vendor.mediatek.hardware.mmagent@1.0 \
-    vendor.mediatek.hardware.mmagent@1.1 \
-    vendor.mediatek.hardware.mmlpq-V2-ndk \
-    vendor.mediatek.hardware.mms@1.0 \
-    vendor.mediatek.hardware.mms@1.1 \
-    vendor.mediatek.hardware.mms@1.2 \
-    vendor.mediatek.hardware.mms@1.3 \
-    vendor.mediatek.hardware.mms@1.4 \
-    vendor.mediatek.hardware.mms@1.5 \
-    vendor.mediatek.hardware.mms@1.6 \
-    vendor.mediatek.hardware.mms@1.7 \
     vendor.mediatek.hardware.mtkradioex.assist-V1-ndk \
     vendor.mediatek.hardware.mtkradioex.atci-V1-ndk \
     vendor.mediatek.hardware.mtkradioex.cap-V1-ndk \
@@ -1267,60 +1294,16 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkradioex.sim-V1-ndk \
     vendor.mediatek.hardware.mtkradioex.smartratswitch-V1-ndk \
     vendor.mediatek.hardware.mtkradioex.voice-V1-ndk \
-    vendor.mediatek.hardware.netdagent@1.0 \
-    vendor.mediatek.hardware.neuropilot.agent@1.0 \
-    vendor.mediatek.hardware.neuropilot.agent@1.1 \
-    vendor.mediatek.hardware.neuropilot.agent@1.2 \
-    vendor.mediatek.hardware.nvram@1.0 \
-    vendor.mediatek.hardware.nvram@1.1 \
     vendor.mediatek.hardware.power@1.1 \
     vendor.mediatek.hardware.power@2.0 \
-    vendor.mediatek.hardware.pq@2.0 \
-    vendor.mediatek.hardware.pq@2.1 \
-    vendor.mediatek.hardware.pq@2.10 \
-    vendor.mediatek.hardware.pq@2.11 \
-    vendor.mediatek.hardware.pq@2.12 \
-    vendor.mediatek.hardware.pq@2.13 \
-    vendor.mediatek.hardware.pq@2.14 \
-    vendor.mediatek.hardware.pq@2.15 \
-    vendor.mediatek.hardware.pq@2.2 \
-    vendor.mediatek.hardware.pq@2.3 \
-    vendor.mediatek.hardware.pq@2.4 \
-    vendor.mediatek.hardware.pq@2.5 \
-    vendor.mediatek.hardware.pq@2.6 \
-    vendor.mediatek.hardware.pq@2.7 \
-    vendor.mediatek.hardware.pq@2.8 \
-    vendor.mediatek.hardware.pq@2.9 \
-    vendor.mediatek.hardware.pq_aidl-V1-ndk \
-    vendor.mediatek.hardware.pq_aidl-V2-ndk \
-    vendor.mediatek.hardware.pq_aidl-V3-ndk \
     vendor.xiaomi.hardware.bgservice@1.0 \
-    vendor.xiaomi.sensor.citsensorservice@1.1 \
-    vendor.xiaomi.sensor.citsensorservice@2.0 \
     fingerprint.goodix_fod.default \
     vendor.pixelworks.hardware.display@1.0-impl-1.2 \
-    libArcNetMtk \
-    libalCFR \
-    libarcsoft_beautyshot \
-    libarcsoft_high_dynamic_range \
-    libarcsoft_low_light_hdr \
-    libarcsoft_mf_superresolution \
-    libarcsoft_portrait_lighting \
-    libarcsoft_portrait_lighting_c \
-    libarcsoft_sn_mtk_apu \
-    libbeauty_face_interface \
     libgf_hal \
     libmfido_mitee \
-    libmiai_deblur \
-    libmiai_portraitsupernight \
-    libmialgo_ie_capture \
-    libmiocr \
     libmlipay_mitee \
     libmlipay_mitee@1.1 \
-    libmpbase \
     libmt_mitee \
-    libmt_mitee@1.3 \
-    libportrait_repair_apu \
     libpwirisIoctlWrapper \
     libpwirisPCS \
     libpwiriscalibrate \
@@ -1340,6 +1323,23 @@ PRODUCT_PACKAGES += \
     vendor.pixelworks.hardware.feature@1.0 \
     vendor.pixelworks.hardware.feature@1.1 \
     vendor.xiaomi.hardware.soterservice@1.0 \
+    libArcNetMtk \
+    libalCFR \
+    libarcsoft_beautyshot \
+    libarcsoft_high_dynamic_range \
+    libarcsoft_low_light_hdr \
+    libarcsoft_mf_superresolution \
+    libarcsoft_portrait_lighting \
+    libarcsoft_portrait_lighting_c \
+    libarcsoft_sn_mtk_apu \
+    libbeauty_face_interface \
+    libmiai_deblur \
+    libmiai_portraitsupernight \
+    libmialgo_ie_capture \
+    libmiocr \
+    libmpbase \
+    libmt_mitee@1.3 \
+    libportrait_repair_apu \
     SoterService \
     android.hardware.identity@4.0-service.mitee.xml \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
@@ -1385,6 +1385,8 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq_aidl-service \
     vendor.xiaomi.hardware.secure_element@1.2-service \
     mi_thermald \
+    mitee_info \
+    mitee_shell \
     miteelog \
     mnld \
     mtk_agpsd \
@@ -1434,6 +1436,106 @@ PRODUCT_PACKAGES += \
     vendor_bin_hw_android_hardware_graphics_allocator@4_0-service-mediatek \
     vendor_bin_hw_camerahalserver \
     vendor_etc_camera_gma_custom_xml \
+    vendor_lib_egl_libGLES_mali_so \
+    vendor_lib_hw_audio_primary_mt6985_so \
+    vendor_lib_hw_audio_r_submix_mt6985_so \
+    vendor_lib_hw_android_hardware_graphics_allocator@4_0-impl-mediatek_so \
+    vendor_lib_hw_android_hardware_graphics_mapper@4_0-impl-mediatek_so \
+    vendor_lib_hw_gralloc_common_so \
+    vendor_lib_hw_vendor_mediatek_hardware_camera_atms@1_0-impl_so \
+    vendor_lib_hw_vendor_mediatek_hardware_camera_bgservice@1_1-impl_so \
+    vendor_lib_hw_vendor_mediatek_hardware_pq_aidl-impl_so \
+    vendor_lib_hw_vulkan_mali_so \
+    vendor_lib_arm_graphics-V2-ndk_so \
+    vendor_lib_arm_graphics-V3-ndk_so \
+    vendor_lib_arm_mali_platform-V1-ndk_so \
+    vendor_lib_corotgc02m1_mipi_raw_IdxMgr_so \
+    vendor_lib_corotgc02m1_mipi_raw_tuning_so \
+    vendor_lib_corotimx355_mipi_raw_IdxMgr_so \
+    vendor_lib_corotimx355_mipi_raw_tuning_so \
+    vendor_lib_corotimx596_mipi_raw_IdxMgr_so \
+    vendor_lib_corotimx596_mipi_raw_tuning_so \
+    vendor_lib_corotimx707_mipi_raw_IdxMgr_so \
+    vendor_lib_corotimx707_mipi_raw_tuning_so \
+    vendor_lib_corotimx800_mipi_raw_IdxMgr_so \
+    vendor_lib_corotimx800_mipi_raw_tuning_so \
+    vendor_lib_corotov13b10_mipi_raw_IdxMgr_so \
+    vendor_lib_corotov13b10_mipi_raw_tuning_so \
+    vendor_lib_corotov50d_mipi_raw_IdxMgr_so \
+    vendor_lib_corotov50d_mipi_raw_tuning_so \
+    vendor_lib_lib3a_ae_core_so \
+    vendor_lib_lib3a_ae_so \
+    vendor_lib_lib3a_af_assist_models1d_so \
+    vendor_lib_lib3a_af_assist_models2d_so \
+    vendor_lib_lib3a_af_assist_so \
+    vendor_lib_lib3a_af_assist_utils_so \
+    vendor_lib_lib3a_af_core_so \
+    vendor_lib_lib3a_awb_core_so \
+    vendor_lib_lib3a_flash_so \
+    vendor_lib_lib3a_log_so \
+    vendor_lib_lib3a_stat_so \
+    vendor_lib_libDR_so \
+    vendor_lib_libMtkMediaController_SAL_so \
+    vendor_lib_libaal_cust_func_so \
+    vendor_lib_libaalservice_so \
+    vendor_lib_libaiawb_fs_model_so \
+    vendor_lib_libaiawb_sun_model_so \
+    vendor_lib_libaiselector_so \
+    vendor_lib_libcam_hal3a_log_so \
+    vendor_lib_libcam_halisp_utils_so \
+    vendor_lib_libcam_halsensor_hwintegration_so \
+    vendor_lib_libcam_halsensor_so \
+    vendor_lib_libcamalgo_platform2_so \
+    vendor_lib_libcamalgo_util1_so \
+    vendor_lib_libcamalgo_util2_so \
+    vendor_lib_libcameracustom_camera_3a_so \
+    vendor_lib_libcameracustom_camera_isp_so \
+    vendor_lib_libcameracustom_camera_calibration_core_so \
+    vendor_lib_libcameracustom_cfg_setting_core_so \
+    vendor_lib_libcameracustom_imgsensor_core_so \
+    vendor_lib_libcameracustom_lens_so \
+    vendor_lib_libcameracustom_so \
+    vendor_lib_libccd_so \
+    vendor_lib_libdpframework_so \
+    vendor_lib_libgamehdr_so \
+    vendor_lib_libimgsys_adl_so \
+    vendor_lib_libimgsys_custom_so \
+    vendor_lib_libimgsys_daemon_so \
+    vendor_lib_libimgsys_dip_so \
+    vendor_lib_libimgsys_drvcommon_so \
+    vendor_lib_libimgsys_gce_so \
+    vendor_lib_libimgsys_me_so \
+    vendor_lib_libimgsys_pqdip_so \
+    vendor_lib_libimgsys_system_so \
+    vendor_lib_libimgsys_taskhandler_so \
+    vendor_lib_libimgsys_tdrhal_so \
+    vendor_lib_libimgsys_tile_so \
+    vendor_lib_libimgsys_traw_so \
+    vendor_lib_libimgsys_utils_so \
+    vendor_lib_libimgsys_wpe_so \
+    vendor_lib_libmmlpqImpl_so \
+    vendor_lib_libmtk_drvb_so \
+    vendor_lib_libmtkcam_atmseventmgr_so \
+    vendor_lib_libmtkcam_debugwrapper_so \
+    vendor_lib_libmtkcam_eventcallback_so \
+    vendor_lib_libmtkcam_ndd_limit_so \
+    vendor_lib_libmtkcam_metadata_so \
+    vendor_lib_libmtkcam_modulehelper_so \
+    vendor_lib_libmtkcam_stdutils_so \
+    vendor_lib_libmtkcam_sysutils_so \
+    vendor_lib_libmtkcam_tuning_utils_so \
+    vendor_lib_libmtkcam_ulog_so \
+    vendor_lib_libneuralnetworks_sl_driver_mtk_prebuilt_so \
+    vendor_lib_libneuron_adapter_mgvi_so \
+    vendor_lib_libneuron_wrapper_so \
+    vendor_lib_libnir_neon_driver_so \
+    vendor_lib_libpda_usdriver_so \
+    vendor_lib_libpq_cust_base_so \
+    vendor_lib_libpq_prot_so \
+    vendor_lib_libpqconfig_so \
+    vendor_lib_libpqparamparser_so \
+    vendor_lib_mtk000_mipi_raw_IdxMgr_so \
+    vendor_lib_mtk000_mipi_raw_tuning_so \
     vendor_lib64_egl_libGLES_mali_so \
     vendor_lib64_hw_audio_primary_mt6985_so \
     vendor_lib64_hw_audio_r_submix_mt6985_so \
@@ -1510,7 +1612,6 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libaiawb_p1ggm_so \
     vendor_lib64_libaiawb_sun_so \
     vendor_lib64_libaiawb_sun_model_so \
-    vendor_lib64_libaibc_tuning_so \
     vendor_lib64_libaibc_tuning_p2_so \
     vendor_lib64_libaibc_tuning_p3_so \
     vendor_lib64_libaibc_tuning_p4_so \
