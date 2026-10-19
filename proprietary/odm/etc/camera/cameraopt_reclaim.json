@@ -1,0 +1,93 @@
+{
+    "CameraReclaim": {
+        "killonce_configs" : [
+            {
+                "name": "kill_policy",
+                "config": {
+                    "oom_level": {
+                        "51200": 0,
+                        "89600": 100,
+                        "204800": 200,
+                        "256000": 251,
+                        "384000": 700,
+                        "393216": 702,
+                        "460800": 800
+                    },
+                    "some_psi": {
+                        "28": 51,
+                        "20": 101,
+                        "13": 251,
+                        "12": 701,
+                        "11": 702,
+                        "10": 905,
+                        "8": 925
+                    },
+                    "drop_threshold" :  {
+                        "51": 0,
+                        "101": 2,
+                        "251": 2,
+                        "701": 3,
+                        "702": 4,
+                        "800": 5,
+                        "900": 6,
+                        "905": 7
+                    },
+                    "deepkill_policy" : {
+                        "200": 4,
+                        "100": 16,
+                        "50": 32
+                    }
+                }
+            },
+            {
+                "name":"rekill_policy",
+                "config" : {
+                    "max_kill_count": 3,
+                    "killed_benifit_threshold": 153600,
+                    "lowadj_killed_benifit_threshold": 307200,
+                    "lowadj_interval_ms" : 30000,
+                    "reset_interval_ms" : 120000,
+                    "policy_change_psi": 20,
+                    "lowadj" : 250
+                }
+            }
+        ],
+        "ReclaimActions": {
+            "kill_target":{
+                "miuicam_open_event":[
+                    {
+                        "enable": true,
+                        "free_target": "409600",
+                        "target": "2048000",
+                        "kill_level": 0,
+                        "trigger":{
+                            "availablemem": "0:2048000"
+                        }
+                    }
+                ],
+                "miuicam_capture_event":[
+                    {
+                        "enable": true,
+                        "free_target": "204800",
+                        "target": "1228800",
+                        "kill_level": 0,
+                        "trigger":{
+                            "availablemem": "0:1228800"
+                        }
+                    }
+                ],
+                "3rdcam_open_event":[
+                    {
+                        "enable": true,
+                        "free_target": "307200",
+                        "target": "2048000",
+                        "kill_level": 0,
+                        "trigger": {
+                            "availablemem": "0:2048000"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -6,12 +6,20 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/corot
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/corot/proprietary/odm/etc/1khz.wav:$(TARGET_COPY_OUT_ODM)/etc/1khz.wav \
+    vendor/xiaomi/corot/proprietary/odm/etc/NOTICE_GPL.html.gz:$(TARGET_COPY_OUT_ODM)/etc/NOTICE_GPL.html.gz \
+    vendor/xiaomi/corot/proprietary/odm/etc/RES1K.wav:$(TARGET_COPY_OUT_ODM)/etc/RES1K.wav \
+    vendor/xiaomi/corot/proprietary/odm/etc/bottom_spk.wav:$(TARGET_COPY_OUT_ODM)/etc/bottom_spk.wav \
+    vendor/xiaomi/corot/proprietary/odm/etc/bottom_spk_hp.wav:$(TARGET_COPY_OUT_ODM)/etc/bottom_spk_hp.wav \
     vendor/xiaomi/corot/proprietary/odm/etc/camera/CFR_para_UW.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CFR_para_UW.bin \
     vendor/xiaomi/corot/proprietary/odm/etc/camera/CameraImageSize.json:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraImageSize.json \
     vendor/xiaomi/corot/proprietary/odm/etc/camera/CameraImageSize_gl.json:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraImageSize_gl.json \
     vendor/xiaomi/corot/proprietary/odm/etc/camera/CameraPlatformInfo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraPlatformInfo.json \
     vendor/xiaomi/corot/proprietary/odm/etc/camera/CameraPlatformInfo_gl.json:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraPlatformInfo_gl.json \
     vendor/xiaomi/corot/proprietary/odm/etc/camera/ai_scene.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/ai_scene.bin \
+    vendor/xiaomi/corot/proprietary/odm/etc/camera/camerabooster.json:$(TARGET_COPY_OUT_ODM)/etc/camera/camerabooster.json \
+    vendor/xiaomi/corot/proprietary/odm/etc/camera/cameracustomize.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameracustomize.json \
+    vendor/xiaomi/corot/proprietary/odm/etc/camera/cameraopt_reclaim.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameraopt_reclaim.json \
     vendor/xiaomi/corot/proprietary/odm/etc/camera/deblur_sd_opencl_binary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/deblur_sd_opencl_binary.bin \
     vendor/xiaomi/corot/proprietary/odm/etc/camera/deblur_sd_opencl_params.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/deblur_sd_opencl_params.bin \
     vendor/xiaomi/corot/proprietary/odm/etc/camera/deblur_txt_apu.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/deblur_txt_apu.bin \
@@ -22,12 +30,93 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/odm/etc/camera/portraitrepaire_front_live.json:$(TARGET_COPY_OUT_ODM)/etc/camera/portraitrepaire_front_live.json \
     vendor/xiaomi/corot/proprietary/odm/etc/camera/portraitrepaire_rear_class.json:$(TARGET_COPY_OUT_ODM)/etc/camera/portraitrepaire_rear_class.json \
     vendor/xiaomi/corot/proprietary/odm/etc/camera/portraitrepaire_rear_live.json:$(TARGET_COPY_OUT_ODM)/etc/camera/portraitrepaire_rear_live.json \
+    vendor/xiaomi/corot/proprietary/odm/etc/capture_headset_left.sh:$(TARGET_COPY_OUT_ODM)/etc/capture_headset_left.sh \
+    vendor/xiaomi/corot/proprietary/odm/etc/capture_headset_right.sh:$(TARGET_COPY_OUT_ODM)/etc/capture_headset_right.sh \
+    vendor/xiaomi/corot/proprietary/odm/etc/cit_param_config.json:$(TARGET_COPY_OUT_ODM)/etc/cit_param_config.json \
+    vendor/xiaomi/corot/proprietary/odm/etc/corot_CN.prop:$(TARGET_COPY_OUT_ODM)/etc/corot_CN.prop \
     vendor/xiaomi/corot/proprietary/odm/etc/cust_color.xml:$(TARGET_COPY_OUT_ODM)/etc/cust_color.xml \
+    vendor/xiaomi/corot/proprietary/odm/etc/default_cloud.json:$(TARGET_COPY_OUT_ODM)/etc/default_cloud.json \
+    vendor/xiaomi/corot/proprietary/odm/etc/device_info_qr_config.yml:$(TARGET_COPY_OUT_ODM)/etc/device_info_qr_config.yml \
+    vendor/xiaomi/corot/proprietary/odm/etc/df_default.xml:$(TARGET_COPY_OUT_ODM)/etc/df_default.xml \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/OD_Lut.bin:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/OD_Lut.bin \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLutInfo.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLutInfo.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_0.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_1.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_10.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_10.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_11.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_11.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_12.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_12.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_13.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_13.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_14.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_14.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_15.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_15.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_16.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_16.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_17.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_17.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_18.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_18.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_19.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_19.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_2.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_20.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_20.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_21.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_21.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_22.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_22.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_23.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_23.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_24.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_24.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_25.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_25.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_26.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_26.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_27.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_27.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_3.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_4.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_4.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_5.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_5.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_6.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_6.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_7.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_7.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_8.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_8.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_9.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_36_02_0b_dsc_cmd/miLut_9.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/OD_Lut.bin:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/OD_Lut.bin \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLutInfo.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLutInfo.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_0.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_1.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_10.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_10.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_11.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_11.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_12.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_12.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_13.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_13.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_14.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_14.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_15.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_15.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_16.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_16.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_17.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_17.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_18.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_18.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_19.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_19.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_2.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_20.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_20.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_21.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_21.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_22.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_22.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_23.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_23.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_24.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_24.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_25.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_25.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_26.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_26.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_27.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_27.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_3.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_4.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_4.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_5.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_5.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_6.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_6.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_7.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_7.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_8.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_8.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_9.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/dsi_m12_42_02_0a_dsc_cmd/miLut_9.txt \
+    vendor/xiaomi/corot/proprietary/odm/etc/dsi_m12_36_02_0b_dsc_cmd_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/dsi_m12_36_02_0b_dsc_cmd_mi.xml \
+    vendor/xiaomi/corot/proprietary/odm/etc/dsi_m12_42_02_0a_dsc_cmd_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/dsi_m12_42_02_0a_dsc_cmd_mi.xml \
+    vendor/xiaomi/corot/proprietary/odm/etc/init.panel_info.sh:$(TARGET_COPY_OUT_ODM)/etc/init.panel_info.sh \
+    vendor/xiaomi/corot/proprietary/odm/etc/init/display.rc:$(TARGET_COPY_OUT_ODM)/etc/init/display.rc \
+    vendor/xiaomi/corot/proprietary/odm/etc/init/init.mfp-daemon.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.mfp-daemon.rc \
+    vendor/xiaomi/corot/proprietary/odm/etc/init/mrm_mitee.rc:$(TARGET_COPY_OUT_ODM)/etc/init/mrm_mitee.rc \
+    vendor/xiaomi/corot/proprietary/odm/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc \
     vendor/xiaomi/corot/proprietary/odm/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service-lazy.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service-lazy.rc \
     vendor/xiaomi/corot/proprietary/odm/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-miteeservice.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-miteeservice.rc \
+    vendor/xiaomi/corot/proprietary/odm/etc/init/vendor.xiaomi.hardware.mikeybag-miteeservice.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.mikeybag-miteeservice.rc \
     vendor/xiaomi/corot/proprietary/odm/etc/init/vendor.xiaomi.hardware.mlipay@1.1-miteeservice.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.mlipay@1.1-miteeservice.rc \
     vendor/xiaomi/corot/proprietary/odm/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-miteeservice.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-miteeservice.rc \
     vendor/xiaomi/corot/proprietary/odm/etc/init/vendor.xiaomi.hardware.soterservice@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.soterservice@1.0-service.rc \
+    vendor/xiaomi/corot/proprietary/odm/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-miteeservice.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-miteeservice.rc \
+    vendor/xiaomi/corot/proprietary/odm/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc \
+    vendor/xiaomi/corot/proprietary/odm/etc/init/vendor.xiaomi.hardware.vibratorfeature@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.vibratorfeature@1.0-service.rc \
+    vendor/xiaomi/corot/proprietary/odm/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-miteeservice.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-miteeservice.rc \
+    vendor/xiaomi/corot/proprietary/odm/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc \
+    vendor/xiaomi/corot/proprietary/odm/etc/init/vendor.xiaomi.sensor.citsensorservice@2.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.sensor.citsensorservice@2.0-service.rc \
     vendor/xiaomi/corot/proprietary/odm/etc/inparm/iris7/inParm1.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris7/inParm1.txt \
     vendor/xiaomi/corot/proprietary/odm/etc/inparm/iris7/inParm2.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris7/inParm2.txt \
     vendor/xiaomi/corot/proprietary/odm/etc/inparm/iris7/inParm3.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/iris7/inParm3.txt \
@@ -78,10 +167,26 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/odm/etc/irissoft_mtk_primary_display.dat:$(TARGET_COPY_OUT_ODM)/etc/irissoft_mtk_primary_display.dat \
     vendor/xiaomi/corot/proprietary/odm/etc/irissoft_mtk_primary_display.fw:$(TARGET_COPY_OUT_ODM)/etc/irissoft_mtk_primary_display.fw \
     vendor/xiaomi/corot/proprietary/odm/etc/irissoft_mtk_primary_display.xml:$(TARGET_COPY_OUT_ODM)/etc/irissoft_mtk_primary_display.xml \
+    vendor/xiaomi/corot/proprietary/odm/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nci.conf \
+    vendor/xiaomi/corot/proprietary/odm/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp.conf \
+    vendor/xiaomi/corot/proprietary/odm/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp_RF.conf \
     vendor/xiaomi/corot/proprietary/odm/etc/m12_36_02_0b_dsc_cmd_cust_silky_brightness.xml:$(TARGET_COPY_OUT_ODM)/etc/m12_36_02_0b_dsc_cmd_cust_silky_brightness.xml \
     vendor/xiaomi/corot/proprietary/odm/etc/m12_36_02_0b_dsc_cmd_pq.xml:$(TARGET_COPY_OUT_ODM)/etc/m12_36_02_0b_dsc_cmd_pq.xml \
     vendor/xiaomi/corot/proprietary/odm/etc/m12_42_02_0a_dsc_cmd_cust_silky_brightness.xml:$(TARGET_COPY_OUT_ODM)/etc/m12_42_02_0a_dsc_cmd_cust_silky_brightness.xml \
     vendor/xiaomi/corot/proprietary/odm/etc/m12_42_02_0a_dsc_cmd_pq.xml:$(TARGET_COPY_OUT_ODM)/etc/m12_42_02_0a_dsc_cmd_pq.xml \
+    vendor/xiaomi/corot/proprietary/odm/etc/playback_headset_left.sh:$(TARGET_COPY_OUT_ODM)/etc/playback_headset_left.sh \
+    vendor/xiaomi/corot/proprietary/odm/etc/playback_headset_right.sh:$(TARGET_COPY_OUT_ODM)/etc/playback_headset_right.sh \
+    vendor/xiaomi/corot/proprietary/odm/etc/rcv.wav:$(TARGET_COPY_OUT_ODM)/etc/rcv.wav \
+    vendor/xiaomi/corot/proprietary/odm/etc/rcv_pink.wav:$(TARGET_COPY_OUT_ODM)/etc/rcv_pink.wav \
+    vendor/xiaomi/corot/proprietary/odm/etc/screen_light.xml:$(TARGET_COPY_OUT_ODM)/etc/screen_light.xml \
+    vendor/xiaomi/corot/proprietary/odm/etc/setting.xml:$(TARGET_COPY_OUT_ODM)/etc/setting.xml \
+    vendor/xiaomi/corot/proprietary/odm/etc/spk.wav:$(TARGET_COPY_OUT_ODM)/etc/spk.wav \
+    vendor/xiaomi/corot/proprietary/odm/etc/spk_cal_pinknoise.wav:$(TARGET_COPY_OUT_ODM)/etc/spk_cal_pinknoise.wav \
+    vendor/xiaomi/corot/proprietary/odm/etc/spk_cal_silence.wav:$(TARGET_COPY_OUT_ODM)/etc/spk_cal_silence.wav \
+    vendor/xiaomi/corot/proprietary/odm/etc/spk_cal_sweep.wav:$(TARGET_COPY_OUT_ODM)/etc/spk_cal_sweep.wav \
+    vendor/xiaomi/corot/proprietary/odm/etc/spk_cal_whitenoise.wav:$(TARGET_COPY_OUT_ODM)/etc/spk_cal_whitenoise.wav \
+    vendor/xiaomi/corot/proprietary/odm/etc/spk_hp.wav:$(TARGET_COPY_OUT_ODM)/etc/spk_hp.wav \
+    vendor/xiaomi/corot/proprietary/odm/etc/stereo.wav:$(TARGET_COPY_OUT_ODM)/etc/stereo.wav \
     vendor/xiaomi/corot/proprietary/odm/etc/thermal-4k.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-4k.conf \
     vendor/xiaomi/corot/proprietary/odm/etc/thermal-8k.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-8k.conf \
     vendor/xiaomi/corot/proprietary/odm/etc/thermal-arvr.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-arvr.conf \
@@ -112,6 +217,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/odm/etc/thermal-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-video.conf \
     vendor/xiaomi/corot/proprietary/odm/etc/thermal-videochat.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-videochat.conf \
     vendor/xiaomi/corot/proprietary/odm/etc/thermal-yuanshen.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-yuanshen.conf \
+    vendor/xiaomi/corot/proprietary/odm/etc/top_spk.wav:$(TARGET_COPY_OUT_ODM)/etc/top_spk.wav \
+    vendor/xiaomi/corot/proprietary/odm/etc/tp_kmsg_init_corot.sh:$(TARGET_COPY_OUT_ODM)/etc/tp_kmsg_init_corot.sh \
+    vendor/xiaomi/corot/proprietary/odm/etc/ueventd.rc:$(TARGET_COPY_OUT_ODM)/etc/ueventd.rc \
     vendor/xiaomi/corot/proprietary/odm/firmware/goodix_cfg_group_corot_csot.bin:$(TARGET_COPY_OUT_ODM)/firmware/goodix_cfg_group_corot_csot.bin \
     vendor/xiaomi/corot/proprietary/odm/firmware/goodix_cfg_group_corot_csot_htc.bin:$(TARGET_COPY_OUT_ODM)/firmware/goodix_cfg_group_corot_csot_htc.bin \
     vendor/xiaomi/corot/proprietary/odm/firmware/goodix_cfg_group_corot_timma.bin:$(TARGET_COPY_OUT_ODM)/firmware/goodix_cfg_group_corot_timma.bin \
@@ -127,6 +235,321 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/odm/firmware/iris7_ccf2.fw:$(TARGET_COPY_OUT_ODM)/firmware/iris7_ccf2.fw \
     vendor/xiaomi/corot/proprietary/odm/firmware/iris7_ccf3.fw:$(TARGET_COPY_OUT_ODM)/firmware/iris7_ccf3.fw \
     vendor/xiaomi/corot/proprietary/odm/firmware/iris7_ccf4.fw:$(TARGET_COPY_OUT_ODM)/firmware/iris7_ccf4.fw \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/NOTICE_GPL.html.gz:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/NOTICE_GPL.html.gz \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_audio_policy_configuration.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_in_audio_policy_configuration.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/aee-commit:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/aee-commit \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/aee-config:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/aee-config \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/audio_policy_configuration_bluetooth_legacy_hal.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/audio_policy_configuration_stub.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration_stub.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/audio_policy_engine_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_configuration.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/audio_policy_engine_default_stream_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_default_stream_volumes.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_product_strategies.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_stream_volumes.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_volumes.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/barrage_v3.tflite:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/barrage_v3.tflite \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/best_model_green_area_Both.onnx:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/best_model_green_area_Both.onnx \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bluetooth_audio_policy_configuration.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/bpf/miui/MiuiMmStat.o:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bpf/miui/MiuiMmStat.o \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/bpf/miui/MiuiMmTrace.o:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bpf/miui/MiuiMmTrace.o \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/camera_perfetto.cfg:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camera_perfetto.cfg \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/cameracustomize.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/cameracustomize.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/cameraopt.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/cameraopt.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/cameraopt_reclaim.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/cameraopt_reclaim.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/cameraopt_thirdParty.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/cameraopt_thirdParty.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/camerascene.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camerascene.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/ce-regions-old.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/ce-regions-old.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/ce-regions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/ce-regions.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/csd_model.tflite:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/csd_model.tflite \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/cust/cn/cust.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/cust/cn/cust.prop \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/cust/cn_chinamobile-cta/cust.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/cust/cn_chinamobile-cta/cust.prop \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/cust/cn_chinamobile/cust.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/cust/cn_chinamobile/cust.prop \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/cust/cn_chinatelecom/cust.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/cust/cn_chinatelecom/cust.prop \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/cust/cn_chinaunicom/cust.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/cust/cn_chinaunicom/cust.prop \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/cust/cn_cta/cust.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/cust/cn_cta/cust.prop \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/cust_prop_white_keys_list:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/cust_prop_white_keys_list \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/custom.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/custom.conf \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default_volume_tables.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/dynamic_em/BandMode_dynamic.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dynamic_em/BandMode_dynamic.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/dynamic_em/MD_SAR_and_PD_Feature_Control_dynamic.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dynamic_em/MD_SAR_and_PD_Feature_Control_dynamic.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/dynamic_em/antenna/ASD_Scenario_Detection_dynamic.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dynamic_em/antenna/ASD_Scenario_Detection_dynamic.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/dynamic_em/antenna/Antenna_Force_dynamic.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dynamic_em/antenna/Antenna_Force_dynamic.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/dynamic_em/antenna/UAC_Condition_dynamic.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dynamic_em/antenna/UAC_Condition_dynamic.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/dynamic_em/antenna/UAC_Information_Monitor_dynamic.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dynamic_em/antenna/UAC_Information_Monitor_dynamic.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/dynamic_em/antenna/UAC_Scenario_dynamic.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dynamic_em/antenna/UAC_Scenario_dynamic.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/dynamic_em/antenna/tuner/MTK_Tuner_Controller_dynamic.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dynamic_em/antenna/tuner/MTK_Tuner_Controller_dynamic.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/ForceDarkAppConfigVersion.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/ForceDarkAppConfigVersion.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/ForceDarkAppRemoveSetting.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/ForceDarkAppRemoveSetting.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/ForceDarkAppSettings.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/ForceDarkAppSettings.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/OWNERS:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/OWNERS \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/air.tv.douyu.android.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/air.tv.douyu.android.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/android.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/android.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/cmb.pb.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/cmb.pb.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/cn.TuHu.android.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/cn.TuHu.android.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/cn.etouch.ecalendar.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/cn.etouch.ecalendar.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/cn.wps.moffice_eng.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/cn.wps.moffice_eng.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/cn.xiaochuankeji.tieba.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/cn.xiaochuankeji.tieba.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/cn.xuexi.android.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/cn.xuexi.android.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.UCMobile.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.UCMobile.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.alibaba.android.rimet.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.alibaba.android.rimet.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.alibaba.wireless.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.alibaba.wireless.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.android.vending.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.android.vending.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.anjuke.android.app.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.anjuke.android.app.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.autonavi.minimap.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.autonavi.minimap.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.baidu.homework.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.baidu.homework.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.baidu.netdisk.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.baidu.netdisk.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.baidu.searchbox.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.baidu.searchbox.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.baidu.tieba.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.baidu.tieba.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.bankcomm.Bankcomm.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.bankcomm.Bankcomm.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.bankcomm.maidanba.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.bankcomm.maidanba.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.cainiao.wireless.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.cainiao.wireless.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.campmobile.snowcamera.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.campmobile.snowcamera.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.chaoxing.mobile.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.chaoxing.mobile.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.chinamworld.bocmbci.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.chinamworld.bocmbci.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.chinamworld.main.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.chinamworld.main.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.citiccard.mobilebank.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.citiccard.mobilebank.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.cleanmaster.mguard_cn.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.cleanmaster.mguard_cn.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.cmbchina.ccd.pluto.cmbActivity.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.cmbchina.ccd.pluto.cmbActivity.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.ct.client.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.ct.client.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.cubic.autohome.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.cubic.autohome.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.dianping.v1.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.dianping.v1.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.didapinche.booking.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.didapinche.booking.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.fenbi.android.solar.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.fenbi.android.solar.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.glodon.drawingexplorer.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.glodon.drawingexplorer.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.gorgeous.lite.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.gorgeous.lite.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.gotokeep.keep.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.gotokeep.keep.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.handsgo.jiakao.android.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.handsgo.jiakao.android.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.homelink.android.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.homelink.android.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.hpbr.bosszhipin.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.hpbr.bosszhipin.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.hunantv.imgo.activity.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.hunantv.imgo.activity.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.jd.jdlite.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.jd.jdlite.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.jifen.qukan.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.jifen.qukan.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.jingdong.app.mall.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.jingdong.app.mall.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.jingyao.easybike.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.jingyao.easybike.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.jiongji.andriod.card.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.jiongji.andriod.card.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.job.android.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.job.android.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.jsmcc.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.jsmcc.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.jzzs.ParentsHelper.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.jzzs.ParentsHelper.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.kuaiduizuoye.scan.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.kuaiduizuoye.scan.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.kugou.android.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.kugou.android.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.le123.ysdq.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.le123.ysdq.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.lechuan.mdwz.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.lechuan.mdwz.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.lemon.faceu.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.lemon.faceu.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.lianjia.beike.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.lianjia.beike.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.lingan.seeyou.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.lingan.seeyou.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.meitu.meiyancamera.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.meitu.meiyancamera.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.microsoft.office.word.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.microsoft.office.word.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.moji.mjweather.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.moji.mjweather.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.mt.mtxx.mtxx.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.mt.mtxx.mtxx.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.mxtech.videoplayer.ad.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.mxtech.videoplayer.ad.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.netease.cloudmusic.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.netease.cloudmusic.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.p1.mobile.putong.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.p1.mobile.putong.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.pingan.carowner.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.pingan.carowner.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.pingan.lifeinsurance.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.pingan.lifeinsurance.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.qiyi.video.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.qiyi.video.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.qiyi.video.lite.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.qiyi.video.lite.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.quark.browser.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.quark.browser.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.sankuai.meituan.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.sankuai.meituan.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.sankuai.meituan.takeoutnew.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.sankuai.meituan.takeoutnew.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.sgcc.wsgw.cn.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.sgcc.wsgw.cn.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.sina.weibo.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.sina.weibo.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.snda.wifilocating.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.snda.wifilocating.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.ss.android.article.video.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.ss.android.article.video.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.ss.android.ugc.live.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.ss.android.ugc.live.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.suning.mobile.ebuy.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.suning.mobile.ebuy.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.sup.android.superb.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.sup.android.superb.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.taobao.etao.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.taobao.etao.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.taobao.live.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.taobao.live.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.taobao.taobao.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.taobao.taobao.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.taou.maimai.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.taou.maimai.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.tencent.androidqqmail.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.androidqqmail.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.tencent.gamehelper.smoba.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.gamehelper.smoba.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.tencent.karaoke.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.karaoke.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.tencent.mm.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.mm.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.tencent.mobileqq.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.mobileqq.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.tencent.mtt.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.mtt.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.tencent.qqlive.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.qqlive.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.tencent.qqmusic.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.qqmusic.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.tencent.qqpim.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.qqpim.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.tencent.qqpimsecure.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.qqpimsecure.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.tencent.qt.qtl.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.qt.qtl.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.tencent.token.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.token.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.tencent.weishi.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.weishi.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.tencent.wemeet.app.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.wemeet.app.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.tencent.wework.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.wework.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.tencent.zebra.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.zebra.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.tianyancha.skyeye.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tianyancha.skyeye.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.tmri.app.main.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tmri.app.main.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.unionpay.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.unionpay.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.wuba.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.wuba.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.wuba.zhuanzhuan.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.wuba.zhuanzhuan.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.wudaokou.hippo.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.wudaokou.hippo.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.xiaomi.market.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.xiaomi.market.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.xiaomi.vipaccount.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.xiaomi.vipaccount.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.xingin.xhs.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.xingin.xhs.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.xt.retouch.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.xt.retouch.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.xuexiaoyi.xxy.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.xuexiaoyi.xxy.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.xunmeng.pinduoduo.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.xunmeng.pinduoduo.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.ygkj.chelaile.standard.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.ygkj.chelaile.standard.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.yipiao.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.yipiao.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.zhaopin.social.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.zhaopin.social.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/com.zhihu.android.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.zhihu.android.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/me.ele.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/me.ele.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/forcedarkconfig/tv.pps.mobile.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/tv.pps.mobile.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/framepredict_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/framepredict_config.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/framepredict_dynconfig.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/framepredict_dynconfig.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/fstab.other:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/fstab.other \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hearing_aid_audio_policy_configuration.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/hyper_clto/relocs_config/netd/relocs_config-netd.bin:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hyper_clto/relocs_config/netd/relocs_config-netd.bin \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/hyper_font_fallback.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hyper_font_fallback.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/hyper_fonts.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hyper_fonts.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/hypersys/log_config.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hypersys/log_config.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init.offline.log.mtk.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init.offline.log.mtk.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init.secureboot.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init.secureboot.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/aee_aed.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/aee_aed.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/aee_aed64.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/aee_aed64.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/aee_aed64_v2.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/aee_aed64_v2.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/android.hardware.audio.parameter_parser.service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/android.hardware.audio.parameter_parser.service.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/bootlogoupdater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/bootlogoupdater.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/bpf_service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/bpf_service.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/consyslogger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/consyslogger.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/emdlogger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/emdlogger.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/f2fs.dfc.native@1.0-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/f2fs.dfc.native@1.0-service.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/hw/init.aee.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/init.aee.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/hw/meta_init.system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/meta_init.system.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/hw/vendor_init_as_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/vendor_init_as_system.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/hyper_bpfloader.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hyper_bpfloader.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/hypsys_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hypsys_system.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.dmadio.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.dmadio.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.hbt.leroy.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.hbt.leroy.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.hbt.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.hbt.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.hyos_spawner.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.hyos_spawner.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.launch_boost.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.launch_boost.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.lbs_dbg.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.lbs_dbg.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.midfs.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.midfs.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.milletmonitor.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.milletmonitor.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.misight.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.misight.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.miui.cameraopt.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.miui.cameraopt.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.miui.cust.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.miui.cust.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.miui.dumpaudiobinderInfo.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.miui.dumpaudiobinderInfo.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.miui.ext.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.miui.ext.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.nativedebug.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.nativedebug.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.offline.log.mtk.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.offline.log.mtk.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.qadaemon.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.qadaemon.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.secureboot.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.secureboot.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.thermald.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.thermald.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.xiaomi.cammsger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.xiaomi.cammsger.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/loghidlsysservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/loghidlsysservice.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/magt.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/magt.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/mbrain_client.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/mbrain_client.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/mdlogger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/mdlogger.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/mediaserver_dynamicMTK.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/mediaserver_dynamicMTK.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/memory.fbo.native@1.0-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/memory.fbo.native@1.0-service.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/memory.swap.native@1.0-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/memory.swap.native@1.0-service.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/miuibooster.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/miuibooster.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/miupdater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/miupdater.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/miuserfs.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/miuserfs.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/mobile_log_d.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/mobile_log_d.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/mtk-plpath-utils.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/mtk-plpath-utils.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/mtk_usermodehelper.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/mtk_usermodehelper.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/native.hang@1.0-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/native.hang@1.0-service.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/netdiag.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/netdiag.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/samba.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/samba.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/init/terserver.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/terserver.rc \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/input/MIUIInput.kl:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/input/MIUIInput.kl \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/input/OWNERS:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/input/OWNERS \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/input/handwriting_app_config.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/input/handwriting_app_config.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/input/keyboards/Vendor_15d9_Product_00a1.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/input/keyboards/Vendor_15d9_Product_00a1.conf \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/input/keyboards/Vendor_bf01_Product_0040.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/input/keyboards/Vendor_bf01_Product_0040.conf \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/input/miui_shortcut_config.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/input/miui_shortcut_config.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/input/stylus_page_key_bw_config.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/input/stylus_page_key_bw_config.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/input/stylus_palm_reject_config.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/input/stylus_palm_reject_config.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/layerTree.html:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/layerTree.html \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/mcd_default.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/mcd_default.conf \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/misight/bsp_log_config.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/misight/bsp_log_config.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/misight/compatible:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/misight/compatible \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/misight/event.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/misight/event.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/misight/event_quota.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/misight/event_quota.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/misight/event_upload.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/misight/event_upload.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/misight/hpl_fault.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/misight/hpl_fault.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/misight/ot_event.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/misight/ot_event.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/misight/plugin_config:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/misight/plugin_config \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/misight/plugin_config_global:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/misight/plugin_config_global \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/misight/privacy.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/misight/privacy.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/miui_dynamic_log_configs.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/miui_dynamic_log_configs.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/miui_font_fallback.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/miui_font_fallback.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/miui_fonts.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/miui_fonts.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/model_ap_0805.onnx:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/model_ap_0805.onnx \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/model_modem_0805.onnx:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/model_modem_0805.onnx \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/model_xgboost_sna_acc993_f1996.onnx:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/model_xgboost_sna_acc993_f1996.onnx \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/modem/game_2.0_0825.tflite:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/modem/game_2.0_0825.tflite \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/modem/signal.tflite:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/modem/signal.tflite \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/mtklog-config.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/mtklog-config.prop \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/multisence_common.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/multisence_common.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/nbi/navigation_bar_immersive_rules_list.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/nbi/navigation_bar_immersive_rules_list.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/nr-city.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/nr-city.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/overscrolleroptimization/OWNERS:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/overscrolleroptimization/OWNERS \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/overscrolleroptimization/config.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/overscrolleroptimization/config.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/perf_dump.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perf_dump.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/perf_pkgconfig.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perf_pkgconfig.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/perf_scene.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perf_scene.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/perfinit.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perfinit.conf \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/perfinit_bdsize_zram.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perfinit_bdsize_zram.conf \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/CellBroadcastAppPlatform.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/CellBroadcastAppPlatform.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/android.software.credentials.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/android.software.credentials.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/appfunctions.extension.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/appfunctions.extension.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/com.android.extensions.appfunctions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.extensions.appfunctions.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/com.android.provision.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.provision.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/com.android.settingslib.search.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.settingslib.search.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/com.android.systemui.libpag.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.systemui.libpag.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/com.xiaomi.NetworkBoost.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.xiaomi.NetworkBoost.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/com.xiaomi.hardware.camera.companion.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.xiaomi.hardware.camera.companion.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/com.xiaomi.hypercomm.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.xiaomi.hypercomm.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/com.xiaomi.okhttp.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.xiaomi.okhttp.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/com.xiaomi.org.conscrypt.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.xiaomi.org.conscrypt.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/com.xiaomi.phone.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.xiaomi.phone.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/com.xiaomi.slalib.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.xiaomi.slalib.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/miui-cameraopt.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/miui-cameraopt.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/package-shareduid-allowlist-miui-system-ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/package-shareduid-allowlist-miui-system-ext.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/platform-miui.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/platform-miui.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/privapp-permissions-com.xiaomi.polaris.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-com.xiaomi.polaris.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/privapp-permissions-gms-cn-system-ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-gms-cn-system-ext.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/privapp-permissions-miui-system-ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-miui-system-ext.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/privapp_allowlist_com.xiaomi.bluetooth.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp_allowlist_com.xiaomi.bluetooth.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/system-ext-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/system-ext-permissions-mediatek.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/system-ext-permissions-xiaomi.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/system-ext-permissions-xiaomi.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/vendor.xiaomi.hardware.aidl.intentaware-V1-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.xiaomi.hardware.aidl.intentaware-V1-java-permission.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/vendor.xiaomi.hardware.misys-V4.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.xiaomi.hardware.misys-V4.0-java-permission.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/permissions/vendor.xiaomi.hardware.videoservice-V9-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.xiaomi.hardware.videoservice-V9-java-permission.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/public.libraries-hyperos.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-hyperos.txt \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/public.libraries-xiaomi.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-xiaomi.txt \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/r_submix_audio_policy_configuration.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/schedboost_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/schedboost_config.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/security/fsverity/BuildManifestSystemExt.apk.idsig:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/security/fsverity/BuildManifestSystemExt.apk.idsig \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/selinux/mapping/29.0.cil:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/selinux/mapping/29.0.cil \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/selinux/mapping/29.0.compat.cil:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/selinux/mapping/29.0.compat.cil \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/selinux/mapping/30.0.cil:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/selinux/mapping/30.0.cil \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/selinux/mapping/30.0.compat.cil:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/selinux/mapping/30.0.compat.cil \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/selinux/userdebug_plat_sepolicy.cil:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/selinux/userdebug_plat_sepolicy.cil \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/spn-conf.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/spn-conf.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/sysconfig/android.software.freeform_window_management.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/android.software.freeform_window_management.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/sysconfig/com.android.phone.config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/com.android.phone.config.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/sysconfig/com.mediatek.ims.config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/com.mediatek.ims.config.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/sysconfig/initial-package-stopped-states-DebugLoggerUI.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/initial-package-stopped-states-DebugLoggerUI.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/sysconfig/miui_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/miui_whitelist.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/sysconfig/power-save-conf.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/power-save-conf.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/sysconfig/xiaomi_app_link_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/xiaomi_app_link_whitelist.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/task_profiles_cameraopt.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/task_profiles_cameraopt.json \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/usb_audio_policy_configuration.xml \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/weak_signal_v2.onnx:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/weak_signal_v2.onnx \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/weak_signal_v3.onnx:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/weak_signal_v3.onnx \
+    vendor/xiaomi/corot/proprietary/system_ext/etc/wmshell.protolog.json.gz:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wmshell.protolog.json.gz \
     vendor/xiaomi/corot/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/ae/mt6985/ParameterDB_ae.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/ae/mt6985/ParameterDB_ae.db \
     vendor/xiaomi/corot/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/af/mt6985/ParameterDB_af.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/af/mt6985/ParameterDB_af.db \
     vendor/xiaomi/corot/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/awb/mt6985/ParameterDB_awb.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/awb/mt6985/ParameterDB_awb.db \
@@ -159,8 +582,22 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/mt6985/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/mt6985/ISP_mapping.db \
     vendor/xiaomi/corot/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/mt6985/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/mt6985/ISP_param.db \
     vendor/xiaomi/corot/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/mt6985/ISP_info.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/mt6985/ISP_info.db \
+    vendor/xiaomi/corot/proprietary/vendor/etc/1-SN1X0_SPC.txt:$(TARGET_COPY_OUT_VENDOR)/etc/1-SN1X0_SPC.txt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/AbnormalDisplayLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AbnormalDisplayLog_dynamic.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/AudioDump_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AudioDump_dynamic.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/AudioLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AudioLog_dynamic.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/NOTICE_GPL.html.gz:$(TARGET_COPY_OUT_VENDOR)/etc/NOTICE_GPL.html.gz \
+    vendor/xiaomi/corot/proprietary/vendor/etc/TL_settings.json:$(TARGET_COPY_OUT_VENDOR)/etc/TL_settings.json \
+    vendor/xiaomi/corot/proprietary/vendor/etc/VideoLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/VideoLog_dynamic.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_in_audio_policy_configuration.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/aee-commit:$(TARGET_COPY_OUT_VENDOR)/etc/aee-commit \
+    vendor/xiaomi/corot/proprietary/vendor/etc/aee-config:$(TARGET_COPY_OUT_VENDOR)/etc/aee-config \
+    vendor/xiaomi/corot/proprietary/vendor/etc/apdb/APDB_MT6985___W2316:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6985___W2316 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/apdb/APDB_MT6985___W2316_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6985___W2316_ENUM \
     vendor/xiaomi/corot/proprietary/vendor/etc/audio_cloud_control_white_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_cloud_control_white_list.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/audio_game_effect_items.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_game_effect_items.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/audio_param/AudioParamOptions_mgvi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_mgvi.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/audio_param/AudioParamOptions_vext.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_vext.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/audio_param/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_AudioParam.xml \
@@ -283,7 +720,76 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_AudioParam.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
+    vendor/xiaomi/corot/proprietary/vendor/etc/audio_policy_configuration_a2dp_offload_disabled_cg_enabled.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_a2dp_offload_disabled_cg_enabled.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/audio_policy_configuration_a2dp_offload_enable_cg_enable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_a2dp_offload_enable_cg_enable.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/audio_spatial_db_reduce.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_spatial_db_reduce.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/audiodata.db:$(TARGET_COPY_OUT_VENDOR)/etc/audiodata.db \
+    vendor/xiaomi/corot/proprietary/vendor/etc/bh3.dla:$(TARGET_COPY_OUT_VENDOR)/etc/bh3.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/bluetooth_a2dp_offload_ums_offload_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_a2dp_offload_ums_offload_audio_policy_configuration.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/bluetooth_ums_offload_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_ums_offload_audio_policy_configuration.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/breakwhiteapplist.xml:$(TARGET_COPY_OUT_VENDOR)/etc/breakwhiteapplist.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/102_SummerDay.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/102_SummerDay.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/103_Fantasy.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/103_Fantasy.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/104_Meet.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/104_Meet.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/105_WindSing.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/105_WindSing.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/106_Lost.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/106_Lost.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/107_Central.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/107_Central.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/108_NorthernEurope.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/108_NorthernEurope.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/109_Rome.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/109_Rome.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/110_BlackGold.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/110_BlackGold.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/111_GreenOrange.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/111_GreenOrange.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/112_CyberPunk.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/112_CyberPunk.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/113_BlackIce.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/113_BlackIce.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/121_Bleach.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/121_Bleach.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/122_Thriller.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/122_Thriller.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/123_TealOrange.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/123_TealOrange.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/124_JapaneseStyle.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/124_JapaneseStyle.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/125_Latin.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/125_Latin.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/126_Fantasy2.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/126_Fantasy2.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/127_Creamy.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/127_Creamy.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/128_Sepia.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/128_Sepia.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/129_LeicaVivid.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/129_LeicaVivid.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/130_LeicaNatural.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/130_LeicaNatural.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/131_MonochromeTrue.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/131_MonochromeTrue.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/132_MonochromeHighContrast.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/132_MonochromeHighContrast.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/133_MonochromeBrown.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/133_MonochromeBrown.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/134_MonochromeBlue.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/134_MonochromeBlue.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/135_Classical.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/135_Classical.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/136_Filene.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/136_Filene.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/137_GreenNight.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/137_GreenNight.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/138_LiteratureAndArt.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/138_LiteratureAndArt.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/139_OrangeHoney.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/139_OrangeHoney.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/140_Romance.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/140_Romance.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/141_FR500.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/141_FR500.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/142_FE250.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/142_FE250.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/143_RedLantern.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/143_RedLantern.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/144_RedHero.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/144_RedHero.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/145_TactileBlackWhite.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/145_TactileBlackWhite.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/146_TactileGreen.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/146_TactileGreen.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/147_Neutral.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/147_Neutral.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/148_Mild.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/148_Mild.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/149_LilyWhite.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/149_LilyWhite.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/150_Bright.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/150_Bright.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/151_Fresh.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/151_Fresh.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/152_Limpid.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/152_Limpid.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/153_KC64.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/153_KC64.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/154_V250.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/154_V250.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/155_H400.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/155_H400.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/156_ColdWhite.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/156_ColdWhite.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/157_Native.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/157_Native.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/158_BWClassical.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/158_BWClassical.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/159_Flowers.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/159_Flowers.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/160_Vivid.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/160_Vivid.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/161_KP160.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/161_KP160.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/162_Natural.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/162_Natural.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/163_KG200.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/163_KG200.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/164_FC400.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/164_FC400.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/165_C50D.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/165_C50D.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/166_F50.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/166_F50.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/167_CC.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/167_CC.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/camera/168_NC.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/168_NC.png \
     vendor/xiaomi/corot/proprietary/vendor/etc/camera/F1_pink.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/F1_pink.cng \
     vendor/xiaomi/corot/proprietary/vendor/etc/camera/VideoNight4K/ellv.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/VideoNight4K/ellv.bin \
     vendor/xiaomi/corot/proprietary/vendor/etc/camera/VideoNight4K/ellv_params.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/VideoNight4K/ellv_params.xml \
@@ -382,9 +888,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/vendor/etc/camera/xiaomi/tprearsnsnapshot.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/xiaomi/tprearsnsnapshot.json \
     vendor/xiaomi/corot/proprietary/vendor/etc/camera/xiaomi/uwsuperlowlightshot.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/xiaomi/uwsuperlowlightshot.json \
     vendor/xiaomi/corot/proprietary/vendor/etc/camera/xiaomiSceneDetection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/xiaomiSceneDetection.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/command.csv:$(TARGET_COPY_OUT_VENDOR)/etc/command.csv \
     vendor/xiaomi/corot/proprietary/vendor/etc/cust_color.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/cust_pq.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_pq.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/default_pd_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/etc/default_pd_calibration.bin \
     vendor/xiaomi/corot/proprietary/vendor/etc/displayconfig/display_id_4627039422300187648.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4627039422300187648.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/dolby_vision.cfg \
     vendor/xiaomi/corot/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/ecc_list_OP02.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP02.xml \
@@ -396,6 +906,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/vendor/etc/ecc_list_OP236.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP236.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_preference.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/elliptic_sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/elliptic_sensor.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/factory.ini:$(TARGET_COPY_OUT_VENDOR)/etc/factory.ini \
+    vendor/xiaomi/corot/proprietary/vendor/etc/fstab.emmc:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.emmc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/fstab.enableswap:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.enableswap \
+    vendor/xiaomi/corot/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
+    vendor/xiaomi/corot/proprietary/vendor/etc/gbe.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gbe.cfg \
+    vendor/xiaomi/corot/proprietary/vendor/etc/genshin.dla:$(TARGET_COPY_OUT_VENDOR)/etc/genshin.dla \
     vendor/xiaomi/corot/proprietary/vendor/etc/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml \
@@ -418,42 +934,184 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/vendor/etc/gralloc/dpu_aeu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/dpu_aeu.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/gralloc/gpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/gpu.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/gralloc/vpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/vpu.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/hrtf5c.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hrtf5c.bin \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/aee_aedv64_v2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv64_v2.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.audio.service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.mediatek.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.boot@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.boot@1.2-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service-lazy.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.drm-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.widevine.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.graphics.composer@3.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@3.1-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.health-service.example.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health-service.example.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.identity@4.0-service.mitee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.identity@4.0-service.mitee.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek-64b.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek-64b.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.security.keymint.mitee@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint.mitee@2.0-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.usb-aidl-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb-aidl-service.mediatek.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.usb.gadget-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb.gadget-service.mediatek.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/arm.mali.platform-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/arm.mali.platform-mediatek.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/chipinfo_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/chipinfo_init.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/ddr_training.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ddr_training.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/dmc_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmc_core.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/dumpstate-xiaomi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dumpstate-xiaomi.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/eara-io-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/eara-io-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/em_hal_user.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/em_hal_user.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/ffu.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ffu.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fpsgo.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/gbe.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gbe.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/hw/factory_init.connectivity.common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/factory_init.connectivity.common.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/hw/factory_init.connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/factory_init.connectivity.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/hw/factory_init.project.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/factory_init.project.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/hw/factory_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/factory_init.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/hw/init.aee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.aee.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/hw/init.cgroup.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.cgroup.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/hw/init.charge_logger.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.charge_logger.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/hw/init.connectivity.common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.connectivity.common.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/hw/init_conninfra.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init_conninfra.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/hw/meta_init.connectivity.common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/meta_init.connectivity.common.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/hw/meta_init.connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/meta_init.connectivity.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/hw/meta_init.modem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/meta_init.modem.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/hw/meta_init.project.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/meta_init.project.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/hw/meta_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/meta_init.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/hw/meta_init.vendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/meta_init.vendor.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/hw/multi_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/multi_init.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/init.bip_ap.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bip_ap.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/init.btmtk_uart.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.btmtk_uart.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/init.cccifsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccifsd.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/init.charge_logger.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.charge_logger.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/init.connfem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.connfem.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/init.conninfra.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.conninfra.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/init.factory.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.factory.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/init.fmradio_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fmradio_drv.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/init.fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fpsgo.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/init.frs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.frs.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/init.gps_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_drv.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/init.gps_pwr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_pwr.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/init.gps_scp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_scp.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/init.thermal_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_core.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/init.vendor.ins.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.ins.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/init.vtservice_hidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vtservice_hidl.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/lbs_hidl_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lbs_hidl_service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/lights-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lights-mtk-default.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/loghidlvendorservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loghidlvendorservice.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/mcfota_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mcfota_service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/md_monitor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/md_monitor.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/mi_ic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mi_ic.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/mi_ric.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mi_ric.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/minetd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/minetd.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/miteelog.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/miteelog.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/mtk_agpsd_p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_agpsd_p.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/mtk_pkm_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_pkm_service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/mtkgnss-batching.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtkgnss-batching.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/mtklog.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtklog.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/mtkpower_applist-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtkpower_applist-mtk-default.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/mtkrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtkrild.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/muxreport.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/muxreport.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/networksetting.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/networksetting.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/slad.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/slad.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/tee-supplicant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee-supplicant.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/tetheroffloadservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tetheroffloadservice.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/touch_boost.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/touch_boost.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2@1.0-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.mediatek.hardware.aee@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.aee@1.1-service.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmlpq@V1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmlpq@V1-service.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.7-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.7-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.qti.sla.service@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.sla.service@1.0-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.xiaomi.cit.wifi@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.cit.wifi@1.0-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.xiaomi.hardware.cld@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.cld@1.0-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.xiaomi.hardware.dtool@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.dtool@1.0-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.xiaomi.hardware.fbo@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.fbo@1.0-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.xiaomi.hardware.micharge@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.micharge@1.0-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mimd@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mimd@1.0-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.xiaomi.hardware.miperf@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.miperf@1.0-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.xiaomi.hardware.otrpagent@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.otrpagent@2.0-service.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.xiaomi.hardware.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.secure_element@1.2-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.xiaomi.hidl.minet@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hidl.minet@1.0-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.xiaomi.hidl.miwill@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hidl.miwill@1.0-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.xiaomi.sensor.communicate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.sensor.communicate@1.0-service.rc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    vendor/xiaomi/corot/proprietary/vendor/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-pnscr.conf \
     vendor/xiaomi/corot/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/xiaomi/corot/proprietary/vendor/etc/mali_platform.config:$(TARGET_COPY_OUT_VENDOR)/etc/mali_platform.config \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootCA.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootG2.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootG3.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootG3.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/ikev2/Entrust.net_Certification_Authority_2048.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/Entrust.net_Certification_Authority_2048.cer \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/ikev2/EntrustRootCertificationAuthorityG2_root.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/EntrustRootCertificationAuthorityG2_root.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/ikev2/GeoTrust_PCA_G3_Root.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GeoTrust_PCA_G3_Root.der \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/ikev2/GeoTrust_Primary_CA.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GeoTrust_Primary_CA.der \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/ikev2/GeoTrust_Primary_CA_G2_ECC.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GeoTrust_Primary_CA_G2_ECC.der \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/ikev2/GlobalSign_root_CA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GlobalSign_root_CA.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/ikev2/LibertyGlobalEnterprise-Root-CA-G1.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/LibertyGlobalEnterprise-Root-CA-G1.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/ikev2/Root-R3.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/Root-R3.cer \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/ikev2/Root_CA_1003.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/Root_CA_1003.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/ikev2/USERTrustRSACertificationAuthority.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/USERTrustRSACertificationAuthority.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/ikev2/VeriSignClass3G4.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/VeriSignClass3G4.der \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/ikev2/VeriSignClass3G5.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/VeriSignClass3G5.der \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/ikev2/VeriSignUniversalRootCertification.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/VeriSignUniversalRootCertification.der \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/ikev2/thawte.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/thawte.der \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/AAACertificateServices.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/AAACertificateServices.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/CertumCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CertumCA.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/CertumOrganizationValidationCASHA2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CertumOrganizationValidationCASHA2.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/CertumTrustedNetworkCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CertumTrustedNetworkCA.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/CyberTrustJapanPublicCAG3.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CyberTrustJapanPublicCAG3.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/DigiCertGlobalRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/DigiCertGlobalRootCA.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/DigiCertGlobalRootG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/DigiCertGlobalRootG2.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/DigiCertSHA2SecureServerCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/DigiCertSHA2SecureServerCA.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/DomenySslDvCertificationAuthority.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/DomenySslDvCertificationAuthority.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/EntrustCertificationAuthorityL1K.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustCertificationAuthorityL1K.cer \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/EntrustRootCertificationAuthority.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustRootCertificationAuthority.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/EntrustRootCertificationAuthorityG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustRootCertificationAuthorityG2.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/EntrustRootCertificationAuthorityG2_root.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustRootCertificationAuthorityG2_root.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/GoDaddyRootCertificateAuthorityG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/GoDaddyRootCertificateAuthorityG2.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/GoDaddySecureCertificateAuthorityG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/GoDaddySecureCertificateAuthorityG2.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/KPN_BV_PKIoverheid_Organisatie_Server_CA-G3_2019.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/KPN_BV_PKIoverheid_Organisatie_Server_CA-G3_2019.cer \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/SectigoRSADomainValidationSecureServerCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/SectigoRSADomainValidationSecureServerCA.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/StaatDerNederlandenEVRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/StaatDerNederlandenEVRootCA.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/StaatderNederlandenOrganisatieServicesCA-G3.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/StaatderNederlandenOrganisatieServicesCA-G3.cer \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/StaatderNederlandenRootCA-G3.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/StaatderNederlandenRootCA-G3.cer \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/USERTrustRSACertificationAuthority.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/USERTrustRSACertificationAuthority.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/certSIGNROOTCAG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/certSIGNROOTCAG2.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/md/cacerts/tls/certSIGN_ROOT_CA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/certSIGN_ROOT_CA.crt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/media_codecs_system_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_system_default.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/meow.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/meow.cfg \
+    vendor/xiaomi/corot/proprietary/vendor/etc/mimdconfig:$(TARGET_COPY_OUT_VENDOR)/etc/mimdconfig \
+    vendor/xiaomi/corot/proprietary/vendor/etc/miperf_actvity_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/miperf_actvity_cfg.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/miperf_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/miperf_app_cfg.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/miperf_contable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/miperf_contable.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/miperflock_activity_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/miperflock_activity_cfg.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/misound_asc_model.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/misound_asc_model.tflite \
     vendor/xiaomi/corot/proprietary/vendor/etc/misound_res.bin:$(TARGET_COPY_OUT_VENDOR)/etc/misound_res.bin \
     vendor/xiaomi/corot/proprietary/vendor/etc/misound_res_headphone.bin:$(TARGET_COPY_OUT_VENDOR)/etc/misound_res_headphone.bin \
@@ -461,12 +1119,327 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/vendor/etc/misound_res_spk_bypass.bin:$(TARGET_COPY_OUT_VENDOR)/etc/misound_res_spk_bypass.bin \
     vendor/xiaomi/corot/proprietary/vendor/etc/misound_res_spk_powerop.bin:$(TARGET_COPY_OUT_VENDOR)/etc/misound_res_spk_powerop.bin \
     vendor/xiaomi/corot/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
+    vendor/xiaomi/corot/proprietary/vendor/etc/mtk_vext_info:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_vext_info \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nhw:$(TARGET_COPY_OUT_VENDOR)/etc/nhw \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/ot/neuron_detection.mdla3_5:$(TARGET_COPY_OUT_VENDOR)/etc/nn/ot/neuron_detection.mdla3_5 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/ot/neuron_tracking.mdla3_5:$(TARGET_COPY_OUT_VENDOR)/etc/nn/ot/neuron_tracking.mdla3_5 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aimemc/confidence_fallback_levels.json:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aimemc/confidence_fallback_levels.json \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aimemc/resolution_settings.json:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aimemc/resolution_settings.json \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aimemc/settings.json:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aimemc/settings.json \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aimemc/video_memc_24to60.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aimemc/video_memc_24to60.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aimemc/video_memc_30to60.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aimemc/video_memc_30to60.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aimemc/video_memc_resizer_dynamic_out720Y_10b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aimemc/video_memc_resizer_dynamic_out720Y_10b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aimemc/video_memc_resizer_dynamic_out720Y_10b_CBFC.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aimemc/video_memc_resizer_dynamic_out720Y_10b_CBFC.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aimemc/video_memc_resizer_dynamic_out720Y_8b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aimemc/video_memc_resizer_dynamic_out720Y_8b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aimemc/video_memc_resizer_dynamic_out720Y_8b_CBFC.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aimemc/video_memc_resizer_dynamic_out720Y_8b_CBFC.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q1_dynamic_1k_10b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q1_dynamic_1k_10b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q1_dynamic_1k_8b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q1_dynamic_1k_8b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q1_dynamic_1k_8b_l.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q1_dynamic_1k_8b_l.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q1_dynamic_1k_8b_p.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q1_dynamic_1k_8b_p.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q2_dynamic_1k_10b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q2_dynamic_1k_10b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q2_dynamic_1k_8b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q2_dynamic_1k_8b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q2_dynamic_1k_8b_l.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q2_dynamic_1k_8b_l.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q2_dynamic_1k_8b_p.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q2_dynamic_1k_8b_p.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q3_dynamic_1k_10b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q3_dynamic_1k_10b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q3_dynamic_1k_8b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q3_dynamic_1k_8b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q3_dynamic_1k_8b_l.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q3_dynamic_1k_8b_l.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q3_dynamic_1k_8b_p.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q3_dynamic_1k_8b_p.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q4_dynamic_1k_10b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q4_dynamic_1k_10b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q4_dynamic_1k_8b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q4_dynamic_1k_8b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q4_dynamic_1k_8b_l.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q4_dynamic_1k_8b_l.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q4_dynamic_1k_8b_p.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q4_dynamic_1k_8b_p.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q5_dynamic_1k_10b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q5_dynamic_1k_10b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q5_dynamic_1k_8b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q5_dynamic_1k_8b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q5_dynamic_1k_8b_l.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q5_dynamic_1k_8b_l.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q5_dynamic_1k_8b_p.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q5_dynamic_1k_8b_p.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q6_dynamic_1k_10b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q6_dynamic_1k_10b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q6_dynamic_1k_8b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q6_dynamic_1k_8b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q6_dynamic_1k_8b_l.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q6_dynamic_1k_8b_l.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q6_dynamic_1k_8b_p.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q6_dynamic_1k_8b_p.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q7_dynamic_1k_10b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q7_dynamic_1k_10b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q7_dynamic_1k_8b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q7_dynamic_1k_8b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q7_dynamic_1k_8b_l.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q7_dynamic_1k_8b_l.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q7_dynamic_1k_8b_p.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q7_dynamic_1k_8b_p.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q8_dynamic_1k_10b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q8_dynamic_1k_10b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q8_dynamic_1k_8b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q8_dynamic_1k_8b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q8_dynamic_1k_8b_l.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q8_dynamic_1k_8b_l.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q8_dynamic_1k_8b_p.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/1.5x/mtk_AISR_D1_Q8_dynamic_1k_8b_p.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q1_dynamic_1k_10b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q1_dynamic_1k_10b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q1_dynamic_1k_8b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q1_dynamic_1k_8b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q1_dynamic_1k_8b_l.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q1_dynamic_1k_8b_l.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q1_dynamic_1k_8b_p.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q1_dynamic_1k_8b_p.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q2_dynamic_1k_10b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q2_dynamic_1k_10b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q2_dynamic_1k_8b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q2_dynamic_1k_8b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q2_dynamic_1k_8b_l.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q2_dynamic_1k_8b_l.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q2_dynamic_1k_8b_p.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q2_dynamic_1k_8b_p.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q3_dynamic_1k_10b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q3_dynamic_1k_10b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q3_dynamic_1k_8b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q3_dynamic_1k_8b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q3_dynamic_1k_8b_l.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q3_dynamic_1k_8b_l.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q3_dynamic_1k_8b_p.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q3_dynamic_1k_8b_p.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q4_dynamic_1k_10b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q4_dynamic_1k_10b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q4_dynamic_1k_8b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q4_dynamic_1k_8b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q4_dynamic_1k_8b_l.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q4_dynamic_1k_8b_l.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q4_dynamic_1k_8b_p.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q4_dynamic_1k_8b_p.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q5_dynamic_1k_10b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q5_dynamic_1k_10b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q5_dynamic_1k_8b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q5_dynamic_1k_8b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q5_dynamic_1k_8b_l.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q5_dynamic_1k_8b_l.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q5_dynamic_1k_8b_p.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q5_dynamic_1k_8b_p.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q6_dynamic_1k_10b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q6_dynamic_1k_10b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q6_dynamic_1k_8b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q6_dynamic_1k_8b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q6_dynamic_1k_8b_l.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q6_dynamic_1k_8b_l.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q6_dynamic_1k_8b_p.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q6_dynamic_1k_8b_p.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q7_dynamic_1k_10b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q7_dynamic_1k_10b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q7_dynamic_1k_8b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q7_dynamic_1k_8b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q7_dynamic_1k_8b_l.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q7_dynamic_1k_8b_l.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q7_dynamic_1k_8b_p.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q7_dynamic_1k_8b_p.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q8_dynamic_1k_10b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q8_dynamic_1k_10b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q8_dynamic_1k_8b.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q8_dynamic_1k_8b.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q8_dynamic_1k_8b_l.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q8_dynamic_1k_8b_l.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q8_dynamic_1k_8b_p.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/2.0x/mtk_AISR_D1_Q8_dynamic_1k_8b_p.dla \
+    vendor/xiaomi/corot/proprietary/vendor/etc/nn/video_aisr/resolution_settings.json:$(TARGET_COPY_OUT_VENDOR)/etc/nn/video_aisr/resolution_settings.json \
     vendor/xiaomi/corot/proprietary/vendor/etc/nnapi_powerhal.json:$(TARGET_COPY_OUT_VENDOR)/etc/nnapi_powerhal.json \
+    vendor/xiaomi/corot/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.audio.low_latency.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.bluetooth.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.bluetooth_le.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth_le.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.camera.concurrent.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.concurrent.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.faketouch.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.faketouch.prebuilt.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.mitee.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.mitee.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.identity_credential.mitee.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.identity_credential.mitee.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.location.gps.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.location.gps.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.microphone.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.microphone.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.opengles.aep.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.sensor.accelerometer.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.accelerometer.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.sensor.compass.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.compass.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.sensor.dynamic.head_tracker.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.dynamic.head_tracker.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.sensor.gyroscope.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.gyroscope.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.sensor.light.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.light.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.sensor.proximity.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.proximity.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.sensor.stepcounter.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepcounter.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.sensor.stepdetector.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepdetector.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.telephony.cdma.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.cdma.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.telephony.ims.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.ims.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.distinct.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.distinct.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.touchscreen.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.usb.accessory.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.usb.accessory.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.usb.host.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.usb.host.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.vulkan.compute-0.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.compute-0.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.vulkan.level-1.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.level-1.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.vulkan.version-1_3.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version-1_3.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.wifi.direct.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.direct.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.wifi.passpoint.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.passpoint.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.hardware.wifi.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.software.device_id_attestation.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.software.ipsec_tunnels.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.ipsec_tunnels.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.software.midi.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.midi.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.software.opengles.deqp.level-2022-03-01.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.opengles.deqp.level-2022-03-01.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.software.verified_boot.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/android.software.vulkan.deqp.level-2022-03-01.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level-2022-03-01.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/camera_extensions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/camera_extensions.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow_dsp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow_dsp.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/handheld_core_hardware.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.prebuilt.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/vendor.xiaomi.sensor.citsensorservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.xiaomi.sensor.citsensorservice.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/permissions/xiaomi.cn.hardware.features.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/xiaomi.cn.hardware.features.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
+    vendor/xiaomi/corot/proprietary/vendor/etc/res/images/default/charger/battery_fail.png:$(TARGET_COPY_OUT_VENDOR)/etc/res/images/default/charger/battery_fail.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/res/images/default/charger/battery_scale.png:$(TARGET_COPY_OUT_VENDOR)/etc/res/images/default/charger/battery_scale.png \
+    vendor/xiaomi/corot/proprietary/vendor/etc/rsc/CN/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/CN/ro.prop \
+    vendor/xiaomi/corot/proprietary/vendor/etc/rsc/CN/rw.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/CN/rw.prop \
+    vendor/xiaomi/corot/proprietary/vendor/etc/rsc/GL/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/GL/ro.prop \
+    vendor/xiaomi/corot/proprietary/vendor/etc/rsc/GL/rw.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/GL/rw.prop \
+    vendor/xiaomi/corot/proprietary/vendor/etc/rsc/IN/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/IN/ro.prop \
+    vendor/xiaomi/corot/proprietary/vendor/etc/rsc/IN/rw.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/IN/rw.prop \
+    vendor/xiaomi/corot/proprietary/vendor/etc/rsc/JP/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/JP/ro.prop \
+    vendor/xiaomi/corot/proprietary/vendor/etc/rsc/JP/rw.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/JP/rw.prop \
+    vendor/xiaomi/corot/proprietary/vendor/etc/rsc/default/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/default/ro.prop \
+    vendor/xiaomi/corot/proprietary/vendor/etc/rsc/default/rw.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/default/rw.prop \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/01419da9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/01419da9.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/04f60c28.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/04f60c28.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/0d69c7e1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/0d69c7e1.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/10531352.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/10531352.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/111e6273.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/111e6273.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/12d55845.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/12d55845.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/1ae85e5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1ae85e5e.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/1df5a75f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1df5a75f.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/1e1eab7c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1e1eab7c.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/1e8e7201.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1e8e7201.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/1eb37bdf.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1eb37bdf.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/1f58a078.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1f58a078.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/219d9499.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/219d9499.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/23f4c490.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/23f4c490.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/27af790d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/27af790d.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/2add47b6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/2add47b6.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/2d9dafe4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/2d9dafe4.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/2fa87019.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/2fa87019.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/302904dd.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/302904dd.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/304d27c3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/304d27c3.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/31188b5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/31188b5e.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/33ee480d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/33ee480d.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/343eb6cb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/343eb6cb.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/35105088.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/35105088.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/399e7759.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/399e7759.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/3ad48a91.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3ad48a91.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/3c6676aa.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c6676aa.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/3c860d51.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c860d51.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/3c899c73.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c899c73.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/3c9a4d3b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c9a4d3b.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/3e7271e8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3e7271e8.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/40dc992e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/40dc992e.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/455f1b52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/455f1b52.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/48a195d8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/48a195d8.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/4be590e0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/4be590e0.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/5046c355.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5046c355.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/524d9b43.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/524d9b43.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/52b525c7.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/52b525c7.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/583d0756.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/583d0756.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/5a250ea7.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5a250ea7.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/5a3f0ff8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5a3f0ff8.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/5acf816d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5acf816d.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/5cf9d536.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5cf9d536.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/5f47b495.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5f47b495.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/60afe812.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/60afe812.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/6187b673.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/6187b673.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/63a2c897.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/63a2c897.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/69105f4f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/69105f4f.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/6b03dec0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/6b03dec0.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/75680d2e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/75680d2e.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/76579174.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/76579174.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/7892ad52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7892ad52.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/7a7c655d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7a7c655d.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/7a819ef2.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7a819ef2.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/7c302982.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7c302982.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/81b9768f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/81b9768f.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/82223c44.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/82223c44.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/83e9984f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/83e9984f.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/85cde254.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/85cde254.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/86212b19.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/86212b19.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/869fbf79.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/869fbf79.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/882de061.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/882de061.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/88950faa.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/88950faa.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/89c02a45.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/89c02a45.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/8d6437c3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/8d6437c3.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/9282e51c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9282e51c.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/9339512a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9339512a.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/9479c8c3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9479c8c3.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/9576d26b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9576d26b.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/9591a472.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9591a472.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/95aff9e3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/95aff9e3.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/9685a493.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9685a493.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/985c1f52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/985c1f52.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/9aef356c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9aef356c.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/9d6523ce.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9d6523ce.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/9f533518.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9f533518.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/a2c66da8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a2c66da8.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/a3896b44.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a3896b44.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/a7605362.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a7605362.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/a81e292b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a81e292b.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/a9d40e02.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a9d40e02.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/ab5346f4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ab5346f4.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/ab59055e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ab59055e.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/aeb67534.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/aeb67534.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/b0ed035a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b0ed035a.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/b0f3e76e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b0f3e76e.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/b3fb433b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b3fb433b.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/b74d2bd5.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b74d2bd5.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/b7db1890.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b7db1890.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/b872f2b4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b872f2b4.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/b936d1c6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b936d1c6.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/bc3f2570.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bc3f2570.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/bd43e1dd.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bd43e1dd.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/bdacca6f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bdacca6f.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/bf64f35b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bf64f35b.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/c2c1704e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c2c1704e.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/c491639e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c491639e.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/c51c224c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c51c224c.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/c559d742.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c559d742.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/c90bc37d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c90bc37d.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/cb156124.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cb156124.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/cb1c3204.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cb1c3204.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/ccc52f49.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ccc52f49.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/cf701eeb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cf701eeb.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/d06393bb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d06393bb.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/d0cddf45.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d0cddf45.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/d16a5865.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d16a5865.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/d18e9066.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d18e9066.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/d39b0a2c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d39b0a2c.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/d41b5e2a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d41b5e2a.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/d4c339cb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d4c339cb.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/d59297b8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d59297b8.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/d7746a63.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d7746a63.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/da7377f6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/da7377f6.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/dbc54cab.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dbc54cab.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/dbff3a01.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dbff3a01.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/dc99f41e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dc99f41e.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/dfc0fe80.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dfc0fe80.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/e442e424.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e442e424.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/e48193cf.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e48193cf.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/e8651083.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e8651083.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/ed39abd0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ed39abd0.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/edcbddb5.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/edcbddb5.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/f013ecaf.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f013ecaf.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/f0cd152c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f0cd152c.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/f459871d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f459871d.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/fb5fa911.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/fb5fa911.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/fd08c599.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/fd08c599.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts/fde84897.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/fde84897.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/111e6273.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/111e6273.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/399e7759.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/399e7759.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/3ad48a91.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/3ad48a91.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/4bcd7fc4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/4bcd7fc4.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/6d4bcacf.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/6d4bcacf.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/7651b327.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/7651b327.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/c542733d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/c542733d.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/c90bc37d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/c90bc37d.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/cec771d5.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/cec771d5.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/f336e3d1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/f336e3d1.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/lab/18dc3a8d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/18dc3a8d.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/lab/1bc5ca0c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/1bc5ca0c.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/lab/1bc5ca0c.1:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/1bc5ca0c.1 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/lab/2cbfcc3a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/2cbfcc3a.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/lab/35ef1c14.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/35ef1c14.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/lab/399e7759.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/399e7759.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/lab/586933d9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/586933d9.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/lab/6146415b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/6146415b.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/lab/66272d0d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/66272d0d.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/lab/6f1dbe5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/6f1dbe5e.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/lab/b5805141.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b5805141.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/lab/b805b58a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b805b58a.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/lab/ed7b215e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ed7b215e.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/security/cacerts_supl/lab/ef4b31e6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ef4b31e6.0 \
+    vendor/xiaomi/corot/proprietary/vendor/etc/sensor_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_diag.cfg \
+    vendor/xiaomi/corot/proprietary/vendor/etc/sla/slad.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sla/slad.conf \
     vendor/xiaomi/corot/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/xiaomi/corot/proprietary/vendor/etc/smartpa_param/AW_DSP.bin:$(TARGET_COPY_OUT_VENDOR)/etc/smartpa_param/AW_DSP.bin \
+    vendor/xiaomi/corot/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/sn100u_bootup.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_bootup.pnscr \
+    vendor/xiaomi/corot/proprietary/vendor/etc/sn100u_ese_disableIso.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_ese_disableIso.pnscr \
+    vendor/xiaomi/corot/proprietary/vendor/etc/sn100u_ese_disableIsoRead.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_ese_disableIsoRead.pnscr \
+    vendor/xiaomi/corot/proprietary/vendor/etc/sn100u_nfcon.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_nfcon.pnscr \
+    vendor/xiaomi/corot/proprietary/vendor/etc/sn100u_pnx_chr.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_chr.pnscr \
+    vendor/xiaomi/corot/proprietary/vendor/etc/sn100u_pnx_cui.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_cui.pnscr \
+    vendor/xiaomi/corot/proprietary/vendor/etc/sn100u_pnx_ese_3.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_3.pnscr \
+    vendor/xiaomi/corot/proprietary/vendor/etc/sn100u_pnx_ese_aclog.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_aclog.pnscr \
+    vendor/xiaomi/corot/proprietary/vendor/etc/sn100u_pnx_ese_cplc.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_cplc.pnscr \
+    vendor/xiaomi/corot/proprietary/vendor/etc/sn100u_pnx_ese_fabkey.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_fabkey.pnscr \
+    vendor/xiaomi/corot/proprietary/vendor/etc/sn100u_pnx_ese_free.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_free.pnscr \
+    vendor/xiaomi/corot/proprietary/vendor/etc/sn100u_pnx_ese_keyset.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_keyset.pnscr \
+    vendor/xiaomi/corot/proprietary/vendor/etc/sn100u_pnx_ese_sei2c_disable.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_sei2c_disable.pnscr \
+    vendor/xiaomi/corot/proprietary/vendor/etc/sn100u_pnx_ese_sei2c_enable.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_sei2c_enable.pnscr \
+    vendor/xiaomi/corot/proprietary/vendor/etc/sn100u_pnx_ese_sei2c_read.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_sei2c_read.pnscr \
+    vendor/xiaomi/corot/proprietary/vendor/etc/sn100u_pnx_ese_sn.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_sn.pnscr \
+    vendor/xiaomi/corot/proprietary/vendor/etc/sn100u_pnx_ndi.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ndi.pnscr \
+    vendor/xiaomi/corot/proprietary/vendor/etc/sn100u_pnx_pcv.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_pcv.pnscr \
+    vendor/xiaomi/corot/proprietary/vendor/etc/sn100u_pnx_sst.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_sst.pnscr \
     vendor/xiaomi/corot/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
     vendor/xiaomi/corot/proprietary/vendor/etc/thermal-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-map.conf \
     vendor/xiaomi/corot/proprietary/vendor/etc/thermal/disable_skin_control.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_skin_control.conf \
     vendor/xiaomi/corot/proprietary/vendor/etc/thermal/disable_thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_thermal.conf \
@@ -489,13 +1462,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/vendor/etc/thermal/thermal_policy_08_85T.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_08_85T.conf \
     vendor/xiaomi/corot/proprietary/vendor/etc/thermal/thermal_policy_09.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_09.conf \
     vendor/xiaomi/corot/proprietary/vendor/etc/thermal/thermal_policy_09_85T.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_09_85T.conf \
+    vendor/xiaomi/corot/proprietary/vendor/etc/thermalbreakboostconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/thermalbreakboostconfig.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
+    vendor/xiaomi/corot/proprietary/vendor/etc/throttle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/throttle.sh \
     vendor/xiaomi/corot/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
     vendor/xiaomi/corot/proprietary/vendor/etc/virtual-spn-conf-by-imsi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-imsi.xml \
+    vendor/xiaomi/corot/proprietary/vendor/etc/wfd_source_capability.csv:$(TARGET_COPY_OUT_VENDOR)/etc/wfd_source_capability.csv \
+    vendor/xiaomi/corot/proprietary/vendor/etc/wifi/models/qcom_game_latency_predict_2.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/models/qcom_game_latency_predict_2.dlc \
+    vendor/xiaomi/corot/proprietary/vendor/etc/wifi/nvram/wfnv_desc_data_6639.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram/wfnv_desc_data_6639.bin \
+    vendor/xiaomi/corot/proprietary/vendor/etc/wifi/nvram/wfnv_desc_map_6639.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram/wfnv_desc_map_6639.bin \
     vendor/xiaomi/corot/proprietary/vendor/etc/wifi/passpointProfile.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/passpointProfile.conf \
+    vendor/xiaomi/corot/proprietary/vendor/etc/xgf.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/xgf.cfg \
     vendor/xiaomi/corot/proprietary/vendor/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/BT_FW.cfg \
     vendor/xiaomi/corot/proprietary/vendor/firmware/BT_RAM_CODE_MT6639_1u_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/BT_RAM_CODE_MT6639_1u_1_hdr.bin \
     vendor/xiaomi/corot/proprietary/vendor/firmware/WIFI_MT6639_PATCH_MCU_1u_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_MT6639_PATCH_MCU_1u_1_hdr.bin \
@@ -1305,33 +2285,76 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.power@1.1 \
     vendor.mediatek.hardware.power@2.0 \
     vendor.xiaomi.hardware.bgservice@1.0 \
+    displayfeature.default \
     fingerprint.goodix_fod.default \
+    fingerprint.goodix_fod \
     vendor.pixelworks.hardware.display@1.0-impl-1.2 \
+    vendor.xiaomi.hw.touchfeature@1.0-impl \
+    vendor.xiaomi.sensor.citsensorservice@2.0-impl \
+    libMiDispDevManager \
+    libadaptivehdr \
+    libcolortempmode \
+    libdisplaycount \
+    libdisplaylog \
+    libdither \
+    libflatmode \
     libgf_hal \
+    libhdrmode \
+    libhistprocess \
     libmfido_mitee \
+    libmiBrightness \
+    libmiSensorCtrl \
+    libmiXmlParser \
+    libmi_dspp \
+    libmiriskmanager_mitee \
     libmlipay_mitee \
     libmlipay_mitee@1.1 \
     libmt_mitee \
+    libpaperMode \
     libpwirisIoctlWrapper \
     libpwirisPCS \
     libpwiriscalibrate \
     libpwiriscolor \
+    libpwirisdisplayhal \
     libpwirisfeature \
     libpwirishalwrapper \
     libpwirispq \
     libpwirisservice \
     libpwirissoft-mtk-aidl \
     libpwsoftirisPCS \
+    librhytheyecare \
+    libsdr2hdr \
+    libsensor_cal@2.0 \
     libsoter \
+    libsre \
+    libssccalapi@2.0 \
+    libtida_mitee@1.2 \
+    libtruetone \
+    libvideomode \
+    libvsim_mitee \
     libwvkeybox \
     libwvkeyboxext \
+    nfc_nci.nqx.default.hw \
     vendor.pixelworks.hardware.display@1.0 \
     vendor.pixelworks.hardware.display@1.1 \
     vendor.pixelworks.hardware.display@1.2 \
     vendor.pixelworks.hardware.feature@1.0 \
     vendor.pixelworks.hardware.feature@1.1 \
+    vendor.xiaomi.hardware.fx.tunnel@1.0 \
+    vendor.xiaomi.hardware.mfidoca@1.0 \
+    vendor.xiaomi.hardware.mikeybag-impl \
+    vendor.xiaomi.hardware.misauth-V1-ndk \
+    vendor.xiaomi.hardware.mlipay@1.0 \
+    vendor.xiaomi.hardware.mlipay@1.1 \
+    vendor.xiaomi.hardware.mrm-V1-ndk \
+    vendor.xiaomi.hardware.mtdservice@1.0 \
     vendor.xiaomi.hardware.soterservice@1.0 \
+    vendor.xiaomi.hardware.tidaservice@1.0 \
+    vendor.xiaomi.hardware.tidaservice@1.1 \
+    vendor.xiaomi.hardware.tidaservice@1.2 \
+    vendor.xiaomi.hardware.vsimapp@1.0 \
     libArcNetMtk \
+    libaachaptics \
     libalCFR \
     libarcsoft_beautyshot \
     libarcsoft_high_dynamic_range \
@@ -1344,18 +2367,46 @@ PRODUCT_PACKAGES += \
     libmiai_deblur \
     libmiai_portraitsupernight \
     libmialgo_ie_capture \
+    libmialgo_utils \
     libmiocr \
     libmpbase \
     libmt_mitee@1.3 \
     libportrait_repair_apu \
+    librelight_only \
+    libcamlog \
+    libcom.xiaomi.debug \
+    libcom.xiaomi.metadatautils \
+    libcom.xiaomi.mizone.postprocinterface \
+    libcom.xiaomi.pluginutils \
+    libmtkcam_hwutils \
+    libmtkcam_metadata \
+    libmtkcam_hwutils \
+    libmtkcam_metadata \
+    vendor.awa.wavelib \
+    vendor.xiaomi.hardware.mtdservice@1.1 \
+    vendor.xiaomi.hardware.mtdservice@1.2 \
+    vendor.xiaomi.hardware.mtdservice@1.3 \
     SoterService \
+    android.hardware.boot@1.2.xml \
+    android.hardware.cas@1.2-service-lazy.xml \
+    android.hardware.health-service.example.xml \
     android.hardware.identity@4.0-service.mitee.xml \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
     android.hardware.security.keymint-service.mitee.xml \
     android.hardware.security.secureclock-service.mitee.xml \
     android.hardware.security.sharedsecret-service.mitee.xml \
+    android.hardware.sensors-multihal.xml \
+    android.hardware.usb-aidl-service.mediatek.xml \
+    android.hardware.usb.gadget-service.mediatek.xml \
+    android.hardware.wifi@1.0-service.xml \
+    arm.mali.platform-mediatek.xml \
+    dumpstate-xiaomi.xml \
+    em_hal_service.xml \
+    gnss-default.xml \
     gnss-mtk.xml \
     gnss@2.1-service-mediatek.xml \
+    lbs_hidl_service@1.0.xml \
+    lights-mtk-default.xml \
     manifest_android.hardware.drm-service.widevine.xml \
     manifest_aovservice.xml \
     manifest_apuware_apusys_aidl.xml \
@@ -1363,51 +2414,335 @@ PRODUCT_PACKAGES += \
     manifest_apuware_utils.xml \
     manifest_cameraprovider.xml \
     manifest_hwcomposer.xml \
+    manifest_media_c2_V1_1_default.xml \
     manifest_media_c2_V1_2_default.xml \
     manifest_mmlpq.xml \
+    manifest_vendor.xiaomi.hardware.cld.xml \
+    manifest_vendor.xiaomi.hardware.fbo.xml \
+    manifest_vendor.xiaomi.hardware.otrpagent@2.0.xml \
+    mtkgnss-batching.xml \
+    mtkpower_applist-mtk-default.xml \
+    power-mediatek.xml \
+    vendor.dolby.hardware.dms.xml \
+    vendor.dolby.media.c2@1.0-service.xml \
     vendor.mediatek.hardware.neuropilot.agent@1.0-service.xml \
+    vendor.xiaomi.cit.wifi@1.0_manifest.xml \
     vendor.xiaomi.hardware.bgservice@1.0-service.xml \
+    vendor.xiaomi.hardware.displayfeature@1.0-service.xml \
+    vendor.xiaomi.hardware.micharge@1.0.xml \
+    vendor.xiaomi.hardware.mimd@1.0-service.xml \
+    vendor.xiaomi.hardware.miperf@1.0.xml \
+    vendor.xiaomi.hardware.misys@1.0.xml \
+    vendor.xiaomi.hardware.misys@2.0.xml \
+    vendor.xiaomi.hardware.misys@3.0.xml \
+    vendor.xiaomi.hardware.misys@4.0.xml \
+    vendor.xiaomi.sensor.communicate@1.0_manifest.xml \
+    BuildManifestSystemExt.apk \
+    manifest_hypsys_system.xml \
+    mtk-mbrainj-default.xml \
+    manifest.xml \
+    AHBF@2.1-service.xml \
+    fod.xml \
+    mrm.xml \
     vendor.pixelworks.hardware.display@1.2.xml \
     vendor.pixelworks.hardware.feature.irisfeature-service.xml \
+    vendor.xiaomi.hardware.vibratorfeature.service.xml \
+    vendor.xiaomi.hw.touchfeature@1.0-service.xml \
+    vendor.xiaomi.sensor.citsensorservice@2.0-service.xml \
+    manifest_dsds.xml \
+    manifest_qsqs.xml \
+    manifest_ss.xml \
+    manifest_tsts.xml \
+    AgentTest \
+    DFtool \
+    MI_IC \
+    MI_RIC \
+    aee_aedv64_v2 \
+    aee_dumpstatev_v2 \
+    aeev_v2 \
+    atcid \
+    ated \
+    audiocmdservice_atci \
+    autobt \
     batterysecret \
+    bip_ap \
+    bt_dump \
+    cameratest \
+    camsys_dump_tool \
+    ccci_fsd \
     ccci_mdinit \
     ccci_rpcd \
+    charge_logger \
     conninfra_loader \
+    dc_cal \
+    dconfig \
+    ddr_eye \
+    dexecutor \
+    displayfeature \
+    dmabuf_dump \
+    dmc_core \
+    doeapp-memtester \
+    doeapp-sat \
+    dtc_vendor \
+    dumpfaultd.mt6985 \
+    eara_io_service \
+    em_hidl \
+    factory \
+    batterytemp \
+    ffu \
+    fpsgo \
+    frs \
+    frs_intf \
+    fuelgauged \
+    fuelgauged_nvram \
+    gbe \
+    gps_dump \
+    gsm0710muxd \
+    hostapd_cli \
+    android.hardware.audio.service.mediatek \
     android.hardware.bluetooth@1.1-service-mediatek \
+    android.hardware.boot@1.2-service \
+    android.hardware.cas@1.2-service-lazy \
     android.hardware.drm-service.widevine \
+    android.hardware.dumpstate-service.xiaomi \
     android.hardware.gnss-service.mediatek \
+    android.hardware.graphics.allocator@4.0-service-mediatek.mt6985 \
     android.hardware.graphics.composer@3.1-service \
+    android.hardware.health-service.example \
     android.hardware.identity-service.mitee@4.0 \
+    android.hardware.lights-service.mediatek \
+    android.hardware.media.c2@1.2-mediatek \
     android.hardware.media.c2@1.2-mediatek-64b \
     android.hardware.neuralnetworks-shim-service-mtk \
+    android.hardware.neuralnetworks-shim-service-mtk-lazy \
     android.hardware.secure_element@1.2-service-mediatek \
     android.hardware.security.keymint@2.0-service.mitee \
+    android.hardware.usb-aidl-service.mediatekv1.0 \
+    android.hardware.usb.gadget-service.mediatekv1.1 \
+    android.hardware.wifi@1.0-service-lazy \
+    arm.mali.platform-service.mediatek.mt6985 \
+    fbo-test \
     android.hardware.graphics.allocator@4.0-service-mediatek.mt6985 \
+    arm.mali.platform-service.mediatek.mt6985 \
     camerahalserver \
     mtkfusionrild \
     tetheroffloadservice \
+    vendor.dolby.hardware.dms@2.0-service \
+    vendor.dolby.media.c2@1.0-service \
+    vendor.mediatek.hardware.aee@1.1-service \
+    vendor.mediatek.hardware.gnss.batching-service \
     vendor.mediatek.hardware.mmagent@1.1-service \
     vendor.mediatek.hardware.mmlpq@V1-service \
     vendor.mediatek.hardware.mms@1.7-service \
+    vendor.mediatek.hardware.mtkpower@1.0-service \
+    vendor.mediatek.hardware.mtkpower_applist-service.mediatek \
     vendor.mediatek.hardware.nvram@1.1-service \
+    vendor.mediatek.hardware.nwk_opt@1.0-service \
     vendor.mediatek.hardware.pq_aidl-service \
+    vendor.qti.sla.service@1.0-service \
+    vendor.xiaomi.cit.wifi@1.0-service \
+    vendor.xiaomi.hardware.cld@1.0-service \
+    vendor.xiaomi.hardware.displayfeature@1.0-service \
+    vendor.xiaomi.hardware.dtool@1.0-service \
+    vendor.xiaomi.hardware.fbo@1.0-service \
+    vendor.xiaomi.hardware.micharge@1.0-service \
+    vendor.xiaomi.hardware.mimd@1.0-service \
+    vendor.xiaomi.hardware.miperf@1.0-service \
+    vendor.xiaomi.hardware.misys@1.0-service \
+    vendor.xiaomi.hardware.misys@2.0-service \
+    vendor.xiaomi.hardware.misys@3.0-service \
+    vendor.xiaomi.hardware.misys@4.0-service \
     vendor.xiaomi.hardware.secure_element@1.2-service \
+    vendor.xiaomi.hidl.minet@1.0-service \
+    vendor.xiaomi.hidl.miwill@1.0-service \
+    vendor.xiaomi.sensor.communicate@1.0-service \
+    vtservice_hidl \
+    ioprofiler \
+    iperf \
+    iperf3.zc \
+    ipsec_mon \
+    iw-vendor \
+    iwconfig \
+    iwlist \
+    iwpriv \
+    jpegtool \
+    lbs_hidl_service \
+    loghidlvendorservice \
+    mcfota_service \
+    md_monitor \
+    md_monitor_ctrl \
+    mec \
+    meta_tst \
     mi_thermald \
+    mibpftest \
+    minetd \
     mitee_info \
     mitee_shell \
     miteelog \
     mnld \
+    mrdump_tool \
+    mt6660_calibration \
+    camsys_dump_tool \
+    dumpfaultd.mt6985 \
+    jpegtool \
     mtk_agpsd \
+    mtk_pkm_service \
+    mtk_plpath_utils_ota \
+    mtkconverter \
+    mtkmtb \
+    muxreport \
     netdagent \
+    netdc \
     nvram_daemon \
+    ois_cal \
+    pnscr \
+    pnscr-mi \
+    pnscr-rf \
+    rcs_volte_stack \
+    rcs_volte_stack64 \
+    rt5512_calibration \
+    rttv_v2 \
+    show_reserved_mem \
+    slad \
+    smartpa_nvtest \
+    stp_dump3 \
+    tcpdump-vendor \
     tee-supplicant \
+    thermal_core \
+    thermal_intf \
+    touch_boost \
     uart_launcher \
+    uet \
+    vendor.xiaomi.hardware.otrpagent@2.0-service \
+    volte_clientapi_ua \
+    volte_rcs_ua \
+    volte_rcs_ua64 \
+    vpud \
+    wifi_dump \
+    wifitest \
+    wmt_launcher \
+    wmt_loader \
+    wpa_cli \
+    xiaomi_ir_test \
+    AudioSetParam \
+    DfcNativeService \
+    FboNativeService \
+    NativeHangService \
+    SwapNativeService \
+    aee \
+    aee_aed \
+    aee_aed64 \
+    aee_aed64_v2 \
+    aee_core_forwarder \
+    aee_core_forwarder_v2 \
+    aee_dumpstate \
+    aee_dumpstate_v2 \
+    aee_v2 \
+    aeedb \
+    aeedb_v2 \
+    audio_set_params \
+    audioshell_system \
+    boot_logo_updater \
+    bootlog \
+    climax \
+    connsyslogger \
+    coverVibrationTest \
+    elliptic_engine_record \
+    elliptic_sensor_test \
+    emdlogger \
+    fdpp \
+    fsck.ntfs \
+    hbt_translator \
+    android.hardware.audio.parameter_parser.service \
+    hyos_spawner \
+    hyper_bpfloader \
+    hypsys_system \
+    init.dumpaudiobinderInfo \
+    init.rootpub \
+    init.rotatekey \
+    init.socid \
+    init.stabilitysetup \
+    inject_mgr \
+    iorapd \
+    iperf3_quic \
+    lbs_dbg_ext \
+    logcatkernel \
+    logcatlog \
+    loghidlsysservice \
+    magt \
+    mbrain_client \
+    mcd \
+    mdlogger \
+    mediahelper \
+    micd \
+    midfs \
+    millet_monitor \
+    misight \
+    miupdater \
+    miuserfsd \
+    mkfs.ntfs \
+    mobile_log_d \
+    mount.ntfs \
+    mtdoopslog \
+    mtk_plpath_utils \
+    mv_files \
+    netdiag \
+    nvt_72335_extic_test \
+    nvt_72336_extic_test \
+    nvt_dualdpu_rx_test \
+    poweroff_charger_log \
+    qadaemon \
+    qperf \
+    rtt \
+    rtt_v2 \
+    shelld \
+    smbd \
+    smbpasswd \
+    spkcal_88263s_m9 \
+    spkcal_p10 \
+    spkcal_si_o12u \
+    spkcal_si_p12a \
+    spkcal_tfa98xx \
+    terservice \
+    thermald \
+    trace \
+    vtservice \
+    SoterProvisioningTool_mitee \
+    capture \
+    capture_headsetmic \
     fidoca_mitee \
+    headset_detect \
+    mfp-daemon \
+    vendor.nxp.hardware.nfc@2.0-service \
     vendor.pixelworks.hardware.feature.irisfeature-service \
+    vendor.xiaomi.hardware.vibratorfeature.service \
+    vendor.xiaomi.hw.touchfeature@1.0-service \
+    vendor.xiaomi.sensor.citsensorservice@2.0-service \
     irisConfig \
     mlipayd_mitee@1.1 \
+    mrmd_mitee \
     mtd_mitee@1.3 \
-    soterd
+    playback \
+    playback_headset \
+    setup_backmic2headphone \
+    setup_fct \
+    setup_headsetmic2headphone \
+    setup_headsetmic2rcv \
+    setup_mainmic2headphone \
+    setup_rcv2backmic \
+    setup_rcv2mainmic \
+    setup_rcv2topmic \
+    setup_topmic2headphone \
+    soterd \
+    teardown_loopback \
+    test-nusensors \
+    tidad_mitee@1.2 \
+    toucheventcheck \
+    typec_capture_headset \
+    typec_playback_headset \
+    vendor.xiaomi.hardware.mikeybag-service \
+    vib_cal \
+    vsimd_mitee
 
 PRODUCT_PACKAGES += \
     vendor_bin_crossbuild_DataSet_SQLiteModule_db_ae_ParameterDB_ae_db \
