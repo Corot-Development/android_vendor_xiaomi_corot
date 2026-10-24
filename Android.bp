@@ -42706,31 +42706,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libarcsoft_beautyshot",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/libarcsoft_beautyshot.so",
-            ],
-            shared_libs: [
-                "libmpbase",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libarcsoft_high_dynamic_range",
     owner: "xiaomi",
     strip: {
@@ -42986,31 +42961,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmialgo_utils",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/libmialgo_utils.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libc++_shared",
-                "libm",
-                "libdl",
-                "libc",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmiocr",
     owner: "xiaomi",
     strip: {
@@ -43029,27 +42979,6 @@ cc_prebuilt_library_shared {
                 "libz",
                 "libdl",
                 "libm",
-                "libc",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmpbase",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/libmpbase.so",
-            ],
-            shared_libs: [
                 "libc",
             ],
         },
@@ -43134,193 +43063,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "librelight_only",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/librelight_only.so",
-            ],
-            shared_libs: [
-                "libGLESv3",
-                "libEGL",
-                "liblog",
-                "libc++_shared",
-                "libm",
-                "libdl",
-                "libc",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcamlog",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/temp/libcamlog.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libutilscallstack",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "temp",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcom.xiaomi.debug",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/temp/libcom.xiaomi.debug.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libutilscallstack",
-                "libcamlog",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "temp",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcom.xiaomi.metadatautils",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/temp/libcom.xiaomi.metadatautils.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libcamera_metadata",
-                "libcom.xiaomi.debug",
-                "libmtkcam_metaconv",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "temp",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcom.xiaomi.mizone.postprocinterface",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/temp/libcom.xiaomi.mizone.postprocinterface.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libmtkcam_metadata",
-                "libmtkcam_postprocprovider",
-                "libmtkcam_imgbuf_v2",
-                "libmtkcam_metaconv",
-                "libcom.xiaomi.pluginutils",
-                "libcom.xiaomi.metadatautils",
-                "libcom.xiaomi.debug",
-                "libcom.xiaomi.mizone.decoupleutil",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "temp",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcom.xiaomi.pluginutils",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/temp/libcom.xiaomi.pluginutils.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libcamera_metadata",
-                "libcom.xiaomi.debug",
-                "libcom.xiaomi.metadatautils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "temp",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmtkcam_hwutils",
     owner: "xiaomi",
     strip: {
@@ -43388,78 +43130,6 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     relative_install_path: "temp",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmtkcam_hwutils",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/temp/mt6985/libmtkcam_hwutils.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libmtkcam_ulog",
-                "libutils",
-                "libcutils",
-                "libmtkcam_modulehelper",
-                "libmtkcam_stdutils",
-                "libmtkcam_debugutils",
-                "libmtkcam.debugwrapper",
-                "libcameracustom",
-                "libcamalgo.fdft",
-                "libmtkcam_sysutils",
-                "libhwbinder",
-                "libcam.halsensor",
-                "libmtkcam_metadata",
-                "libcamalgo.bss",
-                "libcamalgo.BSSwrapper",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "temp/mt6985",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmtkcam_metadata",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/temp/mt6985/libmtkcam_metadata.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libmtkcam_ulog",
-                "libutils",
-                "libmtkcam.debugwrapper",
-                "libcutils",
-                "libmtkcam_stdutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "temp/mt6985",
     prefer: true,
     device_specific: true,
 }
@@ -44620,32 +44290,6 @@ sh_binary {
 }
 
 cc_prebuilt_binary {
-    name: "camsys_dump_tool",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/camsys_dump_tool",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "ccci_fsd",
     owner: "xiaomi",
     target: {
@@ -45036,31 +44680,6 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/dtc_vendor",
             ],
             shared_libs: [
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "dumpfaultd.mt6985",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/dumpfaultd.mt6985",
-            ],
-            shared_libs: [
-                "liblog",
-                "libc++",
                 "libc",
                 "libm",
                 "libdl",
@@ -45735,35 +45354,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.graphics.allocator@4.0-service-mediatek.mt6985",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek.mt6985",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.allocator@4.0",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "android.hardware.graphics.composer@3.1-service",
     owner: "xiaomi",
     target: {
@@ -46193,34 +45783,6 @@ cc_prebuilt_binary {
                 "android.hardware.wifi@1.4",
                 "android.hardware.wifi@1.5",
                 "android.hardware.wifi@1.6",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "arm.mali.platform-service.mediatek.mt6985",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/arm.mali.platform-service.mediatek.mt6985",
-            ],
-            shared_libs: [
-                "arm.mali.platform-V1-ndk",
-                "libbase",
-                "libbinder_ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -47659,34 +47221,6 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/iwpriv",
             ],
             shared_libs: [
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "jpegtool",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/jpegtool",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libutils",
-                "libjpeg-alpha_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -52669,10 +52203,17 @@ install_symlink {
 }
 
 install_symlink {
-    name: "vendor_bin_hw_android_hardware_graphics_allocator@4_0-service-mediatek",
+    name: "vendor_bin_hw_android_hardware_graphics_allocator@4_0-service-mediatek_mt6985",
     soc_specific: true,
-    installed_location: "bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek",
+    installed_location: "bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek.mt6985",
     symlink_target: "/vendor/bin/hw/mt6985/android.hardware.graphics.allocator@4.0-service-mediatek.mt6985",
+}
+
+install_symlink {
+    name: "vendor_bin_hw_arm_mali_platform-service_mediatek_mt6985",
+    soc_specific: true,
+    installed_location: "bin/hw/arm.mali.platform-service.mediatek.mt6985",
+    symlink_target: "/vendor/bin/hw/mt6985/arm.mali.platform-service.mediatek.mt6985",
 }
 
 install_symlink {
@@ -52680,6 +52221,27 @@ install_symlink {
     soc_specific: true,
     installed_location: "bin/hw/camerahalserver",
     symlink_target: "/vendor/bin/hw/mt6985/camerahalserver",
+}
+
+install_symlink {
+    name: "vendor_bin_camsys_dump_tool",
+    soc_specific: true,
+    installed_location: "bin/camsys_dump_tool",
+    symlink_target: "/vendor/bin/mt6985/camsys_dump_tool",
+}
+
+install_symlink {
+    name: "vendor_bin_dumpfaultd_mt6985",
+    soc_specific: true,
+    installed_location: "bin/dumpfaultd.mt6985",
+    symlink_target: "/vendor/bin/mt6985/dumpfaultd.mt6985",
+}
+
+install_symlink {
+    name: "vendor_bin_jpegtool",
+    soc_specific: true,
+    installed_location: "bin/jpegtool",
+    symlink_target: "/vendor/bin/mt6985/jpegtool",
 }
 
 install_symlink {

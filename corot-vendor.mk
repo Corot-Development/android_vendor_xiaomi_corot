@@ -2590,7 +2590,6 @@ PRODUCT_PACKAGES += \
     libArcNetMtk \
     libaachaptics \
     libalCFR \
-    libarcsoft_beautyshot \
     libarcsoft_high_dynamic_range \
     libarcsoft_low_light_hdr \
     libarcsoft_mf_superresolution \
@@ -2601,19 +2600,9 @@ PRODUCT_PACKAGES += \
     libmiai_deblur \
     libmiai_portraitsupernight \
     libmialgo_ie_capture \
-    libmialgo_utils \
     libmiocr \
-    libmpbase \
     libmt_mitee@1.3 \
     libportrait_repair_apu \
-    librelight_only \
-    libcamlog \
-    libcom.xiaomi.debug \
-    libcom.xiaomi.metadatautils \
-    libcom.xiaomi.mizone.postprocinterface \
-    libcom.xiaomi.pluginutils \
-    libmtkcam_hwutils \
-    libmtkcam_metadata \
     libmtkcam_hwutils \
     libmtkcam_metadata \
     vendor.awa.wavelib \
@@ -2702,7 +2691,6 @@ PRODUCT_PACKAGES += \
     bip_ap \
     bt_dump \
     cameratest \
-    camsys_dump_tool \
     ccci_fsd \
     ccci_mdinit \
     ccci_rpcd \
@@ -2718,7 +2706,6 @@ PRODUCT_PACKAGES += \
     doeapp-memtester \
     doeapp-sat \
     dtc_vendor \
-    dumpfaultd.mt6985 \
     eara_io_service \
     em_hidl \
     factory \
@@ -2740,7 +2727,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm-service.widevine \
     android.hardware.dumpstate-service.xiaomi \
     android.hardware.gnss-service.mediatek \
-    android.hardware.graphics.allocator@4.0-service-mediatek.mt6985 \
     android.hardware.graphics.composer@3.1-service \
     android.hardware.health-service.example \
     android.hardware.identity-service.mitee@4.0 \
@@ -2754,7 +2740,6 @@ PRODUCT_PACKAGES += \
     android.hardware.usb-aidl-service.mediatekv1.0 \
     android.hardware.usb.gadget-service.mediatekv1.1 \
     android.hardware.wifi@1.0-service-lazy \
-    arm.mali.platform-service.mediatek.mt6985 \
     fbo-test \
     android.hardware.graphics.allocator@4.0-service-mediatek.mt6985 \
     arm.mali.platform-service.mediatek.mt6985 \
@@ -2799,7 +2784,6 @@ PRODUCT_PACKAGES += \
     iwconfig \
     iwlist \
     iwpriv \
-    jpegtool \
     lbs_hidl_service \
     loghidlvendorservice \
     mcfota_service \
@@ -3010,8 +2994,12 @@ PRODUCT_PACKAGES += \
     vendor_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_aov_default_sensor_ISP_mapping_db \
     vendor_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_aov_default_sensor_ISP_param_db \
     vendor_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_aov_ISP_info_db \
-    vendor_bin_hw_android_hardware_graphics_allocator@4_0-service-mediatek \
+    vendor_bin_hw_android_hardware_graphics_allocator@4_0-service-mediatek_mt6985 \
+    vendor_bin_hw_arm_mali_platform-service_mediatek_mt6985 \
     vendor_bin_hw_camerahalserver \
+    vendor_bin_camsys_dump_tool \
+    vendor_bin_dumpfaultd_mt6985 \
+    vendor_bin_jpegtool \
     vendor_etc_camera_gma_custom_xml \
     vendor_lib_egl_libGLES_mali_so \
     vendor_lib_hw_audio_primary_mt6985_so \
