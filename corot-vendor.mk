@@ -2603,8 +2603,6 @@ PRODUCT_PACKAGES += \
     libmiocr \
     libmt_mitee@1.3 \
     libportrait_repair_apu \
-    libmtkcam_hwutils \
-    libmtkcam_metadata \
     vendor.awa.wavelib \
     vendor.xiaomi.hardware.mtdservice@1.1 \
     vendor.xiaomi.hardware.mtdservice@1.2 \
