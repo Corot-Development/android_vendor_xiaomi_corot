@@ -939,7 +939,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.graphics.composer@3.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@3.1-service.rc \
-    vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.health-service.example.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health-service.example.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.identity@4.0-service.mitee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.identity@4.0-service.mitee.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek-64b.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek-64b.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc \
@@ -1000,7 +999,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/lbs_hidl_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lbs_hidl_service.rc \
-    vendor/xiaomi/corot/proprietary/vendor/etc/init/lights-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lights-mtk-default.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/mcfota_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mcfota_service.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/mi_ic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mi_ic.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/mi_ric.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mi_ric.rc \
@@ -2555,7 +2553,6 @@ PRODUCT_PACKAGES += \
     vendor.awa.wavelib \
     SoterService \
     android.hardware.boot@1.2.xml \
-    android.hardware.health-service.example.xml \
     android.hardware.identity@4.0-service.mitee.xml \
     android.hardware.usb-aidl-service.mediatek.xml \
     android.hardware.usb.gadget-service.mediatek.xml \
@@ -2565,7 +2562,6 @@ PRODUCT_PACKAGES += \
     em_hal_service.xml \
     gnss@2.1-service-mediatek.xml \
     lbs_hidl_service@1.0.xml \
-    lights-mtk-default.xml \
     manifest_android.hardware.drm-service.widevine.xml \
     manifest_aovservice.xml \
     manifest_apuware_apusys_aidl.xml \
@@ -2578,7 +2574,6 @@ PRODUCT_PACKAGES += \
     manifest_vendor.xiaomi.hardware.otrpagent@2.0.xml \
     mtkgnss-batching.xml \
     mtkpower_applist-mtk-default.xml \
-    power-mediatek.xml \
     vendor.dolby.hardware.dms.xml \
     vendor.dolby.media.c2@1.0-service.xml \
     vendor.xiaomi.cit.wifi@1.0_manifest.xml \
@@ -2655,7 +2650,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-service.mediatek \
     android.hardware.graphics.composer@3.1-service \
     android.hardware.identity-service.mitee@4.0 \
-    android.hardware.lights-service.mediatek \
     android.hardware.media.c2@1.2-mediatek \
     android.hardware.media.c2@1.2-mediatek-64b \
     android.hardware.neuralnetworks-shim-service-mtk \

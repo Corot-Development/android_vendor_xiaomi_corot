@@ -41654,15 +41654,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "android.hardware.health-service.example.xml",
-    owner: "xiaomi",
-    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.health-service.example.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "android.hardware.identity@4.0-service.mitee.xml",
     owner: "xiaomi",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.identity@4.0-service.mitee.xml",
@@ -41738,15 +41729,6 @@ prebuilt_etc_xml {
     name: "lbs_hidl_service@1.0.xml",
     owner: "xiaomi",
     src: "proprietary/vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "lights-mtk-default.xml",
-    owner: "xiaomi",
-    src: "proprietary/vendor/etc/vintf/manifest/lights-mtk-default.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,
@@ -41855,15 +41837,6 @@ prebuilt_etc_xml {
     name: "mtkpower_applist-mtk-default.xml",
     owner: "xiaomi",
     src: "proprietary/vendor/etc/vintf/manifest/mtkpower_applist-mtk-default.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "power-mediatek.xml",
-    owner: "xiaomi",
-    src: "proprietary/vendor/etc/vintf/manifest/power-mediatek.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,
@@ -43495,38 +43468,6 @@ cc_prebuilt_binary {
                 "libbinder_ndk",
                 "libkeymaster_messages",
                 "libteecli",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "android.hardware.lights-service.mediatek",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.lights-service.mediatek",
-            ],
-            shared_libs: [
-                "libbase",
-                "libutils",
-                "liblog",
-                "libbinder_ndk",
-                "android.hardware.light-V2-ndk",
-                "libhardware",
-                "libhardware_legacy",
                 "libc++",
                 "libc",
                 "libm",
