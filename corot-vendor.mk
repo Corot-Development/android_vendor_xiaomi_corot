@@ -944,7 +944,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.security.keymint.mitee@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint.mitee@2.0-service.rc \
-    vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.usb-aidl-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb-aidl-service.mediatek.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.usb.gadget-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb.gadget-service.mediatek.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/arm.mali.platform-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/arm.mali.platform-mediatek.rc \
@@ -2554,7 +2553,6 @@ PRODUCT_PACKAGES += \
     SoterService \
     android.hardware.boot@1.2.xml \
     android.hardware.identity@4.0-service.mitee.xml \
-    android.hardware.usb-aidl-service.mediatek.xml \
     android.hardware.usb.gadget-service.mediatek.xml \
     android.hardware.wifi@1.0-service.xml \
     arm.mali.platform-mediatek.xml \
@@ -2656,7 +2654,6 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks-shim-service-mtk-lazy \
     android.hardware.secure_element@1.2-service-mediatek \
     android.hardware.security.keymint@2.0-service.mitee \
-    android.hardware.usb-aidl-service.mediatekv1.0 \
     android.hardware.usb.gadget-service.mediatekv1.1 \
     android.hardware.wifi@1.0-service-lazy \
     fbo-test \
