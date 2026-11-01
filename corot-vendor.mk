@@ -1733,7 +1733,6 @@ PRODUCT_PACKAGES += \
     libpqsharememory \
     libpqtuning \
     libpqxmlparser \
-    libprotobuf-cpp-full-3.9.1 \
     libpwirisPCSce \
     librcs_interface \
     librcs_volte_core \
