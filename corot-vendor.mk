@@ -935,7 +935,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.audio.service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.mediatek.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.boot@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.boot@1.2-service.rc \
-    vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service-lazy.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.drm-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.widevine.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
@@ -2556,7 +2555,6 @@ PRODUCT_PACKAGES += \
     vendor.awa.wavelib \
     SoterService \
     android.hardware.boot@1.2.xml \
-    android.hardware.cas@1.2-service-lazy.xml \
     android.hardware.health-service.example.xml \
     android.hardware.identity@4.0-service.mitee.xml \
     android.hardware.usb-aidl-service.mediatek.xml \
@@ -2652,7 +2650,6 @@ PRODUCT_PACKAGES += \
     hostapd_cli \
     android.hardware.bluetooth@1.1-service-mediatek \
     android.hardware.boot@1.2-service \
-    android.hardware.cas@1.2-service-lazy \
     android.hardware.drm-service.widevine \
     android.hardware.dumpstate-service.xiaomi \
     android.hardware.gnss-service.mediatek \
