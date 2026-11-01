@@ -43130,6 +43130,7 @@ prebuilt_etc_xml {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "AgentTest",
     owner: "xiaomi",
     target: {
@@ -43163,6 +43164,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "DFtool",
     owner: "xiaomi",
     target: {
@@ -43210,6 +43212,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "MI_IC",
     owner: "xiaomi",
     target: {
@@ -43235,6 +43238,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "MI_RIC",
     owner: "xiaomi",
     target: {
@@ -43259,6 +43263,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "aee_aedv64_v2",
     owner: "xiaomi",
     target: {
@@ -43291,6 +43296,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "aee_dumpstatev_v2",
     owner: "xiaomi",
     target: {
@@ -43320,6 +43326,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "aeev_v2",
     owner: "xiaomi",
     target: {
@@ -43348,6 +43355,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "atcid",
     owner: "xiaomi",
     target: {
@@ -43385,6 +43393,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "ated",
     owner: "xiaomi",
     target: {
@@ -43414,6 +43423,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "audiocmdservice_atci",
     owner: "xiaomi",
     target: {
@@ -43444,6 +43454,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "autobt",
     owner: "xiaomi",
     target: {
@@ -43472,6 +43483,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "batterysecret",
     owner: "xiaomi",
     target: {
@@ -43504,6 +43516,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "bip_ap",
     owner: "xiaomi",
     target: {
@@ -43530,6 +43543,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "bt_dump",
     owner: "xiaomi",
     target: {
@@ -43565,6 +43579,7 @@ sh_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "ccci_fsd",
     owner: "xiaomi",
     target: {
@@ -43594,6 +43609,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "ccci_mdinit",
     owner: "xiaomi",
     target: {
@@ -43625,6 +43641,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "ccci_rpcd",
     owner: "xiaomi",
     target: {
@@ -43654,6 +43671,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "charge_logger",
     owner: "xiaomi",
     target: {
@@ -43680,6 +43698,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "conninfra_loader",
     owner: "xiaomi",
     target: {
@@ -43706,6 +43725,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "dc_cal",
     owner: "xiaomi",
     target: {
@@ -43733,6 +43753,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "dconfig",
     owner: "xiaomi",
     target: {
@@ -43758,6 +43779,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "ddr_eye",
     owner: "xiaomi",
     target: {
@@ -43784,6 +43806,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "dexecutor",
     owner: "xiaomi",
     target: {
@@ -43809,6 +43832,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "displayfeature",
     owner: "xiaomi",
     target: {
@@ -43838,6 +43862,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "dmc_core",
     owner: "xiaomi",
     target: {
@@ -43873,6 +43898,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "doeapp-memtester",
     owner: "xiaomi",
     target: {
@@ -43897,6 +43923,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "doeapp-sat",
     owner: "xiaomi",
     target: {
@@ -43922,6 +43949,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "dtc_vendor",
     owner: "xiaomi",
     target: {
@@ -43945,6 +43973,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "eara_io_service",
     owner: "xiaomi",
     target: {
@@ -43975,6 +44004,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "em_hidl",
     owner: "xiaomi",
     target: {
@@ -44020,6 +44050,7 @@ sh_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "ffu",
     owner: "xiaomi",
     target: {
@@ -44044,6 +44075,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "fpsgo",
     owner: "xiaomi",
     target: {
@@ -44074,6 +44106,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "frs",
     owner: "xiaomi",
     target: {
@@ -44103,6 +44136,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "frs_intf",
     owner: "xiaomi",
     target: {
@@ -44127,6 +44161,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "fuelgauged",
     owner: "xiaomi",
     target: {
@@ -44154,6 +44189,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "fuelgauged_nvram",
     owner: "xiaomi",
     target: {
@@ -44182,6 +44218,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "gbe",
     owner: "xiaomi",
     target: {
@@ -44212,6 +44249,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "gps_dump",
     owner: "xiaomi",
     target: {
@@ -44239,6 +44277,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "gsm0710muxd",
     owner: "xiaomi",
     target: {
@@ -44267,6 +44306,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "hostapd_cli",
     owner: "xiaomi",
     target: {
@@ -44293,6 +44333,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "android.hardware.bluetooth@1.1-service-mediatek",
     owner: "xiaomi",
     target: {
@@ -44327,6 +44368,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "android.hardware.boot@1.2-service",
     owner: "xiaomi",
     target: {
@@ -44359,6 +44401,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "android.hardware.drm-service.widevine",
     owner: "xiaomi",
     target: {
@@ -44390,6 +44433,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "android.hardware.dumpstate-service.xiaomi",
     owner: "xiaomi",
     target: {
@@ -44423,6 +44467,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "android.hardware.gnss-service.mediatek",
     owner: "xiaomi",
     target: {
@@ -44463,6 +44508,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "android.hardware.graphics.composer@3.1-service",
     owner: "xiaomi",
     target: {
@@ -44499,6 +44545,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "android.hardware.identity-service.mitee@4.0",
     owner: "xiaomi",
     target: {
@@ -44529,6 +44576,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "android.hardware.media.c2@1.2-mediatek",
     owner: "xiaomi",
     target: {
@@ -44571,6 +44619,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "android.hardware.media.c2@1.2-mediatek-64b",
     owner: "xiaomi",
     target: {
@@ -44614,6 +44663,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "android.hardware.neuralnetworks-shim-service-mtk",
     owner: "xiaomi",
     target: {
@@ -44648,6 +44698,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "android.hardware.neuralnetworks-shim-service-mtk-lazy",
     owner: "xiaomi",
     target: {
@@ -44681,6 +44732,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "android.hardware.secure_element@1.2-service-mediatek",
     owner: "xiaomi",
     target: {
@@ -44719,6 +44771,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "android.hardware.security.keymint@2.0-service.mitee",
     owner: "xiaomi",
     target: {
@@ -44739,6 +44792,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "android.hardware.usb.gadget-service.mediatekv1.1",
     owner: "xiaomi",
     target: {
@@ -44772,6 +44826,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "android.hardware.wifi@1.0-service-lazy",
     owner: "xiaomi",
     target: {
@@ -44813,6 +44868,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "fbo-test",
     owner: "xiaomi",
     target: {
@@ -44848,6 +44904,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "android.hardware.graphics.allocator@4.0-service-mediatek.mt6985",
     owner: "xiaomi",
     target: {
@@ -44877,6 +44934,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "arm.mali.platform-service.mediatek.mt6985",
     owner: "xiaomi",
     target: {
@@ -44905,6 +44963,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "camerahalserver",
     owner: "xiaomi",
     target: {
@@ -44963,6 +45022,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mtkfusionrild",
     owner: "xiaomi",
     target: {
@@ -44998,6 +45058,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "tetheroffloadservice",
     owner: "xiaomi",
     target: {
@@ -45038,6 +45099,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.dolby.hardware.dms@2.0-service",
     owner: "xiaomi",
     target: {
@@ -45070,6 +45132,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.dolby.media.c2@1.0-service",
     owner: "xiaomi",
     target: {
@@ -45110,6 +45173,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.mediatek.hardware.aee@1.1-service",
     owner: "xiaomi",
     target: {
@@ -45143,6 +45207,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.mediatek.hardware.gnss.batching-service",
     owner: "xiaomi",
     target: {
@@ -45177,6 +45242,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.mediatek.hardware.mmagent@1.1-service",
     owner: "xiaomi",
     target: {
@@ -45210,6 +45276,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.mediatek.hardware.mmlpq@V1-service",
     owner: "xiaomi",
     target: {
@@ -45236,6 +45303,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.mediatek.hardware.mms@1.7-service",
     owner: "xiaomi",
     target: {
@@ -45267,6 +45335,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.mediatek.hardware.mtkpower_applist-service.mediatek",
     owner: "xiaomi",
     target: {
@@ -45299,6 +45368,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.mediatek.hardware.nvram@1.1-service",
     owner: "xiaomi",
     target: {
@@ -45333,6 +45403,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.mediatek.hardware.nwk_opt@1.0-service",
     owner: "xiaomi",
     target: {
@@ -45366,6 +45437,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.mediatek.hardware.pq_aidl-service",
     owner: "xiaomi",
     target: {
@@ -45392,6 +45464,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.qti.sla.service@1.0-service",
     owner: "xiaomi",
     target: {
@@ -45428,6 +45501,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.xiaomi.cit.wifi@1.0-service",
     owner: "xiaomi",
     target: {
@@ -45461,6 +45535,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.xiaomi.hardware.cld@1.0-service",
     owner: "xiaomi",
     target: {
@@ -45493,6 +45568,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.xiaomi.hardware.displayfeature@1.0-service",
     owner: "xiaomi",
     target: {
@@ -45527,6 +45603,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.xiaomi.hardware.dtool@1.0-service",
     owner: "xiaomi",
     target: {
@@ -45557,6 +45634,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.xiaomi.hardware.fbo@1.0-service",
     owner: "xiaomi",
     target: {
@@ -45592,6 +45670,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.xiaomi.hardware.micharge@1.0-service",
     owner: "xiaomi",
     target: {
@@ -45623,6 +45702,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.xiaomi.hardware.mimd@1.0-service",
     owner: "xiaomi",
     target: {
@@ -45654,6 +45734,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.xiaomi.hardware.miperf@1.0-service",
     owner: "xiaomi",
     target: {
@@ -45692,6 +45773,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.xiaomi.hardware.misys@1.0-service",
     owner: "xiaomi",
     target: {
@@ -45724,6 +45806,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.xiaomi.hardware.misys@2.0-service",
     owner: "xiaomi",
     target: {
@@ -45757,6 +45840,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.xiaomi.hardware.misys@3.0-service",
     owner: "xiaomi",
     target: {
@@ -45796,6 +45880,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.xiaomi.hardware.misys@4.0-service",
     owner: "xiaomi",
     target: {
@@ -45829,6 +45914,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.xiaomi.hardware.secure_element@1.2-service",
     owner: "xiaomi",
     target: {
@@ -45867,6 +45953,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.xiaomi.hidl.minet@1.0-service",
     owner: "xiaomi",
     target: {
@@ -45901,6 +45988,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.xiaomi.hidl.miwill@1.0-service",
     owner: "xiaomi",
     target: {
@@ -45935,6 +46023,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.xiaomi.sensor.communicate@1.0-service",
     owner: "xiaomi",
     target: {
@@ -45972,6 +46061,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vtservice_hidl",
     owner: "xiaomi",
     target: {
@@ -46007,6 +46097,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "ioprofiler",
     owner: "xiaomi",
     target: {
@@ -46040,6 +46131,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "iperf",
     owner: "xiaomi",
     target: {
@@ -46064,6 +46156,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "iperf3.zc",
     owner: "xiaomi",
     target: {
@@ -46088,6 +46181,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "ipsec_mon",
     owner: "xiaomi",
     target: {
@@ -46116,6 +46210,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "iw-vendor",
     owner: "xiaomi",
     target: {
@@ -46140,6 +46235,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "iwconfig",
     owner: "xiaomi",
     target: {
@@ -46164,6 +46260,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "iwlist",
     owner: "xiaomi",
     target: {
@@ -46188,6 +46285,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "iwpriv",
     owner: "xiaomi",
     target: {
@@ -46212,6 +46310,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "lbs_hidl_service",
     owner: "xiaomi",
     target: {
@@ -46246,6 +46345,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "loghidlvendorservice",
     owner: "xiaomi",
     target: {
@@ -46281,6 +46381,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mcfota_service",
     owner: "xiaomi",
     target: {
@@ -46309,6 +46410,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "md_monitor",
     owner: "xiaomi",
     target: {
@@ -46341,6 +46443,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "md_monitor_ctrl",
     owner: "xiaomi",
     target: {
@@ -46370,6 +46473,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mec",
     owner: "xiaomi",
     target: {
@@ -46394,6 +46498,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "meta_tst",
     owner: "xiaomi",
     target: {
@@ -46438,6 +46543,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mi_thermald",
     owner: "xiaomi",
     target: {
@@ -46466,6 +46572,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mibpftest",
     owner: "xiaomi",
     target: {
@@ -46499,6 +46606,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "minetd",
     owner: "xiaomi",
     target: {
@@ -46532,6 +46640,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mitee_info",
     owner: "xiaomi",
     target: {
@@ -46557,6 +46666,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mitee_shell",
     owner: "xiaomi",
     target: {
@@ -46583,6 +46693,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "miteelog",
     owner: "xiaomi",
     target: {
@@ -46608,6 +46719,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mnld",
     owner: "xiaomi",
     target: {
@@ -46653,6 +46765,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mrdump_tool",
     owner: "xiaomi",
     target: {
@@ -46680,6 +46793,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mt6660_calibration",
     owner: "xiaomi",
     target: {
@@ -46704,6 +46818,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "camsys_dump_tool",
     owner: "xiaomi",
     target: {
@@ -46731,6 +46846,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "dumpfaultd.mt6985",
     owner: "xiaomi",
     target: {
@@ -46757,6 +46873,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "jpegtool",
     owner: "xiaomi",
     target: {
@@ -46786,6 +46903,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mtk_agpsd",
     owner: "xiaomi",
     target: {
@@ -46817,6 +46935,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mtk_pkm_service",
     owner: "xiaomi",
     target: {
@@ -46842,6 +46961,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mtk_plpath_utils_ota",
     owner: "xiaomi",
     target: {
@@ -46868,6 +46988,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mtkconverter",
     owner: "xiaomi",
     target: {
@@ -46900,6 +47021,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mtkmtb",
     owner: "xiaomi",
     target: {
@@ -46928,6 +47050,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "muxreport",
     owner: "xiaomi",
     target: {
@@ -46954,6 +47077,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "netdagent",
     owner: "xiaomi",
     target: {
@@ -46985,6 +47109,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "netdc",
     owner: "xiaomi",
     target: {
@@ -47014,6 +47139,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "nvram_daemon",
     owner: "xiaomi",
     target: {
@@ -47044,6 +47170,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "ois_cal",
     owner: "xiaomi",
     target: {
@@ -47071,6 +47198,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "pnscr",
     owner: "xiaomi",
     target: {
@@ -47099,6 +47227,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "pnscr-mi",
     owner: "xiaomi",
     target: {
@@ -47127,6 +47256,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "pnscr-rf",
     owner: "xiaomi",
     target: {
@@ -47155,6 +47285,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "rcs_volte_stack",
     owner: "xiaomi",
     target: {
@@ -47186,6 +47317,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "rcs_volte_stack64",
     owner: "xiaomi",
     target: {
@@ -47217,6 +47349,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "rt5512_calibration",
     owner: "xiaomi",
     target: {
@@ -47241,6 +47374,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "show_reserved_mem",
     owner: "xiaomi",
     target: {
@@ -47269,6 +47403,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "slad",
     owner: "xiaomi",
     target: {
@@ -47301,6 +47436,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "smartpa_nvtest",
     owner: "xiaomi",
     target: {
@@ -47330,6 +47466,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "stp_dump3",
     owner: "xiaomi",
     target: {
@@ -47356,6 +47493,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "tcpdump-vendor",
     owner: "xiaomi",
     target: {
@@ -47383,6 +47521,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "tee-supplicant",
     owner: "xiaomi",
     target: {
@@ -47409,6 +47548,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "thermal_core",
     owner: "xiaomi",
     target: {
@@ -47439,6 +47579,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "thermal_intf",
     owner: "xiaomi",
     target: {
@@ -47463,6 +47604,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "touch_boost",
     owner: "xiaomi",
     target: {
@@ -47492,6 +47634,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "uart_launcher",
     owner: "xiaomi",
     target: {
@@ -47518,6 +47661,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "uet",
     owner: "xiaomi",
     target: {
@@ -47542,6 +47686,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.xiaomi.hardware.otrpagent@2.0-service",
     owner: "xiaomi",
     target: {
@@ -47572,6 +47717,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "volte_clientapi_ua",
     owner: "xiaomi",
     target: {
@@ -47607,6 +47753,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "volte_rcs_ua",
     owner: "xiaomi",
     target: {
@@ -47644,6 +47791,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "volte_rcs_ua64",
     owner: "xiaomi",
     target: {
@@ -47681,6 +47829,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vpud",
     owner: "xiaomi",
     target: {
@@ -47710,6 +47859,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "wifi_dump",
     owner: "xiaomi",
     target: {
@@ -47737,6 +47887,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "wifitest",
     owner: "xiaomi",
     target: {
@@ -47761,6 +47912,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "wmt_launcher",
     owner: "xiaomi",
     target: {
@@ -47787,6 +47939,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "wmt_loader",
     owner: "xiaomi",
     target: {
@@ -47813,6 +47966,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "wpa_cli",
     owner: "xiaomi",
     target: {
@@ -47839,6 +47993,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "xiaomi_ir_test",
     owner: "xiaomi",
     target: {
@@ -47865,6 +48020,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "AudioSetParam",
     owner: "xiaomi",
     target: {
@@ -47894,6 +48050,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "audio_set_params",
     owner: "xiaomi",
     target: {
@@ -47922,6 +48079,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "audioshell_system",
     owner: "xiaomi",
     target: {
@@ -47961,6 +48119,7 @@ sh_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "climax",
     owner: "xiaomi",
     target: {
@@ -47985,6 +48144,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "connsyslogger",
     owner: "xiaomi",
     target: {
@@ -48012,6 +48172,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "coverVibrationTest",
     owner: "xiaomi",
     target: {
@@ -48042,6 +48203,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "elliptic_sensor_test",
     owner: "xiaomi",
     target: {
@@ -48067,6 +48229,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "hbt_translator",
     owner: "xiaomi",
     target: {
@@ -48124,6 +48287,7 @@ rust_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "hyper_bpfloader",
     owner: "xiaomi",
     target: {
@@ -48191,6 +48355,7 @@ sh_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "inject_mgr",
     owner: "xiaomi",
     target: {
@@ -48220,6 +48385,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "lbs_dbg_ext",
     owner: "xiaomi",
     target: {
@@ -48271,6 +48437,7 @@ sh_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "loghidlsysservice",
     owner: "xiaomi",
     target: {
@@ -48308,6 +48475,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mbrain_client",
     owner: "xiaomi",
     target: {
@@ -48337,6 +48505,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mediahelper",
     owner: "xiaomi",
     target: {
@@ -48363,6 +48532,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "micd",
     owner: "xiaomi",
     target: {
@@ -48389,6 +48559,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "millet_monitor",
     owner: "xiaomi",
     target: {
@@ -48419,6 +48590,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "misight",
     owner: "xiaomi",
     target: {
@@ -48461,6 +48633,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "miupdater",
     owner: "xiaomi",
     target: {
@@ -48501,6 +48674,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "miuserfsd",
     owner: "xiaomi",
     target: {
@@ -48528,6 +48702,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mobile_log_d",
     owner: "xiaomi",
     target: {
@@ -48562,6 +48737,7 @@ sh_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mtk_plpath_utils",
     owner: "xiaomi",
     target: {
@@ -48596,6 +48772,7 @@ sh_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "nvt_72335_extic_test",
     owner: "xiaomi",
     target: {
@@ -48633,6 +48810,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "nvt_72336_extic_test",
     owner: "xiaomi",
     target: {
@@ -48670,6 +48848,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "nvt_dualdpu_rx_test",
     owner: "xiaomi",
     target: {
@@ -48708,6 +48887,7 @@ sh_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "qadaemon",
     owner: "xiaomi",
     target: {
@@ -48736,6 +48916,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "qperf",
     owner: "xiaomi",
     target: {
@@ -48759,6 +48940,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "smbd",
     owner: "xiaomi",
     target: {
@@ -48785,6 +48967,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "smbpasswd",
     owner: "xiaomi",
     target: {
@@ -48811,6 +48994,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "spkcal_88263s_m9",
     owner: "xiaomi",
     target: {
@@ -48843,6 +49027,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "spkcal_p10",
     owner: "xiaomi",
     target: {
@@ -48876,6 +49061,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "spkcal_si_o12u",
     owner: "xiaomi",
     target: {
@@ -48907,6 +49093,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "spkcal_si_p12a",
     owner: "xiaomi",
     target: {
@@ -48938,6 +49125,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "spkcal_tfa98xx",
     owner: "xiaomi",
     target: {
@@ -48970,6 +49158,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "thermald",
     owner: "xiaomi",
     target: {
@@ -48998,6 +49187,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "SoterProvisioningTool_mitee",
     owner: "xiaomi",
     target: {
@@ -49044,6 +49234,7 @@ sh_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "fidoca_mitee",
     owner: "xiaomi",
     target: {
@@ -49085,6 +49276,7 @@ sh_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mfp-daemon",
     owner: "xiaomi",
     target: {
@@ -49125,6 +49317,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.nxp.hardware.nfc@2.0-service",
     owner: "xiaomi",
     target: {
@@ -49159,6 +49352,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.pixelworks.hardware.feature.irisfeature-service",
     owner: "xiaomi",
     target: {
@@ -49191,6 +49385,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.xiaomi.hardware.vibratorfeature.service",
     owner: "xiaomi",
     target: {
@@ -49233,6 +49428,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.xiaomi.hw.touchfeature@1.0-service",
     owner: "xiaomi",
     target: {
@@ -49266,6 +49462,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.xiaomi.sensor.citsensorservice@2.0-service",
     owner: "xiaomi",
     target: {
@@ -49301,6 +49498,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "irisConfig",
     owner: "xiaomi",
     target: {
@@ -49336,6 +49534,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mlipayd_mitee@1.1",
     owner: "xiaomi",
     target: {
@@ -49370,6 +49569,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mrmd_mitee",
     owner: "xiaomi",
     target: {
@@ -49408,6 +49608,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "mtd_mitee@1.3",
     owner: "xiaomi",
     target: {
@@ -49534,6 +49735,7 @@ sh_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "soterd",
     owner: "xiaomi",
     target: {
@@ -49574,6 +49776,7 @@ sh_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "tidad_mitee@1.2",
     owner: "xiaomi",
     target: {
@@ -49613,6 +49816,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "toucheventcheck",
     owner: "xiaomi",
     target: {
@@ -49658,6 +49862,7 @@ sh_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vendor.xiaomi.hardware.mikeybag-service",
     owner: "xiaomi",
     target: {
@@ -49689,6 +49894,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vib_cal",
     owner: "xiaomi",
     target: {
@@ -49718,6 +49924,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    allow_undefined_symbols: true,
     name: "vsimd_mitee",
     owner: "xiaomi",
     target: {
