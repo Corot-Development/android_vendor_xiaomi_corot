@@ -1944,7 +1944,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.sensor.citsensorservice@1.1 \
     vendor.xiaomi.sensor.citsensorservice@2.0 \
     libHEVCdec_sa.ca7.android \
-    libarmnn \
     libbt-vendor \
     libh264dec_customize \
     libh264dec_sa.ca7 \
@@ -1976,7 +1975,6 @@ PRODUCT_PACKAGES += \
     libstagefright_soft_vpxenc \
     libvcodec_utility_plat.mt6886 \
     libvcodec_utility_plat.mt6985 \
-    libvibrator \
     libvp8dec_sa.ca7 \
     libvp8enc_sa.ca7 \
     libvp9dec_sa.ca7 \
@@ -2009,8 +2007,6 @@ PRODUCT_PACKAGES += \
     com.fingerprints.extension@3.0 \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
-    audio.r_submix.default \
-    audio_policy.stub \
     hwcomposer.mtk_common \
     libSoftGatekeeper \
     android.hardware.camera.provider@2.6-impl-mediatek \
@@ -2106,8 +2102,6 @@ PRODUCT_PACKAGES += \
     libheichal \
     libhis_face_tracking \
     libhis_motion_tracker \
-    libhwc2on1adapter \
-    libhwc2onfbadapter \
     libhwm \
     libifcutils_mtk \
     libimagebuffer_wrapper \
@@ -2149,14 +2143,12 @@ PRODUCT_PACKAGES += \
     libneuron_runtime_vpp.6 \
     libnpagent_server \
     liboem_specific \
-    libomp \
     libratconfig \
     librelight_only \
     libremosaic_wrapper \
     libremosaiclib \
     librfs_warp \
     librilfusion \
-    libsensorndkbridge \
     libtrm \
     libvia-ril \
     libviamipc-ril \

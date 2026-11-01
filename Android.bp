@@ -19907,34 +19907,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libarmnn",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libarmnn.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libcmdl",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libbt-vendor",
     owner: "xiaomi",
     strip: {
@@ -20793,33 +20765,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libvcodec_utility",
                 "libmtk_drvb",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libvibrator",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libvibrator.so",
-            ],
-            shared_libs: [
-                "libbinder",
-                "liblog",
-                "libutils",
                 "libc++",
                 "libc",
                 "libm",
@@ -21890,62 +21835,6 @@ cc_prebuilt_library_shared {
                 "android.hardware.gnss.measurement_corrections@1.1",
                 "android.hardware.gnss.visibility_control@1.0",
                 "libhardware",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "audio.r_submix.default",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/audio.r_submix.default.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libmedia_helper",
-                "libnbaio_mono",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "audio_policy.stub",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/audio_policy.stub.so",
-            ],
-            shared_libs: [
-                "liblog",
                 "libc++",
                 "libc",
                 "libm",
@@ -24861,60 +24750,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libhwc2on1adapter",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libhwc2on1adapter.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libhardware",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libhwc2onfbadapter",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libhwc2onfbadapter.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libsync",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libhwm",
     owner: "xiaomi",
     strip: {
@@ -26102,28 +25937,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libomp",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libomp.so",
-            ],
-            shared_libs: [
-                "libdl",
-                "libc",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libratconfig",
     owner: "xiaomi",
     strip: {
@@ -26306,35 +26119,6 @@ cc_prebuilt_library_shared {
                 "vendor.mediatek.hardware.mtkradioex.smartratswitch-V1-ndk",
                 "vendor.mediatek.hardware.mtkradioex.rcs-V1-ndk",
                 "libaedv",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libsensorndkbridge",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libsensorndkbridge.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libhidlbase",
-                "libutils",
-                "android.frameworks.sensorservice@1.0",
-                "android.hardware.sensors@1.0",
                 "libc++",
                 "libc",
                 "libm",
