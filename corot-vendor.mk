@@ -1510,14 +1510,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/vendor/mitee/ta/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta
 
 PRODUCT_PACKAGES += \
-    audioclient-types-aidl-cpp \
     libGLES_meow \
     libMEOW_data \
     libMEOW_gift \
     libMEOW_qt \
     libMEOW_trace \
     libGLES_mali \
-    framework-permission-aidl-cpp \
     android.hardware.bluetooth@1.1-impl-mediatek \
     audio.primary.mediatek \
     audio.r_submix.mediatek \
@@ -1567,13 +1565,11 @@ PRODUCT_PACKAGES += \
     libapu_mdw_batch \
     libapusys \
     libapusys_edma \
-    libarmnn \
     libarmnn_ndk.mtk.vndk \
     libasn1c_core \
     libasn1c_mapi \
     libasn1c_mdmi \
     libaudio_param_parser-vnd \
-    libaudioclient_aidl_conversion \
     libaudiocloudctrl \
     libaudiocompensationfilter_vendor \
     libaudiocompensationfilterc \
@@ -1583,7 +1579,6 @@ PRODUCT_PACKAGES += \
     libaudiodatabase \
     libaudiodcrflt_vendor \
     libaudiofmtconv \
-    libaudiofoundation \
     libaudioloudc \
     libaudioprimarydevicehalifclient \
     libaudiosmartpamtk \
@@ -1599,7 +1594,6 @@ PRODUCT_PACKAGES += \
     libbluetooth_mtk_pure \
     libbluetooth_relayer \
     libbluetoothem_mtk \
-    libbt-vendor \
     libbwc \
     libcamalgo.utility \
     libcamlog \
@@ -1643,7 +1637,6 @@ PRODUCT_PACKAGES += \
     libdolbyplugin \
     libdre \
     libdynamiclog \
-    libext2_uuid \
     libeyecare \
     libfgauge_gm30 \
     libfile_op \
@@ -1729,7 +1722,6 @@ PRODUCT_PACKAGES += \
     libnwk_opt_halwrap_vendor \
     libnxp_extamp_intf \
     liboemcrypto \
-    libpcap \
     libperfctl_vendor \
     libpixelflinger \
     libpkm \
@@ -1748,15 +1740,11 @@ PRODUCT_PACKAGES += \
     librgbwlightsensor \
     librpc \
     librt_extamp_intf \
-    libruy \
     libscltm \
     libsfplugin_ccodec_utils-v31 \
-    libshmemcompat \
-    libshmemutil \
     libsimlock \
     libsimmelock \
     libsn100u_fw \
-    libsparse \
     libspatializerparamstorage \
     libspeech_enh_lib \
     libspeechparser_vendor \
@@ -1765,7 +1753,6 @@ PRODUCT_PACKAGES += \
     libswspatializer_ext \
     libsysenv \
     libteecli \
-    libtextclassifier_hash \
     libtflite_mtk \
     libthha \
     libtranslator_mapi_v3.0 \
@@ -1775,7 +1762,6 @@ PRODUCT_PACKAGES += \
     libvcodec_oal \
     libvcodecdrv_header_stub \
     libviagpsrpc \
-    libvibrator \
     libvow_ap_test_aa \
     libvow_ap_test_dd \
     libvow_ap_test_ha \
@@ -1887,7 +1873,6 @@ PRODUCT_PACKAGES += \
     mtk000_mipi_raw_IdxMgr \
     mtk000_mipi_raw_tuning \
     sensors.touch.detect \
-    shared-file-region-aidl-cpp \
     vendor.dolby.hardware.dms@2.0 \
     vendor.mediatek.hardware.aee-V1-ndk \
     vendor.mediatek.hardware.apmonitor@2.0 \
@@ -1944,7 +1929,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.sla.service@1.0-impl \
     vendor.qti.sla.service@1.0 \
     vendor.xiaomi.hardware.cld@1.0 \
-    vendor.xiaomi.hardware.displayfeature@1.0 \
     vendor.xiaomi.hardware.fbo@1.0 \
     vendor.xiaomi.hardware.micharge@1.0 \
     vendor.xiaomi.hardware.mikeybag-V1-ndk \
@@ -1957,11 +1941,11 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hidl.minet@1.0 \
     vendor.xiaomi.hidl.miwill@1.0-impl \
     vendor.xiaomi.hidl.miwill@1.0 \
-    vendor.xiaomi.hw.touchfeature@1.0 \
     vendor.xiaomi.sensor.citsensorservice@1.1 \
     vendor.xiaomi.sensor.citsensorservice@2.0 \
     libHEVCdec_sa.ca7.android \
-    libcodec2_hidl@1.2 \
+    libarmnn \
+    libbt-vendor \
     libh264dec_customize \
     libh264dec_sa.ca7 \
     libh264dec_sd.ca7 \
@@ -1969,10 +1953,6 @@ PRODUCT_PACKAGES += \
     libh264enc_sa.ca7 \
     libmp4enc_sa.ca7 \
     libmp4enc_xa.ca7 \
-    libopus \
-    libstagefright_amrnb_common \
-    libstagefright_enc_common \
-    libstagefright_flacdec \
     libstagefright_soft_aacdec \
     libstagefright_soft_aacenc \
     libstagefright_soft_amrdec \
@@ -1994,20 +1974,15 @@ PRODUCT_PACKAGES += \
     libstagefright_soft_vorbisdec \
     libstagefright_soft_vpxdec \
     libstagefright_soft_vpxenc \
-    libstagefright_softomx \
-    libstagefright_softomx_plugin \
     libvcodec_utility_plat.mt6886 \
     libvcodec_utility_plat.mt6985 \
-    libvorbisidec \
+    libvibrator \
     libvp8dec_sa.ca7 \
     libvp8enc_sa.ca7 \
     libvp9dec_sa.ca7 \
     libvpud_vcodec \
-    libvpx \
     libvcodec_utility \
     libvcodecdrv \
-    vendor.mediatek.hardware.mtkpower@1.1 \
-    vendor.mediatek.hardware.mtkpower@1.2 \
     APUWareApusysAidlServer \
     APUWareHmpServer \
     APUWareUtilsServer \
@@ -2136,7 +2111,6 @@ PRODUCT_PACKAGES += \
     libhwm \
     libifcutils_mtk \
     libimagebuffer_wrapper \
-    libkeymint_support \
     libksensor \
     libmialgo_ai_vision \
     libmialgo_aio_seg \
@@ -2510,7 +2484,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.bgservice@1.0 \
     vendor.xiaomi.hardware.blackbox-V1-ndk \
     vendor.xiaomi.hardware.dtool@1.0 \
-    vendor.xiaomi.hardware.fingerprintextension@1.0 \
     vendor.xiaomi.hardware.mimd@1.0 \
     vendor.xiaomi.hardware.misys.common-V3-ndk \
     vendor.xiaomi.hardware.misys.core-V1-ndk \
@@ -2574,14 +2547,9 @@ PRODUCT_PACKAGES += \
     vendor.pixelworks.hardware.display@1.2 \
     vendor.pixelworks.hardware.feature@1.0 \
     vendor.pixelworks.hardware.feature@1.1 \
-    vendor.xiaomi.hardware.fx.tunnel@1.0 \
-    vendor.xiaomi.hardware.mfidoca@1.0 \
     vendor.xiaomi.hardware.mikeybag-impl \
     vendor.xiaomi.hardware.misauth-V1-ndk \
-    vendor.xiaomi.hardware.mlipay@1.0 \
-    vendor.xiaomi.hardware.mlipay@1.1 \
     vendor.xiaomi.hardware.mrm-V1-ndk \
-    vendor.xiaomi.hardware.mtdservice@1.0 \
     vendor.xiaomi.hardware.soterservice@1.0 \
     vendor.xiaomi.hardware.tidaservice@1.0 \
     vendor.xiaomi.hardware.tidaservice@1.1 \
@@ -2604,38 +2572,25 @@ PRODUCT_PACKAGES += \
     libmt_mitee@1.3 \
     libportrait_repair_apu \
     vendor.awa.wavelib \
-    vendor.xiaomi.hardware.mtdservice@1.1 \
-    vendor.xiaomi.hardware.mtdservice@1.2 \
-    vendor.xiaomi.hardware.mtdservice@1.3 \
     SoterService \
     android.hardware.boot@1.2.xml \
     android.hardware.cas@1.2-service-lazy.xml \
     android.hardware.health-service.example.xml \
     android.hardware.identity@4.0-service.mitee.xml \
-    android.hardware.neuralnetworks-shim-service-mtk.xml \
-    android.hardware.security.keymint-service.mitee.xml \
-    android.hardware.security.secureclock-service.mitee.xml \
-    android.hardware.security.sharedsecret-service.mitee.xml \
-    android.hardware.sensors-multihal.xml \
     android.hardware.usb-aidl-service.mediatek.xml \
     android.hardware.usb.gadget-service.mediatek.xml \
     android.hardware.wifi@1.0-service.xml \
     arm.mali.platform-mediatek.xml \
     dumpstate-xiaomi.xml \
     em_hal_service.xml \
-    gnss-default.xml \
-    gnss-mtk.xml \
     gnss@2.1-service-mediatek.xml \
     lbs_hidl_service@1.0.xml \
     lights-mtk-default.xml \
     manifest_android.hardware.drm-service.widevine.xml \
     manifest_aovservice.xml \
     manifest_apuware_apusys_aidl.xml \
-    manifest_apuware_hmp.xml \
-    manifest_apuware_utils.xml \
     manifest_cameraprovider.xml \
     manifest_hwcomposer.xml \
-    manifest_media_c2_V1_1_default.xml \
     manifest_media_c2_V1_2_default.xml \
     manifest_mmlpq.xml \
     manifest_vendor.xiaomi.hardware.cld.xml \
@@ -2646,11 +2601,9 @@ PRODUCT_PACKAGES += \
     power-mediatek.xml \
     vendor.dolby.hardware.dms.xml \
     vendor.dolby.media.c2@1.0-service.xml \
-    vendor.mediatek.hardware.neuropilot.agent@1.0-service.xml \
     vendor.xiaomi.cit.wifi@1.0_manifest.xml \
     vendor.xiaomi.hardware.bgservice@1.0-service.xml \
     vendor.xiaomi.hardware.displayfeature@1.0-service.xml \
-    vendor.xiaomi.hardware.micharge@1.0.xml \
     vendor.xiaomi.hardware.mimd@1.0-service.xml \
     vendor.xiaomi.hardware.miperf@1.0.xml \
     vendor.xiaomi.hardware.misys@1.0.xml \
@@ -2661,7 +2614,6 @@ PRODUCT_PACKAGES += \
     BuildManifestSystemExt.apk \
     manifest_hypsys_system.xml \
     mtk-mbrainj-default.xml \
-    manifest.xml \
     AHBF@2.1-service.xml \
     fod.xml \
     mrm.xml \
@@ -2699,14 +2651,12 @@ PRODUCT_PACKAGES += \
     ddr_eye \
     dexecutor \
     displayfeature \
-    dmabuf_dump \
     dmc_core \
     doeapp-memtester \
     doeapp-sat \
     dtc_vendor \
     eara_io_service \
     em_hidl \
-    factory \
     batterytemp \
     ffu \
     fpsgo \
@@ -2718,7 +2668,6 @@ PRODUCT_PACKAGES += \
     gps_dump \
     gsm0710muxd \
     hostapd_cli \
-    android.hardware.audio.service.mediatek \
     android.hardware.bluetooth@1.1-service-mediatek \
     android.hardware.boot@1.2-service \
     android.hardware.cas@1.2-service-lazy \
@@ -2726,7 +2675,6 @@ PRODUCT_PACKAGES += \
     android.hardware.dumpstate-service.xiaomi \
     android.hardware.gnss-service.mediatek \
     android.hardware.graphics.composer@3.1-service \
-    android.hardware.health-service.example \
     android.hardware.identity-service.mitee@4.0 \
     android.hardware.lights-service.mediatek \
     android.hardware.media.c2@1.2-mediatek \
@@ -2751,7 +2699,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mmagent@1.1-service \
     vendor.mediatek.hardware.mmlpq@V1-service \
     vendor.mediatek.hardware.mms@1.7-service \
-    vendor.mediatek.hardware.mtkpower@1.0-service \
     vendor.mediatek.hardware.mtkpower_applist-service.mediatek \
     vendor.mediatek.hardware.nvram@1.1-service \
     vendor.mediatek.hardware.nwk_opt@1.0-service \
@@ -2817,7 +2764,6 @@ PRODUCT_PACKAGES += \
     rcs_volte_stack \
     rcs_volte_stack64 \
     rt5512_calibration \
-    rttv_v2 \
     show_reserved_mem \
     slad \
     smartpa_nvtest \
@@ -2841,77 +2787,43 @@ PRODUCT_PACKAGES += \
     wpa_cli \
     xiaomi_ir_test \
     AudioSetParam \
-    DfcNativeService \
-    FboNativeService \
-    NativeHangService \
-    SwapNativeService \
-    aee \
-    aee_aed \
-    aee_aed64 \
-    aee_aed64_v2 \
-    aee_core_forwarder \
-    aee_core_forwarder_v2 \
-    aee_dumpstate \
-    aee_dumpstate_v2 \
-    aee_v2 \
-    aeedb \
-    aeedb_v2 \
     audio_set_params \
     audioshell_system \
-    boot_logo_updater \
     bootlog \
     climax \
     connsyslogger \
     coverVibrationTest \
-    elliptic_engine_record \
     elliptic_sensor_test \
-    emdlogger \
-    fdpp \
-    fsck.ntfs \
     hbt_translator \
-    android.hardware.audio.parameter_parser.service \
     hyos_spawner \
     hyper_bpfloader \
-    hypsys_system \
     init.dumpaudiobinderInfo \
     init.rootpub \
     init.rotatekey \
     init.socid \
     init.stabilitysetup \
     inject_mgr \
-    iorapd \
-    iperf3_quic \
     lbs_dbg_ext \
     logcatkernel \
     logcatlog \
     loghidlsysservice \
-    magt \
     mbrain_client \
-    mcd \
-    mdlogger \
     mediahelper \
     micd \
-    midfs \
     millet_monitor \
     misight \
     miupdater \
     miuserfsd \
-    mkfs.ntfs \
     mobile_log_d \
-    mount.ntfs \
     mtdoopslog \
     mtk_plpath_utils \
     mv_files \
-    netdiag \
     nvt_72335_extic_test \
     nvt_72336_extic_test \
     nvt_dualdpu_rx_test \
     poweroff_charger_log \
     qadaemon \
     qperf \
-    rtt \
-    rtt_v2 \
-    shelld \
     smbd \
     smbpasswd \
     spkcal_88263s_m9 \
@@ -2919,10 +2831,7 @@ PRODUCT_PACKAGES += \
     spkcal_si_o12u \
     spkcal_si_p12a \
     spkcal_tfa98xx \
-    terservice \
     thermald \
-    trace \
-    vtservice \
     SoterProvisioningTool_mitee \
     capture \
     capture_headsetmic \
@@ -2951,7 +2860,6 @@ PRODUCT_PACKAGES += \
     setup_topmic2headphone \
     soterd \
     teardown_loopback \
-    test-nusensors \
     tidad_mitee@1.2 \
     toucheventcheck \
     typec_capture_headset \
