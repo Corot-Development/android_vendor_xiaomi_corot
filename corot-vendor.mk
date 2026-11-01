@@ -420,7 +420,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/system_ext/etc/init/hw/meta_init.system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/meta_init.system.rc \
     vendor/xiaomi/corot/proprietary/system_ext/etc/init/hw/vendor_init_as_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/vendor_init_as_system.rc \
     vendor/xiaomi/corot/proprietary/system_ext/etc/init/hyper_bpfloader.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hyper_bpfloader.rc \
-    vendor/xiaomi/corot/proprietary/system_ext/etc/init/hypsys_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hypsys_system.rc \
     vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.dmadio.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.dmadio.rc \
     vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.hbt.leroy.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.hbt.leroy.rc \
     vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.hbt.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.hbt.rc \
@@ -431,16 +430,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.milletmonitor.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.milletmonitor.rc \
     vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.misight.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.misight.rc \
     vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.miui.cameraopt.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.miui.cameraopt.rc \
-    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.miui.cust.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.miui.cust.rc \
     vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.miui.dumpaudiobinderInfo.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.miui.dumpaudiobinderInfo.rc \
-    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.miui.ext.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.miui.ext.rc \
     vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.nativedebug.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.nativedebug.rc \
     vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.offline.log.mtk.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.offline.log.mtk.rc \
     vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.qadaemon.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.qadaemon.rc \
     vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.secureboot.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.secureboot.rc \
     vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.thermald.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.thermald.rc \
     vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
-    vendor/xiaomi/corot/proprietary/system_ext/etc/init/init.xiaomi.cammsger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.xiaomi.cammsger.rc \
     vendor/xiaomi/corot/proprietary/system_ext/etc/init/loghidlsysservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/loghidlsysservice.rc \
     vendor/xiaomi/corot/proprietary/system_ext/etc/init/magt.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/magt.rc \
     vendor/xiaomi/corot/proprietary/system_ext/etc/init/mbrain_client.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/mbrain_client.rc \
@@ -954,13 +950,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.usb.gadget-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb.gadget-service.mediatek.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/arm.mali.platform-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/arm.mali.platform-mediatek.rc \
-    vendor/xiaomi/corot/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/chipinfo_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/chipinfo_init.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/ddr_training.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ddr_training.rc \
-    vendor/xiaomi/corot/proprietary/vendor/etc/init/dmc_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmc_core.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/dumpstate-xiaomi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dumpstate-xiaomi.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/eara-io-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/eara-io-service.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/em_hal_user.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/em_hal_user.rc \
@@ -1008,9 +1002,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/lbs_hidl_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lbs_hidl_service.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/lights-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lights-mtk-default.rc \
-    vendor/xiaomi/corot/proprietary/vendor/etc/init/loghidlvendorservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loghidlvendorservice.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/mcfota_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mcfota_service.rc \
-    vendor/xiaomi/corot/proprietary/vendor/etc/init/md_monitor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/md_monitor.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/mi_ic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mi_ic.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/mi_ric.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mi_ric.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/minetd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/minetd.rc \
@@ -1031,7 +1023,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/touch_boost.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/touch_boost.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2@1.0-service.rc \
-    vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.mediatek.hardware.aee@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.aee@1.1-service.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmlpq@V1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmlpq@V1-service.rc \
     vendor/xiaomi/corot/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.7-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.7-service.rc \
