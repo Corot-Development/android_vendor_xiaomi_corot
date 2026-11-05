@@ -2553,6 +2553,7 @@ PRODUCT_PACKAGES += \
     SoterService \
     android.hardware.boot@1.2.xml \
     android.hardware.identity@4.0-service.mitee.xml \
+    android.hardware.security.keymint-service.mitee.xml \
     android.hardware.usb.gadget-service.mediatek.xml \
     android.hardware.wifi@1.0-service.xml \
     arm.mali.platform-mediatek.xml \
